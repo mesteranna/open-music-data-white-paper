@@ -23,7 +23,10 @@ book:
     - references.qmd
 
 bibliography: 
-    - bib/cm.bib
+    - bib/collections.bib
+    - bib/mme.bib
+    - bib/musicmetadata.bib
+    - bib/OpenMusE.bib
     - bib/wikidata.bib
 
 format:
