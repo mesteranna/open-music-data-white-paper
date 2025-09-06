@@ -21,23 +21,9 @@ The bibliographic references are organised by themese, and they are stored in th
 
 -   `bib/collections.bib`: bibliographic entries for theories and conceptualisations of collections.
 
--   `bib/collections.bib`: bibliographic entries for theories and conceptualisations of collections.
-
 -   `bib/datamodels.bib`: bibliographic entries for data models.
 
--   `bib/dataspace.bib`: bibliographic entries for the data (sharing) space concept.
-
--   `bib/dcat.bib`: bibliographic entries for data catalogues.
-
--   `bib/ddi.bib`: bibliographic entries for the Data Description Initiative.
-
--   `bib/europeana.bib`: bibliographic entries for Europeana-related documents.
-
--   `bib/identifiers.bib`: bibliographic entries on identifiers and PID policies.
-
 -   `bib/mme.bib`: Music Moves Europe policy documents bibliography.
-
--   `bib/livonians.bib`: Bibliography connected to the Livonian Music Database.
 
 -   `bib/opendata.bib`: bibliography on the EU open data policies and regulations.
 
