@@ -1,0 +1,96 @@
+# Problems
+
+## **Quest for Efficiency**
+
+Technological progress, digitisation, automation, and now AI have transformed the music industry more dramatically than most sectors. After the collapse of the CD era under peer-to-peer piracy, a newly configured recording industry emerged around global platforms. Traditional retail and wholesale jobs largely disappeared, replaced by streaming platforms such as YouTube, Apple Music, and Spotify.
+
+This shift coincided with a structural **devaluation of music**. The licensed streaming model never recovered the real revenues of the pre-collapse recording market, and from this diminished base, platforms take a significant share. Where a CD sale once brought around €10–18 in today’s terms, the unit of account in streaming is a fraction of a cent — typically \$0.003–0.005 per play.
+
+To replace the economic weight of a single album sale, a rightsholder must now process and account for roughly 4,000 successful streams. This is not merely an economic shift, but an **administrative revolution**. The documentation efficiency needed to handle millions of micro-transactions profitably is far higher than in the analogue era.
+
+Streaming platforms are genuine big-data companies. Alphabet’s YouTube, Apple, and Spotify operate at a scale where billions of transactions and hundreds of millions of assets can be managed by autonomous agents and recommender engines. But the typical rightsholder — a self-releasing artist, an independent label, or even a national collective rights agency — works at a scale where each metadata mistake means lost royalties, and where IT or documentation specialists are often absent altogether. This asymmetry is so stark that even major CMOs rely on shared infrastructures like Mint to manage repertoire at scale.
+
+Music, then, is now sold in **extremely low-value transactions mediated by autonomous agents**. This reality enforces a very strong pressure on the entire ecosystem to improve data interoperability and metadata quality.
+
+By contrast, in most industries administrative overhead is modest:
+
+-   
+
+-   Retail/distribution: \~2–5% of net sales.
+
+-   
+
+-   Manufacturing: \~3–7%.
+
+-   
+
+-   Professional services: 10–15% (because administration blurs into the product).
+
+-   
+
+-   OECD/EU cross-industry averages: 3–8% of turnover.
+
+-   
+
+In “normal” industries, then, €50 of administrative cost is justified on €1000 of revenue. By comparison, in the recorded music industry, achieving that same 5% efficiency requires delivering faultlessly some 200,000 streaming transactions. This is a **very tall order** for a sector dominated by micro-enterprises and small independents without dedicated IT or metadata teams.
+
+The pressure for efficiency is not only present on the production side of the music business. In the **non-profit sector**, digitisation has profoundly transformed the workflows of archives, libraries, and heritage institutions as well. **Virág (2024)** showed how streaming has reduced demand for physical collections, forcing libraries to reframe their role around digitisation, knowledge organisation, and community functions rather than lending CDs or scores. New spaces like creative studios and digital repositories are expected, but funding is limited, so efficiency is critical. At the same time, the vast amount of born-digital assets — and now the endless output of generative AI systems — creates a puzzle for archives that remains unsolved today.
+
+The economic and technical pressures described above have made metadata efficiency a make-or-break issue for both industry and heritage institutions. To meet this challenge, we identify five families of solutions, each of which combines insights from research with lessons from our own experiments.
+
+**Data, metadata, blockchain and AI**
+
+In today’s music ecosystem, almost every asset is born digital. A modern composer’s score is produced in notation software; a performer’s recording originates as a digital file; even printing, distribution, and promotion leave their own digital traces. From the very start, each musical work and each recording comes with a dense **digital fingerprint**, far richer than anything Beethoven or his contemporaries could have imagined.
+
+As these works move through their lifecycle — composition, registration, performance, recording, distribution, preservation — they accumulate further **provenance statements**: *“X composed this,” “Y registered that,” “Z archived this file.”* Taken together, these traces form a chain of knowledge about the history of the work. Unlike in earlier centuries, this history is now almost continuously captured, though it often remains fragmented, messy, or with gaps — the “shadows” that Karabinos has described.
+
+Here, Pomerantz’s classic definition is a useful anchor: metadata is “data about data.” But in practice, this boundary is fluid. **Data by itself is inert** — a duration, a string of characters, a digital checksum is meaningless without context. Metadata transforms it into a **knowledge statement** with potential truth value: *“This recording lasts 7:35.”* *“This file is identified as ISRC XY-ABC-23-00001.”* Crucially, what is “data” for one actor can be “metadata” for another. For a notation program, “7:35” is a descriptive property; for a rights manager, the same value may serve as an identifying attribute; for Spotify, it becomes one feature among many in an algorithmic profile. In a lifecycle-based data sharing space, data and metadata are not absolute categories — they are relative to role, workflow, and context.
+
+This distributed, evolving record of provenance invites a comparison with **blockchains**, which are designed as tamper-evident, time-stamped ledgers of statements about digital objects. In music, we already have something similar in principle: every registration, every file embedding, every archival action adds another statement to the ledger of a work’s lifecycle. But unlike blockchains, this record is not unified, nor cryptographically secured. It is scattered across collective management organisations, distributors, streaming platforms, and archives. More seriously, the data is often inconsistent, disrupted, lost, or hidden due to conflicts of interest. Simply applying blockchain technology to such noisy data would not solve these problems; indeed, it could lock in their dysfunction. Curative AI or blockchain might one day help secure the chain of provenance, but only if the underlying parties work together rather than against one another.
+
+Conceptually, however, the **born-digital lifecycle of music already resembles a distributed chain of provenance statements**: some verifiable, some contradictory, some lost in the shadows. The challenge is not to create a single immutable ledger, but to ensure that across this distributed chain, the statements that matter can be made reliable, reusable, and interoperable.
+
+## **Potential solutions**
+
+The challenges described above call for **technical, organisational, regulatory, and governance responses**. For the sake of clarity, we group the possible directions into five broad, and somewhat overlapping, categories. The details will be developed in later sections.
+
+**1. Cooperation & Workflow Sharing**\
+No single actor in the music ecosystem can afford to duplicate the full burden of metadata documentation. Rights managers, distributors, libraries, and archives each collect and curate information, but they often do so in parallel, repeating the same effort. A cooperative approach can reduce these inefficiencies. Federated registries and data spaces — such as those envisioned in the European Interoperability Framework — provide a model where each institution retains its role and mission, but contributes to a shared pipeline. In this way, data captured once can be reused many times across the lifecycle of a work or recording, lowering costs and improving quality for all.
+
+**2. Technology for Documentation**\
+Technology has a critical role to play in reducing manual burdens. Tools for automation — ranging from AI-supported entity recognition, transcription, and translation, to metadata extraction — already assist libraries and archives in coping with overwhelming digital volumes. Semantic reconciliation tools, such as those piloted in the MERA and Music Meta Ontology projects, show how databases can be linked pragmatically. Embedding persistent identifiers directly in files ensures that crucial information survives transformations and transfers. Yet, these technologies are not a panacea. Each efficiency gain brings new governance challenges, particularly around bias, explainability, and sustainability.
+
+**3. Modular Standards, Licenses & Patterns**\
+Industry-led initiatives, voluntary standards, and self-regulatory frameworks also have a vital role. History shows the value of lightweight, shared conventions: music notation itself has served for centuries as a simple but enduring metadata system. Today, the lesson is to avoid over-generalisation and monolithic ontologies. Instead, modular ontology patterns provide flexible bridges between systems, allowing interoperability without rigidity. Linking identifiers across domains — ISRC to ISWC, ISNI, VIAF, or Wikidata — can reduce friction in rights and documentation workflows. New forms of modular licensing and industry codes of conduct may also help reduce uncertainty without heavy-handed regulation.
+
+**4. Regulation**\
+Regulation has both driven and complicated the push for efficiency. European measures such as the Collective Rights Management Directive sought to increase transparency and accountability, reinforcing the need for better metadata. At the same time, the General Data Protection Regulation (GDPR) introduced new compliance burdens, particularly around personal names and performer information, which remain essential for attribution. Regulation should support, not hinder, the ability of cultural and commercial actors to cope with the enormous pressure of metadata management.
+
+**5. Public Investment in Metadata**\
+Finally, public investment is indispensable. The European Open Science Cloud (EOSC), the European Collaborative Cloud for Cultural Heritage (ECCCH), national libraries and archives, and global platforms like Wikidata are all infrastructures that already serve scientific, cultural, and civic goals. With the right design, they can also support the music industry. Public investment into shared metadata infrastructures can lower the costs borne by small and medium-sized enterprises, collective management organisations, and self-releasing artists, ensuring that cultural diversity and economic sustainability are not sacrificed in the drive for efficiency.
+
+The projects and drafts developed within our consortium — the Slovak Comprehensive Music Database, the Open Music Observatory, MusicBase, Unlabel, and Open Music Registers — all attempt to cope with these pressures in complementary ways. They start from the insight that **metadata cannot be managed by any single actor; and centralised data solutions anyways failed in the decentralised music industry riddled with conflicts of interests.**
+
+These five solution families are not abstract. They already inform our ongoing pilots, which show how cooperation, technology, legal innovation, standards, regulation, and public investment can be combined in practice.
+
+**How our policy brief aligns solutions with research and innovation**
+
+Our proposed solutions are organised in six thematic areas. Each will be developed into a short chapter, combining a literature review with our policy and innovation proposals.
+
+**1. Cooperation and Workflow Sharing**\
+The fragmentation of today’s music metadata ecosystem forces every institution — rights managers, distributors, libraries, archives — to repeat the same documentation work in parallel. This wastes scarce resources and leaves smaller actors unable to keep up with the standards set by global platforms. Cooperation is therefore not only a question of efficiency, but of survival. Shared workflows can reduce duplication and, at the same time, create the **critical mass needed to negotiate with vertically integrated platforms** that dominate today’s music economy. Our proposal is to develop a **decentralised data sharing space**, where data captured once can be reused many times across the lifecycle of a work or recording. This is the principle underpinning the Open Music Observatory: not centralisation, but federation and reuse.
+
+**2. Technological Adaptation for SMEs and Micro-enterprises**\
+Advanced data documentation has so far been the preserve of large technology companies. They employ data engineers, ontologists, and machine-learning experts to automate the collection and management of music metadata — a capability that has directly increased their market share at the expense of rightsholders. To close this gap, **technological adaptation must reach small and micro companies** as well. Open-source software, ontology design patterns, and libraries that package the latest advances in information science and AI can be embedded into the everyday workflows of labels, publishers, and cultural institutions. In this way, rightsholders and memory institutions alike can benefit from automation and reconciliation tools without the prohibitive costs of in-house R&D. Our pilots demonstrate how such adaptation can be made practical and affordable.
+
+**3. Legal and Organisational Innovation**\
+The evolution of **data sharing spaces** and our **Unlabel** experiment point to new business practices that integrate legal compliance, organisational coordination, and collaborative workflows. By combining public institutions (libraries, archives) with private distributors in a shared metadata infrastructure, supported by open source tools, we can reduce friction and align incentives. This is not theoretical: Unlabel demonstrates how librarians and rights managers can prepare metadata once for both distribution and long-term preservation.
+
+**4. Standards: A Critical View**\
+As Norman Paskin warned two decades ago, standards such as ISRC, ISWC, ISMN, ISNI, and VIAF were developed in silos, without sufficient attention to interoperability. The result is inefficiency: named entity resolution today can consume up to **30% of back-office costs** in rights organisations and distributors. We do not reject standardisation — notation itself shows its long-term value — but we argue for a pragmatic, **pattern-based and modular approach** to standards, avoiding monolithic frameworks while improving crosswalks and reconciliation.
+
+**5. Regulation**\
+European regulation has both improved and complicated metadata practices. The Collective Rights Management Directive improved transparency, while the GDPR created new compliance burdens for names and personal data that remain essential for attribution. Regulation should be recalibrated to **support coping with metadata pressures, not add to them**. We will review these cases and suggest adjustments.
+
+**6. Public Investment and Alignment**\
+Europe has invested heavily in infrastructures such as the **European Open Science Cloud (EOSC)**, the **European Collaborative Cloud for Cultural Heritage (ECCCH)**, and **Europeana**. Yet these often remain disconnected from the highly digital private sector of the music industry. Better public-private alignment is needed. We argue for **bridges between public investment and industry use cases**, so that collective resources support both cultural preservation and competitive participation in digital markets.
