@@ -1,3 +1,9 @@
+# Final output
+
+_book/
+_wikidata_files/
+_book/*.*
+
 # History files
 .Rhistory
 .Rapp.history
@@ -40,10 +46,12 @@ vignettes/*.pdf
 .Renviron
 
 # pkgdown site
-docs/
+_book/*.*
 
 # translation temp files
 po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+/.quarto/

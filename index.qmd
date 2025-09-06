@@ -1,0 +1,12 @@
+# Introduction {.unnumbered}
+
+There are musical works that are reinterpreted thousands of times across centuries. A symphony by Beethoven or a folk song from the Baltic coast can be heard again and again, each performance producing a new reading of something that never becomes “final.” The same is true of sound recordings. Some perennial recordings are rediscovered after sixty years, remastered, and brought into circulation for new audiences.
+
+Music assets, in other words, have an unusually long lifecycle. This is just as true of their documentation — the metadata that accompanies them from creation to archiving. Metadata does not freeze a work or recording in time. Instead, it evolves with it: from the moment of rights registration, through commercial distribution and playlisting, to preservation in a library or archive. Each new interpretation, remix, or reissue generates new metadata; and each new information system demands new connections and contexts.
+
+Unlike some other cultural or commercial data, there is rarely a single moment when music metadata can be considered complete. Metadata, like music itself, is open to reinterpretation. A name can be reconciled with an identifier; a work can be linked to a new performance; a recording can be embedded in new file formats. Each act of documentation adds layers of meaning and makes the music informative in a new environment.
+
+This is not an invitation to reinvent the wheel. We can read Beethoven’s early prints as well as Iris Szeghy’s 21st-century scores because music notation — a standardised way of presenting the metadata of musical works — has remained remarkably stable for centuries. Notation shows that standardisation can endure, and that shared conventions make music legible across time, geography, and institutions.
+
+The invention of the computer, and later the internet, introduced new ways to document and transmit music. These innovations brought powerful efficiencies: identifiers like the ISRC and ISWC, digital distribution pipelines, and networked catalogues have enabled the global circulation of music at unprecedented scale. But they also created new fragmentation. Standards proliferated, identifiers failed to interconnect, and workflows designed for one purpose often broke down in another. What was intended as progress sometimes left behind a mess of overlapping, incompatible, or incomplete metadata — a mess that now needs to be cleared up.
+

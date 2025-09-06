@@ -1,0 +1,37 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Policy Brief"
+  author:
+     - name: "Daniel Antal, CFA"
+       orcid: 0000-0001-7513-6760
+       affiliations:
+               - name: Reprex
+                 address: "Saturnusstraat 14"
+                 city: The Hague
+                 state: Zuid-Holland
+                 country: The Netherlands
+                 postal-code: "2516 AH"
+                 url: https://reprex.nl/
+  date: "2024-05-20"
+  repo-url: https://github.com/dataobservatory-eu/opencollections-manual
+  repo-actions: [edit]
+  chapters:
+    - index.qmd
+    - references.qmd
+
+bibliography: 
+    - bib/cm.bib
+    - bib/wikidata.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+  epub: default 
+
+editor: visual
+
