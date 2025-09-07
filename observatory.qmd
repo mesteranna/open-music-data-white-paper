@@ -1,6 +1,5 @@
 # The Open Music Observatory as a Data Sharing Space
 
-**Scope:** Upper-middle layer: federation across institutions; workflow agreements; legal bases; incentive alignment; observability/metrics.
 
 ::: callout-note
 #### Open Music Observatory {.unnumbered}
@@ -69,11 +68,14 @@ This diversity extends beyond public administrations. Many important datasets ar
 
 Designing the Observatory around subsidiarity means recognising these structural differences and embedding them into its architecture. The EIF helps here by providing a layered model for reconciling data governance (permissions, licences) at the legal level and organisational rules at the institutional level. This ensures that local, regional, national, and private actors can contribute data under their own governance, while outputs remain reusable across Europe.  
 
+The **Data Governance Act (DGA)** reinforces this approach. It establishes EU-wide rules for trusted data sharing and data intermediation services while leaving implementation and control at the Member State level [@regulation_dga_2022_868]. In other words, it codifies subsidiarity: national authorities retain stewardship over sensitive datasets, but EU-level standards guarantee that these datasets can circulate securely and comparably across borders. The Observatory applies this same principle to music: rights organisations, archives, and platforms remain in charge of their data, while interoperability, accountability, and observability are ensured through a shared European layer.  
+
 The European Data Strategy explicitly recognises subsidiarity by promoting data spaces that respect *sectoral and national diversity while enabling interoperability across borders* [@european_data_strategy_2020]. The BDVA Federation Working Group goes further, arguing that federation is the only model compatible with Europe’s fragmented governance landscape [@federation_wg_position_2023, p.4]. The Observatory takes these insights into account by embedding subsidiarity into its platform design: respecting local authority, while enabling European-scale reuse.  
 
 ::: callout-note
 Our pilot with the Finno-Ugric Data Sharing Space illustrates how subsidiarity works in practice. By collaborating with regional NGOs and national archives, we were able to curate and repair datasets that would have remained invisible in a central repository. The project showed that decentralised actors are best placed to manage their own data, but that interoperability frameworks and shared observability layers can connect them effectively.  
 :::
+
  
 
 ### Data Sharing Space

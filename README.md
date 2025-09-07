@@ -37,6 +37,10 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/decolonisation.bib`: Bibliography related to heritage decolonisation and repair.
 
+-    `bib/eulaw.bib`: European legal acts and jurisprudence.
+
+-   `bib/eupolicies.bib`: European policy papers.
+
 -   `bib/europeana.bib`: Europeana resources.
 
 -   `bib/IFPI.bib`: resources related to IFPI and the ISRC system.
