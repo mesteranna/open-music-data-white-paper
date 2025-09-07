@@ -1,0 +1,7 @@
+# Conclusions
+
+**Why a recap:** Policymakers want one view of standards, regulation, and investment across the stack.
+
+- **Standards (where they appear):** Ch.1 identifier crosswalks & profiles; Ch.2 federation contracts & conformance tests; Ch.3 model/data documentation.
+- **Regulation (where it bites):** Ch.1 names/identifiers & GDPR; Ch.2 legal bases for sharing & accountability; Ch.3 AI transparency, consent, and rights.
+- **Public investment (what to fund):** Ch.1 capture/reconciliation tooling; Ch.2 federation + observability; Ch.3 shared AI utilities and training.

@@ -1,0 +1,15 @@
+# Applications: AI that Serves the Music Ecosystem
+**Scope:** Top layer: applied services that ride on the data space (curative, agentic, and generative uses); shared AI capacity so SMEs/NGOs aren’t forced to hire scarce talent.
+
+### Executive summary (what we propose)
+- Create *shared AI services* (not bespoke in-house teams) for entity recognition, duplicate detection, cross-catalogue matching, multilingual enrichment, and compliance monitoring.
+- Educate stakeholders using a simple three-part model of AI (agentic/generative/curative) tied to concrete tasks and guardrails.
+
+### Literature & standpoints (who says what)
+- EP resolution on AI-generated flooding and discoverability/remuneration risks; ecosystem report on AI as disruption *and* opportunity.
+- Practical gaps: SMEs/CMOs lack AI engineers; asymmetry with platform capabilities.
+
+### Our solution (how we do it)
+- Operate pooled “AI utilities” behind clear SLAs: reconciliation-as-a-service; watchlists for plagiarism/near-duplicates; machine-assisted translations/summaries for archival deposits.
+- Governance/ethics by design: audit logs, explainability notes, error budgets; opt-in data sharing; “green list” of permissible automations per partner.
+- Standards/regulation/public investment inline: model/data licensing; consent and transparency; targeted public funding for shared services.
