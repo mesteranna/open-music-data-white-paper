@@ -11,6 +11,12 @@ chapters:
 
 -   `glossary.qmd`: Glossary
 
+-   `context.qmd`: Source file of the _Policy Context & Problem Map_ chapter.
+
+-    `curation.qmd`: Source file of the _Data Collection, Improvement & Exchange_ chapter.
+
+-   `obsevatory.qmd`: Source file of the _The Open Music Observatory as a Data Sharing Space_ chapter.
+
 
 
 ## Bibliographical references
@@ -22,6 +28,8 @@ The bibliographic references are organised by themes, and they are stored in the
 -    `bib/CISAC.bib`: resources related to CISAC and the ISWC system.
 
 -   `bib/collections.bib`: bibliographic entries for theories and conceptualisations of collections.
+
+-   `bib/datainteroperability.bib`: data interoperability literaute.
 
 -   `bib/datamodels.bib`: bibliographic entries for data models.
 
