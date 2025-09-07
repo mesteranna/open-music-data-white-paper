@@ -1,0 +1,307 @@
+# Glossary {.unnumbered}
+
+## Music terms {.unnumbered}
+
+`audio recording`: fixation of sounds [@iso_isrc_2019]
+
+
+
+`creator`: in the context of this policy paper, we use the broad term for the 
+`arranger`, `author`, `composer`, `lyricist`; for individual definitions see ISWC standard [@iso_iswc_2022]
+
+`DSP` or `digital streaming platform`: Digital service providers (DSPs), or Digital Streaming Platforms are companies or organisations that provide access to services online. DSPs can provide access to music downloads, like Apple's iTunes Store, or access to streaming music like Spotify, or even provide satellite-delivered content such as SiriusXM in the USA.
+
+`expression`: intellectual or artistic realisation of one and only one work\
+Note: may take the form of a notation <symbols>, sound, image, object, movement or text [@iso_5127_2017]
+
+
+
+`manifestation`: physical embodiment of an expression [@iso_5127_2017]
+
+`movement`: A principal division of a musical work. [@iso_iswc_2022]
+
+`music video recording`: fixation of sounds synchronized with pictures or moving pictures where (a) the fixed sounds are wholly or substantially a musical performance or (b) the *recording* is intended for viewing in association with a recording of a musical performance. This definition includes music videos and concert recordings, together with music-related interviews and documentaries, but does not extend to genera! audiovisual material, even if it includes music.[@iso_isrc_2019]
+
+
+`musical work`: composed of a combination of sounds, with or without accompanying text [@iso_iswc_2022]
+
+`original title`: A title given to the work by its creator(s) shown in its original language. [@iso_iswc_2022]
+
+`formal title`: A standardized title in which the elements are arranged in a pre-determined order, such as titles created for classical works. [@iso_iswc_2022]
+
+`rights management (organisations)`: the function of managing the rights on behalf of rights owners. It can be companies whose sole purpose is to ensure that content that has been licensed has delivered royalties that are identified and accounted for. The role can be taken by collective management organisations or by private companies on behalf of songwriters, composers, performers, music publishers, or record labels.
+
+`original version`: The first established form of a work. [@iso_iswc_2022]
+
+
+`performer`: The performer of a musical work; in case of a sound recording, the performer whose performance is fixed in the recording. They may be entitled to neighbouring or sound recording copyrights. In some contexts, the `performer` is part of the broadly defined `creator` group.
+
+`producer`: The person or legal entity that produces the recorded fixation of the sound recording. They are entitled to neighbouring or sound recording copyrights. In some contexts, the `producer` is part of the broadly defined `creator` group.
+
+`track`: single recording on a sound carrier [@iso_5127_2017]
+
+`work`: distinct, abstract creation of the mind whose existence is revealed through one or more expressions (e.g. a performance) or manifestations (e.g. an object) [@iso_iswc_2022]
+
+## Data terms {.unnumbered}
+
+`conceptualisation`: an abstract, simplified view of some selected part of the world, containing the objects, concepts, and other entities that are presumed of interest for some particular purpose and the relationships between them.\
+
+`data`: reinterpretable representation of information in a formalized manner suitable for communication, interpretation, or processing Note 1 to entry: Data can be processed by humans or by automatic means.\[SOURCE: ISO/IEC 2382:2015, 2121272\] [@iso_20546_2019]
+
+`database`: collection of `data` organized according to a conceptual structure describing the characteristics of these data and the relationships among their corresponding entities, supporting one or more application areas. \[SOURCE: ISO/IEC 2382:2015, 2121413\] [@iso_20546_2019]
+
+`data set` or `dataset`: identifiable collection of `data` available for access or download in one or more formats \[SOURCE: Adapted from ISO 19115-2:2009, 4.7\] *Beware: various conceptual and information models use different dataset definitions*. [@iso_20546_2019]\
+
+`data model`: description of the organization of data in a manner that reflects an information structure \[SOURCE:ISO 28258:2013, definition 3.9\] [@iso_5127_2017]; or pattern of structuring data in a database according to the formal descriptions in its information system and according to the requirements of the database management system to be applied [@iso_2382_2015]
+
+`big data`: extensive datasets – primarily in the data characteristics of `volume`, `variety`, `velocity`, and/or `variability`. – that require a scalable technology for efficient storage, manipulation, management, and analysis. note : Big data is commonly used in many different ways, for example as the name of the scalable technology used to handle big data extensive datasets. [@iso_20546_2019]\
+
+`data portability`: Ability to easily transfer data from one system to another without being required to re-enter data.
+
+`data science`: extraction of actionable knowledge from `data` through a process of discovery, or hypothesis and hypothesis testing [@iso_20546_2019]
+
+
+`file`: named set of records treated as a unit \[SOURCE:ISO/IEC 2382:2015, 04.07.10\] [@iso_2382_2015]
+
+`knowledge base` or `K-base`: database that contains inference rules and information about human experience and expertise in a domain. 1: In self-improving systems, the knowledge base additionally contains information resulting from the solution of previously encountered problems. The terms `knowledge base` and `K-base` are standardized by ISO/IEC \[ISO/IEC 2382-1:1993\]. [@iso_2382_2015]
+
+`knowledge graph`: a `knowledge representation` that uses a graph-structured data model to represent and operate on data. [@iso_2382_2015]
+
+`metadata`: data that define and describe other data [@iso_11179_1_2023]; we use the more functional definition "a statement about a potentially informative object." [@pomerantz_metadata_2015];metadata is `data` about data or data elements, possibly including their data descriptions, and data about data ownership, access paths, access rights and data volatility [@iso_2382_2015].
+
+## AI & Systems Terms {.unnumbered}
+
+`AI` or `artificial intelligence` is, according to the EU definition (harmonised with the OECD) is a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments. The technical definition "an engineered system that generates outputs such as content, forecasts, recommendations or decisions for a given set of human-defined objectives." ISO/IEC 22989:2022 Artificial intelligence concepts and terminology ISO/IEC 42001:2023 – AI Management Systems
+
+
+`identifier`: data string or pointer that establishes the identity of an item, organization or person alone or in combination with other elements \[SOURCE:ISO 8459:2009, definition 2.27, modified\] [@iso_5127_2017]
+
+`interoperability`: Ability of two or more systems or applications to exchange information and to mutually use the information that has been exchanged. \[SOURCE:ISO/IEC 19941:2017\] [@iso_19941_2017]
+
+`cluster`: \<distributed data processing\> set of functional units under common control \[SOURCE:ISO/IEC 2382:2015, 2120586\] [@iso_2382_2015]
+
+`document`: <text processing> named, structured unit of text and possibly images that can be stored, edited, retrieved, and exchanged among systems or users as a separate unit [@iso_2382_2015]\
+\
+
+`horizontal scaling`: providing a single logical unit through the connection of multiple hardware and software. Note: The example of horizontal scaling is increasing the performance of distributed data processing through the addition of nodes in the cluster for additional resources. [@iso_2382_2015]
+
+`vertical scaling`: act of increasing the performance of data processing through improvements to processors, memory, storage, or connectivity. [@iso_2382_2015]
+
+`organization`: unique framework of authority within which a person or persons act, or are designated to act, towards some purpose \[SOURCE:ISO/IEC 6523-1:1998, definition 3.1\] [@iso_5127_2017]
+
+`access level`: level of authority required from an entity to access a protected resource [@iso_2382_2015]
+
+`algorithm`: finite ordered set of well-defined rules for the solution of a problem \[SOURCE: ISO/IEC 2382-1:1993\] [@iso_2382_2015]
+
+`persistent identifier` or `PID`: unique identifier that ensures permanent access for a digital object by providing access to it independently of its physical location or current ownership \[SOURCE:ISO 24619:2011, definition 3.2.4\] [@iso_5127_2017]
+
+`taxonomy`: scheme of categories and subcategories that can be used to sort and otherwise organize itemized knowledge or information \[SOURCE:ISO 25964-2:2013, definition 3.83 modified\] [@iso_5127_2017]
+
+`ontology`: formal, explicit specification of a shared conceptualization  Note to entry: An ontology typically includes definitions of concepts and specified relationships between them, set out in a formal way so that a machine can use them for reasoning. \[SOURCE:ISO 25964-2:2013, definition 3.57\] [@iso_5127_2017]
+
+`thesaurus`: controlled vocabulary and structured vocabulary in which concepts are represented by terms, organized so that relationships between concepts are made explicit, and preferred terms are accompanied by lead-in entries for synonyms or quasi-synonyms.\
+Note 1 to entry: The purpose of a thesaurus is to guide both the indexer and the searcher to select the same preferred term or combination of preferred terms to represent a given subject. For this reason a thesaurus is optimized for human navigability and terminological coverage of a domain. \[SOURCE:ISO 25964-1:2011, definition 2.62\] [@iso_5127_2017]
+
+`expert system`: knowledge-based system that provides for solving problems in a particular domain or application area by drawing inferences from a knowledge base developed from human expertise\
+Note 1: The term "expert system" is sometimes used synonymously with "knowledge-based system", but should be taken to emphasize expert knowledge.\
+Note 2. Some expert systems are able to improve their knowledge base and develop new inference rules based on their experience with previous problems. [@iso_2382_2015] Expert systems fall under the definition of the AI Act.
+
+`cloud computing`: paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on-demand. [@iso_20546_2019]
+
+`NERD`: named-entity recognition and disambiguation is a natural language processing technique that aims to resolve the ambiguity that arises from named entities in text.
+
+## Data protection terms
+
+`DPIA`: Data Protection Impact Assessment (DPIA) is a process used to identify and minimize the risks associated with processing personal data.
+
+`DPO`: the Data Protection Officer (DPO) is an individual designated by an organization to oversee its compliance with data protection laws, such as the GDPR. They act as a point of contact for data subjects and supervisory authorities, and they advise on and monitor data protection practices within the organization.
+
+`GDPR`: The General Data Protection Regulation (GDPR) is a legal framework made by the European Union that sets guidelines for the collection and processing of personal information from individuals who live in and outside of the European Union.
+
+## Data curation and collection terms
+
+`collection`: gathering of items assembled on the basis of some common characteristic, for some purpose, or as the result of some process [@iso_5127_2017]
+
+`holdings`: totality of documents in the custody of an information and documentation organization [@iso_5127_2017]
+
+`digital collection`: collection <gathering> formed by a collection process on existing data and data sets where the collected data is in digital form [@iso_5127_2017]
+
+`library collection`: all documents provided by a library for its users[@iso_5127_2017]
+
+`anthology`: document consisting of a collection <gathering> of full documents or of extracts, usually of literary works [@iso_5127_2017]
+
+`exhibition`: curated display of objects on a clear concept and communicating a message \[SOURCE:ISO 18461:2016, definition 2.4.6 modified\] [@iso_5127_2017]
+
+`curator`: person responsible for overseeing a collection <gathering> or exhibition [@iso_5127_2017]
+
+`data curation`: managed process, throughout the data lifecycle, by which data/data collections are cleansed, documented, standardized, formatted and interrelated [@iso_5127_2017]
+
+`register`: an official list or record of names or items; it aims to be a complete list of the objects in a specific group of objects or population, for example, all copyright-protected musical works in a country, or all legal person enterprises in another country;
+
+a document, usually a volume, in which data are entered in a formal manner by a statutory authority Note 1 to entry: In modern usage, usually a database. [@iso_5127_2017]
+
+`registration`: act of giving an entity a unique identifier on its entry into a system [@iso_5127_2017]\ a set of rules, operations, and procedures for inclusion of an item in a registry [@iso_11179_1_2023]
+
+`registrant`: organization or person that has either registered an authentication protocol or registered the adoption of an authentication protocol \[SOURCE: ISO/IEC 24727-6:2010, definition 3.4\] [@iso_5127_2017]; 
+an entity wishing to assign an ISRC to an applicable recording [@iso_isrc_2019]; a `party` that requests an ISNI from the Registration Authority (ISNI 3.2 [@iso_isni_2012, p15])
+
+`party`: natural person or legal person, whether or not incorporated, or a group of either [@iso_isni_2012]
+
+`aggregation`: acquisition of sensitive information by collecting and correlating information of lesser sensitivity [@iso_2382_2015]
+
+## Statistical terms
+
+`administrative records`: data generated by a non‐statistical source, usually a public body, the main aim of which is not the provision of statistics.
+
+`code list`: predefined list from which some statistical coded concepts take their values [@iso_sdmx_2013]
+
+`data pipeline`: a method in which raw data is ingested from various data sources and then ported to data store.
+
+`FAIR` or `FAIR Guiding Principles for scientific data management and stewardship`: guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assets, emphasising machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention.)
+
+`indicator`: the representation of statistical data for a specified time, place or any other relevant characteristic, corrected for at least one dimension (usually size) so as to allow for meaningful comparison.
+
+`microdata`: non‐aggregated observations or measurements of characteristics of individual units, without direct identifier.
+
+`observation unit`: an identifiable entity about which data can be obtained, it is also often called a *statistical unit* or *data subject* in case of a natural person.
+
+`Open Policy Analysis Guidelines`: a set of information management rules to make policy analysis more transparent.
+
+`personal data`: any information relating to an identified or identifiable natural person.
+
+`pseudonymisation`: processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information.
+
+`survey`: a systematic examination and record of a physical or social area and its features so as to construct a map, plan, or description. In social sciences it usually refers to a well-structured questionnaire and answers given to its items by a target population.
+
+`statistics`: quantitative and qualitative, aggregated and representative information characterising a collective phenomenon in a considered population.
+
+`visualisations`: schematic charts, drawings, photographs, and their collages will as still image files that help to explain the relationship between information carriers, data points, or processes.
+
+## Registers, authorities, standards and identifiers
+
+`IČO`: The organisation identification number (IČO) is an identifier assigned to all types of legal entities, entrepreneurs and public authorities by the Statistical Office of the Slovak Republic. The Czech Republic's organisation identifier is also called IČO.
+
+`OpenCorporates`: a public corporation database which sources data from national business registries.
+
+`ISNI`: an ISO certified global standard number for identifying the millions of contributors to creative works and those active in their distribution.
+
+`VIAF`: The Virtual International Authority File (VIAF) is an international service that consolidates multiple name authority files into a single database. Their primary goal is to enhance the efficiency and usability of library authority files by linking and merging widely used authority records and making them accessible online.
+
+`VIAF ID`: The VIAF (Virtual International Authority File) combines multiple name authority files into a single OCLC-hosted name authority service.
+
+`ISRC`: The International Standard Recording Code (ISRC) is a standard identifying code that can be used to identify sound recordings and music video recordings so that each such recording can be referred to uniquely and unambiguously.
+
+`ISWC`: The purpose in creating an ISWC for musical works is to enable more efficient administration of rights to those works on a worldwide basis. The ISWC provides an efficient means of identifying musical works in computer databases and related documentation and for the exchange of information between rights societies, publishers, record companies and other interested parties on an international level.
+
+`ISBN`: the International Standard Book Number is an identification system for the publishing industry and its supply chains.
+
+`ISMN`: The International standard music number (ISMN) was developed by, and for, the music publishing sector as a separate system to complement the International standard book number (ISBN). The existence of the ISMN as a separate identifier system makes it possible to identify printed and notated music as a distinct category of publication within the global supply chain and to develop trade directories and similar services for the specialized market for music publications.
+
+`ISCC`: The International Standard Content Code (ISCC) is an identifier for numerous types of digital assets.
+
+`DOI`: The Digital Object Identifier is a standardised unique number given to many (but not all) articles, papers and books, by some publishers, to identify a particular publication.
+
+`ORCID`: the Open Researcher and Contributor ID is a unique, persistent identifier free of charge to researchers.
+
+`URI`: A Uniform Resource Identifier (URI) is a string of characters used to identify a resource on the internet. This resource can be either abstract or physical, such as a website, an email address, or a file. URIs are essential for enabling interactions with resources over a network using specific protocols.
+
+`DDI`: The `Data Documentation Initiative` is originating for the world of social sciences data archives and more and more in use in statistical organisations for the documentation of microdata.
+
+`Wikibase`: Wikibase is a software system that help the collaborative management of knowledge in a central repository. It was originally developed for the management of Wikidata, but it is available now for the creation of private, or public-private partnership knowledge graphs. It is developed by Wikimedia Deutschland.
+
+`GSBPM`: The `Generic Statistical Business Process Model` is a international standard model that “describes and defines the set of business processes needed to produce official statistics.” \|
+
+`GSIM`: `Generic Statistical Information Model`: a common abstract representation of data objects manipulated in official statistical production and elaborated as an overarching model for implementation standards such as SDMX or DDI.
+
+`SDMX`: Statistical Data and Metadata eXchange (SDMX), is an international initiative that aims at standardising and modernising ("industrialising") the mechanisms and processes for the exchange of statistical data and metadata among international organisations and their member countries.
+
+`ESRS`: The European Sustainability Reporting Standards (ESRS) are a set of guidelines developed by the European Financial Reporting Advisory Group (EFRAG) to standardise sustainability reporting across the European Union. These standards are designed to align with the Corporate Sustainability Reporting Directive (CSRD), which mandates detailed corporate reporting on environmental, social, and governance (ESG) issues for many companies operating within the EU.
+
+`CIDOC-CRM`: The conceptual model of CIDOC, the standard conceptualisation of collection management systems in heritage organisations.
+
+`RiC`: *Records in Context* is a new conceptual model that replaces the four most important international archiving standards.
+
+`DCTERMS` or `DCMI`: the Dublin Core Metadata Terms is a vocabulary of metadata terms developed and maintained by the Dublin Core Metadata Initiative (DCMI). These terms are used to describe various aspects of digital resources, such as web pages, documents, and other online content. They provide a standardized way to assign metadata to resources, making them easier to discover, manage, and exchange.
+
+`RDFS`: the Resource Description Framework Schema is an extension of the Resource Description Framework (RDF) that provides a vocabulary for describing classes and properties of resources within an RDF graph.
+
+`EDM`: the Europeana Data Model is a framework for collecting, connecting, and enriching cultural heritage metadata. It's designed to facilitate the sharing and reuse of cultural heritage information by providing a standardized way to represent and link data.
+
+
+
+`ESCO`: the European Skills, Competences, Qualifications and Occupations classification is is a multilingual classification system developed by the European Commission to standardize the description of skills, competences, and qualifications relevant to the European labor market and education.
+
+`NACE`: the European Union's standard classification of economic activities for statistical purposes. The abbreviation stands for Nomenclature statistique des Activités économiques dans la Communauté européenne.
+
+`ISCO`: the International Standard Classification of Occupations (ISCO) is the International Labour Organization's standardized system for classifying and organizing occupations according to jobs' tasks and duties
+
+`ISIC`: the International Standard Industrial Classification of All Economic Activities (ISIC) is a standard classification system developed by the UN Statistics Division (UNSD) to categorize economic activities.
+
+`PROV-O`: the Provenance ontology is a formal ontology developed by W3C to represent and interchange provenance information.
+
+`MARC`: MAchine-Readable Cataloging, is a standard digital format used by libraries to represent and exchange bibliographic information.
+
+`DCAT`: an RDF vocabulary designed to facilitate interoperability between data catalogues published on the Web.
+
+## Organisations
+
+`AEPO-ARTIS`: Organisation representing European artists-performers. Regroups most of the European CMO representing performers.
+
+`ALOADED`: is a company which distributes and exploits recordings.
+
+`CISAC`: The International Confederation of Societies of Authors and Composers is an international non-governmental, not-for-profit organisation that aims to protect the rights and promote the interests of creators worldwide.
+
+`CNM (former CNV)`: the Centre National de la Musique is a public organisation managing a tax on concert tickets
+
+`EFRAG`: The European Financial Reporting Advisory Group is a private association established in 2001 with the encouragement of the European Commission to serve the public interest. EFRAG extended its mission in 2022 following the new role assigned to EFRAG in the CSRD, providing Technical Advice to the European Commission in the form of fully prepared draft EU Sustainability Reporting Standards and/or draft amendments to these Standards.
+
+`EMO`: The `European Music Observatory` (EMO) is envisioned as a hub for collecting and analysing data on the music sector across Europe. Its primary aim is to address the current gaps and inconsistencies in music data collection, which have been a significant challenge for the sector.
+
+`Europeana`: a digital platform provided by the European Union that aggregates digitized cultural heritage from institutions across Europe.
+
+`GESAC`: GESAC comprises together 32 European authors' societies in music, audiovisual, visual arts, literature and drama.
+
+`GESIS`: Leibniz Institute for the Social Sciences.
+
+`IAML`: International Association of Music Libraries, Archives and Documentation Centres \|
+
+`IAMIC`: International Association of Music Centres, an international network of organisations that collectively and collaboratively provides information and promotes the music of their countries or regions.
+
+`ICMP`: the global trade body representing the music publishing industry worldwide.
+
+`SCAPR`: International association for the development of the practical cooperation between performers’ collective management organisations (CMOs)
+
+`SOZA`: SOZA (Slovenský ochranný zväz autorský pre práva k hudobným dielam, Slovak Performing and Mechanical Rights Society) is a legal entity, non-profit civic association of authors and publishers of musical works, association of natural persons and legal entities.
+
+`Hudobné Centrum`: Music Centre Slovakia is a music organisation with a mission to promote Slovak contemporaly music.
+
+## Other abbreviations
+
+`CEEMID`: the Central European Music Industry Databases is a multi-country project that was a predecessor of Reprex's Digital Music Observatory
+
+`CSRD`: The Corporate Sustainability Reporting Directive (CSRD) is European Union (EU) legislation, effective from 5 January 2023, that requires EU businesses—including qualifying EU subsidiaries of non-EU companies—to disclose their environmental and social impacts, and how their environmental, social and governance (ESG) actions affect their business.
+
+`DSP`: Digital service providers (DSPs), or Digital Streaming Platforms are companies or organisations that provide access to services online.
+
+`EIF`: The European Interoperability Framework (EIF) is a set of recommendations and guidelines that aims to facilitate communication and collaboration between public administrations, businesses, and citizens within the European Union and across national borders.
+
+`ECCCH`: The European Collaborative Cloud for Cultural Heritage is a European Union initiative for a digital infrastructure that will connect cultural heritage institutions and professionals across the EU.
+
+`EOSC`: The European Open Science Cloud (EOSC) aims to create a trusted, open, and multidisciplinary environment for researchers and innovators in Europe.
+
+`PPP`: A Public-Private Partnership (PPP) is a collaborative arrangement between government entities and private sector companies aimed at financing, designing, implementing, and operating projects or services traditionally provided by the public sector.
+
+`RDM`: Research Data Management refers to the suite of practices, policies, and processes used to handle data throughout the lifecycle of a research project.
+
+
+`W3C`: The World Wide Web Consortium (W3C) is an international community that develops standards for the World Wide Web. Their mission is to lead the Web to its full potential by creating technical specifications and guidelines that are designed to be open and royalty-free. These standards include HTML, CSS, and other web technologies, which ensure that web content is accessible across different browsers and devices.
+
+Our glossary is harmonised with relevant music-sector specific standards and with the 
+
+-  ISO Information technology  *Vocabulary* [@iso_2382_2015]; *Cloud computing — Taxonomy based data handling for cloud services* [@iso_22624_2020]; *Cloud computing — Interoperability and portability* [@iso_19941_2017]; *Metadata registries (MDR) — 1. Framework* [@iso_11179_1_2023] standards and the 
+*Information and documentation — Foundation and vocabulary* [@iso_5127_2017] standard.
+
+- ISO Information technology *Artificial intelligence — Concepts and terminology* [@iso_iec_22989_2022] and  *Artificial intelligence — Management system* and  [@iso_iec_42001_2023] standard's vocabulary. 
+
+
+{{< pagebreak >}}
