@@ -25,6 +25,8 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/datamodels.bib`: bibliographic entries for data models.
 
+-   `bib/decolonisation.bib`: Bibliography related to heritage decolonisation and repair.
+
 -    `bib/IFPI.bib`: resources related to IFPI and the ISRC system.
 
 -   `bib/ISOData.bib`: bibliographic entries for relevant ISO standards.

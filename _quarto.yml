@@ -40,6 +40,7 @@ bibliography:
     - bib/CISAC.bib
     - bib/collections.bib
     - bib/ISOData.bib
+    - bib/metadata.bib
     - bib/mme.bib
     - bib/musicmetadata.bib
     - bib/OpenMusE.bib
