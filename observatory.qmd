@@ -51,6 +51,13 @@ This decentralised model is not an exception but a structural feature of Europea
 
 This trajectory mirrors the broader evolution of European data infrastructures, where federation has become the dominant organising principle. The Music Ecosystem 2025 study framed the music sector as an ecosystem distributed across many small actors [@music_ecossytem_2025, pp6–7], while the Feasibility Study for a European Music Observatory highlighted fragmentation as the primary obstacle to evidence-based policy [@emo_feasibility_2020, p9]. Both perspectives underline why federated architectures are more feasible than centralised repositories.
 
+### Open Data Directive: Right Without Means
+
+The _Open Data Directive_ grants a right of reuse for public-sector information and requires that certain “high-value datasets” be made freely available across Europe [@open_data_directive_2019_2014]. This includes cultural heritage institutions such as libraries, museums, and archives. However, the Directive stops short of providing the means to ensure that such data is actually usable.
+
+In practice, much open data is poorly documented, lacks common identifiers, and is released in unstandardised formats. While it may be free of charge or available at marginal cost, making it interoperable and trustworthy for cross-border use requires significant additional effort. The burden of curation, harmonisation, and enrichment falls on downstream users, which can be prohibitively expensive for smaller organisations.
+
+This gap is directly relevant to the music ecosystem. Simply publishing datasets under the Open Data Directive does not make them fit for royalty distribution, cultural statistics, or AI-driven discovery.
 
 ### European Interoperability Framework  
 
