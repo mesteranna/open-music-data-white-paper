@@ -25,6 +25,8 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/ISOData.bib`: bibliographic entries for relevant ISO standards.
 
+-   `bib/metadata.bib`: General metadata literature.
+
 -   `bib/mme.bib`: Music Moves Europe policy documents bibliography.
 
 -   `bib/opendata.bib`: bibliography on the EU open data policies and regulations.

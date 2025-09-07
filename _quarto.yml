@@ -1,6 +1,9 @@
 project:
   type: book
   output-dir: _book
+  
+execute:
+  freeze: auto
 
 book:
   title: "A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem"
