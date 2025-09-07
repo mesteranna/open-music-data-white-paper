@@ -19,6 +19,8 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/administrativedata.bib`: bibliography on administrative data sources in statistics.
 
+-    `bib/CISAC.bib`: resources related to CISAC .
+
 -   `bib/collections.bib`: bibliographic entries for theories and conceptualisations of collections.
 
 -   `bib/datamodels.bib`: bibliographic entries for data models.

@@ -37,6 +37,7 @@ book:
     - references.qmd
 
 bibliography: 
+    - bib/CISAC.bib
     - bib/collections.bib
     - bib/ISOData.bib
     - bib/mme.bib
