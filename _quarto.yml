@@ -50,6 +50,7 @@ bibliography:
     - bib/IFPI.bib
     - bib/ISOData.bib
     - bib/metadata.bib
+    - bib/MLC.bib
     - bib/mme.bib
     - bib/musicmetadata.bib
     - bib/OpenMusE.bib
