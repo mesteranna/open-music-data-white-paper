@@ -25,21 +25,27 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/administrativedata.bib`: bibliography on administrative data sources in statistics.
 
+-    `bib/BVDA.bib`: resources from the Big Data Value Association.
+
 -    `bib/CISAC.bib`: resources related to CISAC and the ISWC system.
 
 -   `bib/collections.bib`: bibliographic entries for theories and conceptualisations of collections.
 
--   `bib/datainteroperability.bib`: data interoperability literaute.
+-   `bib/datainteroperability.bib`: data interoperability literature.
 
 -   `bib/datamodels.bib`: bibliographic entries for data models.
 
 -   `bib/decolonisation.bib`: Bibliography related to heritage decolonisation and repair.
 
--    `bib/IFPI.bib`: resources related to IFPI and the ISRC system.
+-   `bib/europeana.bib`: Europeana resources.
+
+-   `bib/IFPI.bib`: resources related to IFPI and the ISRC system.
 
 -   `bib/ISOData.bib`: bibliographic entries for relevant ISO standards.
 
 -   `bib/metadata.bib`: General metadata literature.
+
+-   `bib/MLC.bib`: resources related to the _Mechanical Licensing Collective_.
 
 -   `bib/mme.bib`: Music Moves Europe policy documents bibliography.
 
