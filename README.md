@@ -53,7 +53,7 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/mme.bib`: Music Moves Europe policy documents bibliography.
 
--   `bib/opendata.bib`: bibliography on the EU open data policies and regulations.
+-   `bib/opendata.bib`: bibliography on the EU open data policies.
 
 -   `bib/OpenMusE.bib`: bibliographic entries on the Open Music Europe project's documents.
 
