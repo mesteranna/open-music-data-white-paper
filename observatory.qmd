@@ -1,0 +1,86 @@
+# The Open Music Obsevatory as a Data Sharing Space
+
+**Scope:** Upper-middle layer: federation across institutions; workflow agreements; legal bases; incentive alignment; observability/metrics.
+
+::: callout-note
+#### Open Music Observatory {.unnumbered}
+
+Our ambition with the development of the **Open Music Observatory** is to provide the technological basis and a practical roadmap for creating a European Music Observatory in a bottom-up, decentralised way. Instead of waiting for a grand, central agreement, any data owners or collectors who satisfy quality and cooperation rules can add their data. Once the Observatory reaches sufficient maturity, its long-term institutional form can be decided.
+
+The Open Music Observatory is a cornerstone task of the OpenMusE project (running until 31 December 2025), delivering data collection, processing, dissemination, and innovative services. It is a digital service provider for the music industry, aligned with the *European Interoperability Framework*, and introduces a unique governance model that adapts best practices from the EU and other sectors.
+
+**Transparency note:** Following the principles of **Open Policy Analysis**, we have made all key deliverables (including versions 0.99, 1.01, and 1.1 of the *Open Music Observatory* document) publicly accessible to foster broad stakeholder engagement and to provide a clear audit trail. These versions are available at <https://zenodo.org/records/11564114>, while version 1.0 remains internal and was shared only with OpenMusE evaluators. Minor edits, as well as access to the standardised folders, figures, and bibliographies, can be found at <https://github.com/dataobservatory-eu/open-music-observatory>.
+
+**Citation note:** If you refer to the specification of the _Open Music Observatory_ in correspondence, publications, or blog posts, please cite the latest **versioned DOI** available on Zenodo and, if applicable, include the date of access when referring to material on our GitHub repository.[^citation-omo]
+
+:::
+
+[^citation-omo]: Always use the latest versioned DOI when citing this _Open Music Observatory_ technical report, available via Zenodo. If you rely on supporting material hosted in the GitHub repository, please add the date of access in your reference.
+
+## Executive summary (what we propose)
+
+-   Build a federated data sharing space that lets rights orgs, distributors, platforms, libraries/archives share *just enough* metadata with clear roles, auditability, and lifecycle continuity.
+-   Use simple, modular agreements and conformance tests rather than a heavy centralised repository.
+
+## Discussion
+
+-   EMO feasibility on scarcity/fragmentation and the need for regular, comparable data; EU dataspace thinking (EIF, FAIR); *Music Ecosystem 2025* on systemic view.
+-   Industry positions on centralisation vs. federation; CMOs’ reliance on shared infra (e.g., Mint); heritage sector’s openness requirements.
+
+### Why centralisation is a futile model
+
+Calls for a *centralised European database* of music often reappear in policy debates, but in practice such proposals are neither realistic nor aligned with current EU strategies. Centralisation assumes that highly diverse data sources can be harmonised within a single repository. In an ecosystem where knowledge is held by tens of thousands of micro-enterprises, NGOs, collective management organisations, and heritage institutions — each operating under distinct legal frameworks — this assumption is untenable.  
+
+EU infrastructure initiatives have already moved beyond this logic. Since the 2000s, projects such as *Europeana*, the *European Open Science Cloud (EOSC)*, the *European Collaborative Cloud for Cultural Heritage (ECCCH)*, and *DARIAH* have all adopted **federated architectures**, linking distributed collections through shared standards, profiles, and interoperability frameworks rather than consolidating them into one database. The *Audiovisual Observatory*, established in 1993 as a centralised reporting body, represents an earlier institutional logic that is now being phased out in favour of federation.
+
+The heritage sector, including music heritage, has consistently stressed the need for *open, federated models*. Libraries, archives, and museums have adopted authority files (e.g. VIAF) and collaborative platforms (e.g. *Wikidata* and Wikibase) to enable interoperability while preserving institutional autonomy [@bianchini_beyond_2021, p210; @sardo_wikidata_2022, p297]. The emphasis here is not only on efficiency, but also on *openness* and the ability to reuse metadata across cultural domains without restrictive licensing.
+
+The two most important industry bodies supporting the commercial circulation of hundreds of millions of music assets, CISAC and IFPI, already operate on principles of federalisation. The ISRC system, managed by IFPI as the International Registration Authority, is inherently decentralised: 58 national agencies allocate prefixes, and codes are assigned by rights owners or their representatives [@isrc_handbook_2021, p5]. This model resembles ISBN for books or ISMN for sheet music: globally unique identifiers achieved through subsidiarity and distributed governance.  
+
+CISAC operates CIS-Net, a federated database of works and rights information maintained by its national member societies. Although users access CIS-Net through a centralised interface, the underlying data remains under the stewardship of each member. Likewise, the Mint initiative, launched by CISAC and Armonia Online, shows how shared infrastructure can deliver economies of scale for identifier allocation and metadata management, while avoiding dependence on a single global repository [@cisac_mint_digital_services].  
+
+Even official governmental statistics, thought to be highly centralised, have always relied on decentralised structures, particularly in the field of culture. The **ESSnet-Culture** project, coordinated under Eurostat, produced the first comprehensive framework for cultural statistics in 2012. Its final report is described as a *“basic reference”* for European culture statistics, elaborated by thematic task forces across Member States and grounded in both EU and **national data sources** [@emo_feasibility_2020, p9]. The framework, adapted from the UNESCO model, spans ten domains (heritage, archives, libraries, performing arts, etc.) and six functions (creation, trade, preservation, etc.), demonstrating that official cultural indicators are constructed through *distributed cooperation among national agencies*. 
+
+This decentralised model is not an exception but a structural feature of European statistics. National statistical offices, labour force surveys, and administrative registers each collect partial data, which are subsequently harmonised at EU level for comparability. Public policy indicators are thus inherently the result of federated cooperation, rather than centralised data lakes.
+
+Recent research extends this point further. In the age of abundant data, cultural and creative indicators increasingly rely on the *reuse of private-sector information*. Surveys and administrative datasets are being complemented by data flows from platforms, rights management organisations, and other industry actors. This represents an increasing decentralisation of evidence creation, where official statistics and policy indicators emerge from hybrid constellations of public and private data sources[^statistics]. 
+
+[^statistics]: We discussed the possibility of creation music statistics in a public-private cooperation in [@antal_slovak-cult-stat-pilot].
+
+### Data Sharing Space
+
+Taken together, these developments highlight that both cultural statistics and broader evidence for cultural policy are produced in federated, decentralised ways — a reality that any future European Music Observatory must acknowledge and build upon.
+
+
+The broader policy direction is clear. As the BDVA/DAIRO Federation Working Group notes, *“federation is a key enabler of European data spaces, allowing diverse actors to interoperate without relinquishing control over their data”* [@federation_wg_position_2023, p4]. Centralised data lakes may seem attractive for efficiency, but they cannot accommodate the diversity of governance regimes, incentive structures, and sovereignty concerns across Member States and sectors.  
+
+For the music ecosystem, this means that the path forward cannot be a single central repository. It must instead be a **federated data sharing space** where each institution captures and curates data locally, but aligns with shared profiles, identifiers, and conformance rules to ensure reuse across the network. The Open Music Observatory embodies this principle: not a monolithic database, but a convening and observability layer that enables decentralised contributions to function as a coherent whole.
+
+
+
+
+
+These positions converge on a broader policy insight: in both the commercial and non-profit sectors, **federation with shared governance** appears more sustainable than either complete decentralisation or a single central authority. This provides an important backdrop for the Open Music Observatory, which seeks to combine sector-specific workflow agreements with cross-domain openness.
+
+
+### Wikibase as a cultural metadata backbone
+Wikibase, the software underpinning *Wikidata*, has become a proven solution for collaborative metadata management. Originally developed by Wikimedia Deutschland, it is now widely used in cultural heritage contexts, including libraries, museums, and music-related projects. Studies highlight that Wikibase provides both a **flexible but structured data model** and an **accessible user interface**, making it suitable for non-expert users to maintain knowledge graphs and produce CIDOC-CRM compliant RDF [@kesaniemi_wb_cidoc_2022, p542].  
+
+Comparative analyses show that Wikidata, powered by Wikibase, is already functioning as a **complementary tool for authority control**, alongside traditional infrastructures like VIAF, enabling interoperability across bibliographic and heritage domains [@bianchini_beyond_2021, p210; @sardo_wikidata_2022, p297]. Other work had already emphasised its role six years ago as an emerging authority hub, where Wikidata identifiers can act as universal references, lowering barriers to linked open data integration [@van_veen_wikidata_2019, p75].  
+
+Within the European Union itself, Wikibase has been adopted as the infrastructure behind the **EU Knowledge Graph**, used by the European Commission to integrate projects funded under EU programmes and make them accessible to citizens [@diefenbach_wikibase_2021]. The *SEMIC 2020 initiative* also highlighted Wikibase and Wikidata as sustainable data services for public-sector interoperability [@semic_2020_providing_2020], while recent work demonstrates their potential as research data management services in the cultural heritage field [@rossenova_wikidata_2022].  
+
+Within Europe’s public-sector linked-data ecosystem, **SEMIC** has identified *Wikidata* and Wikibase as the primary tools to enable collaborative semantic modeling and ensure interoperability among public data spaces [@semic_support_centre]. At the Belgian national level, the *MetaBelgica* project—a collaboration among federal scientific heritage institutions—explicitly uses Wikibase to host FAIR-compliant entity data and to support long-term, multi-institutional curation workflows [@meta_belgica_project, p1]. This demonstrates Wikibase’s viability as an infrastructure component for federated metadata systems in Europe, and makes its adoption in the Flemish OSLO-linked framework (e.g., for *cultuurparticipatie* via the Uitwisselingsplatform) both plausible and justified.  
+
+At the sectoral level, the Flemish performing arts field has already piloted such an approach. Since 2017, PACKED (now meemoo) and *Kunstenpunt* (Flanders Arts Institute) have experimented with publishing performing arts data on Wikimedia platforms. In 2021, Kunstenpunt uploaded production data from its database (since 1993) into Wikidata using Wikibase as the curation and linking environment. As Magnus and Van D’huynslager explain: *“We wanted to test how data becomes richer from the outset by publishing it as linked open data on Wikidata, and to see how much enrichment would arise later through the community”* [@magnus_podiumkunsten_2021]. The upload produced immediate enrichment: *“About 1700 of the uploaded venues have specific geo-coordinates on Wikidata … more than 2000 persons and more than 750 venues … now have a photo on Wikidata”* [@magnus_podiumkunsten_2021].  
+
+Together, these examples show that Wikibase/Wikidata is not only technically mature, but already embedded in Flemish and Belgian cultural infrastructures: from EU-level interoperability frameworks to federal scientific heritage institutions and practical performing arts pilots. This makes it a pragmatic reference point for designing federated, decentralised metadata infrastructures in the music sector.
+
+This makes Wikibase/Wikidata a pragmatic starting point for federated metadata infrastructures: institutions can host their own Wikibase instances while linking into the global Wikidata ecosystem, ensuring decentralised control with global interoperability.
+
+
+### Policy Proposals
+
+-   Open Music Observatory as the convening + conformance + observability layer (not a single database).
+-   Workflow playbooks: rights→distribution→charting→preservation; change-propagation patterns; provenance trails that survive system boundaries.
+-   Legal/standards/public investment inline: GDPR legal bases per flow; recommended codes of conduct; lightweight policy for data fitness/quality; funding hooks (ECCCH pilots, national ministries).

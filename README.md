@@ -19,11 +19,13 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/administrativedata.bib`: bibliography on administrative data sources in statistics.
 
--    `bib/CISAC.bib`: resources related to CISAC .
+-    `bib/CISAC.bib`: resources related to CISAC and the ISWC system.
 
 -   `bib/collections.bib`: bibliographic entries for theories and conceptualisations of collections.
 
 -   `bib/datamodels.bib`: bibliographic entries for data models.
+
+-    `bib/IFPI.bib`: resources related to IFPI and the ISRC system.
 
 -   `bib/ISOData.bib`: bibliographic entries for relevant ISO standards.
 

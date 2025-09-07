@@ -1,0 +1,26 @@
+# Data Collection, Improvement & Exchange
+
+**Scope:** Bottom + middle layers combined: primary data capture/curation; technical & semantic improvement; identifier hygiene; practical exchange between institutions.
+
+### Executive summary (what we propose)
+- Establish shared, low-friction pipelines for capturing and improving music metadata at source (creation, release, registration, distribution, preservation), with simple mechanisms for reuse across stakeholders.
+- Prioritise persistent identifier coverage and crosswalks (ISWC↔ISRC↔ISNI↔IPN↔VIAF↔Wikidata) to reduce reconciliation costs and leakage.
+- Produce lightweight exchange patterns (profiles) that smaller actors can actually implement.
+
+### Discussion
+- Streaming-era inefficiencies and micro-transaction reality; identifier silos and reconciliation overheads; feasibility/Observatory emphasis on harmonised, comparable data; *Music Ecosystem 2025*’s ecosystem framing.
+- Industry practice: CISAC/IFPI/ISO identifier regimes; library/archives practice on authority files; Wikimedia/Wikidata as low-cost backbone.
+
+### Data fragmentation as a structural fact
+
+In the music ecosystem, data is not simply decentralised by design but *structurally scattered*. Rights metadata is maintained by hundreds of collective management organisations and publishers, while recordings and distribution data are spread across labels, distributors, and global platforms. Libraries and archives manage their own authority files, often linked only imperfectly to international standards such as ISNI, VIAF, or ISBN. Independent projects and community-driven infrastructures, such as *Wikidata* and Wikibase, add yet another layer of documentation.  
+
+This fragmentation is not an anomaly but the normal condition of the sector: tens of thousands of micro-enterprises and NGOs in Europe each manage slivers of data about works, recordings, or performances. As the *Feasibility Study for a European Music Observatory* underlined, *“the fragmented, scarce and poorly harmonised nature of the data collection landscape in the field of music has led to calls … for a European Music Observatory”* [@emo_feasibility_2020, p9]. Likewise, the *Music Ecosystem 2025* study frames the sector as an ecosystem, where knowledge and value are distributed across many small actors, each with partial perspectives [@music_ecossytem_2025, pp6–7].  
+
+Recognising this scattered landscape is essential. It explains why reconciliation overheads are high, why identifier coverage is incomplete, and why “capture once, reuse many” pipelines are necessary. It also provides the foundation for the next chapter: explaining why *attempts at centralisation are futile* in such an ecosystem, and why sustainable solutions must build on federation and interoperability.
+
+
+## Policy proposals
+- Pilots: Slovak CMD + MusicBase for capture and reconciliation; Open Music Registers for cross-domain linking; Unlabel for “document once, reuse many” (distribution + preservation).
+- Deliverables: (a) “Capture once, reuse many” profile pack; (b) minimal identifier coverage checklist; (c) recommended crosswalk templates and validation scripts.
+- Standards/regulation/public investment: call out per subsection (e.g., GDPR for name exposure; DCMI/METS/MODS/DCAT/JSON-LD profiles; EOSC/ECCCH/Europeana alignment).

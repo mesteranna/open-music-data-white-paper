@@ -25,6 +25,22 @@ This document is an early-stage policy paper prepared in line with **Open Policy
 
 :::
 
+Our document has been presented and discussed with industry specialists on the following forums:
+
+- Echoes/ECCH:
+- Hungarian stakeholders interested in replication of the Slovak pilot versions [^hungary]
+- IAMIC [^iamic]
+- IAML [^iaml]
+- Polifonia
+- Slovak national stakeholders interested in cultural data
+
+
+[^iamic]: See the presentation and its poster format [@skcmdb_iamic_poster_2024].
+
+[^slovak]: [@antal_slovak-cult-stat-pilot]
+
+[^hungary]: Federation possibilities of the Slovak music data sharing space in Hungary [@antal_2024_networkshop]
+
 [^eu-disclaimer]: This document has been prepared by Open Music Europe (OpenMusE) project partners as an account of work carried out within the framework of this contract. Any dissemination of results must indicate that it reflects only the author’s view and that the Commission Agency is not responsible for any use that may be made of the information it contains. Neither Project Coordinator, nor any signatory party of Open Music Europe (OpenMusE) Project Consortium Agreement, nor any person acting on behalf of any of them:  
 (a) makes any warranty or representation whatsoever, express or implied, (i) with respect to the use of any information, apparatus, method, process, or similar item disclosed in this document, including merchantability and fitness for a particular purpose, or (ii) that such use does not infringe on or interfere with privately owned rights, including any party's intellectual property, or (iii) that this document is suitable to any particular user's circumstance; or  
 (b) assumes responsibility for any damages or other liability whatsoever (including any consequential damages, even if advised of the possibility) resulting from your selection or use of this document or any information, apparatus, method, process, or similar item disclosed herein.
