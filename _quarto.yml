@@ -37,8 +37,14 @@ book:
     - references.qmd
 
 bibliography: 
+    - bib/datainteroperability.bib
+    - bib/dataspace.bib
+    - bib/decolonisation.bib
     - bib/CISAC.bib
     - bib/collections.bib
+    - bib/europana.bib
+    - bib/eXtremeDesign.bib
+    - bib/IFPI.bib
     - bib/ISOData.bib
     - bib/metadata.bib
     - bib/mme.bib
