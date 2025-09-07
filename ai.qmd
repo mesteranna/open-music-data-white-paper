@@ -1,11 +1,15 @@
-# Applications: AI that Serves the Music Ecosystem
+# Applications: AI that Serves the Music Ecosystem {#sec-ai}
 
-**Scope:** Top layer: applied services that ride on the data space (curative, agentic, and generative uses); shared AI capacity so SMEs/NGOs aren’t forced to hire scarce talent.
+The European Parliament’s resolution on the music streaming market warns of the risks that AI-generated content poses for *discoverability, attribution, and fair remuneration* if metadata remains incomplete or unreliable. At the same time, the *Music Ecosystem 2025* study highlights that AI will be both a disruption and an opportunity: while it can overwhelm systems with synthetic material, it also offers tools to automate documentation, reduce costs, and strengthen evidence-based policymaking [@music_ecossytem_2025, pp.23–24].  
 
-Artificial intelligence is increasingly central to debates on the future of music. It can disrupt by flooding markets with unlicensed or poorly documented works, but it can also repair, enrich, and automate processes that are otherwise prohibitively costly. The key policy challenge is to ensure that AI capacities do not remain concentrated in global platforms and major labels but are shared across the entire ecosystem.  
+Artificial intelligence is therefore central to the future of Europe’s music ecosystem. On one hand, it threatens to exacerbate existing inequalities by concentrating technological advantages in platforms and major rights holders. On the other, it can repair, enrich, and automate processes that are otherwise prohibitively costly for small actors. The challenge is not whether AI will be used, but whether its benefits will be distributed fairly across the ecosystem.  
+
+European policy provides guidance for this balancing act. The *Ethics Guidelines for Trustworthy AI* underline that AI must be lawful, ethical, and robust throughout its lifecycle [@ethics_guidelines_trustworthy_ai_2019]. The *Getting the Future Right* report by the Fundamental Rights Agency stresses the need to align AI with fundamental rights, especially where vulnerable groups and cultural participation are concerned [@getting_the_future_right_2020]. Most recently, the **AI Act** enshrines a risk-based regulatory framework, defining obligations for providers and deployers of AI systems while reaffirming the principles of subsidiarity and proportionality in EU digital policy [@ai_act_2024].  
+
+Against this backdrop, the Observatory proposes AI not as a substitute for human creativity or governance, but as a **shared utility**: a way to pool curative, agentic, and generative services within a federated infrastructure. This ensures that SMEs, non-profits, and community archives gain access to trustworthy AI capacities, reducing costs and risks while preserving diversity and accountability in the European music ecosystem.  
 
 ### Executive summary (what we propose)
-
+**Scope:** Top layer: applied services that ride on the data space (curative, agentic, and generative uses); shared AI capacity so SMEs/NGOs aren’t forced to hire scarce talent.
 -   Create *shared AI services* (not bespoke in-house teams) for entity recognition, duplicate detection, cross-catalogue matching, multilingual enrichment, and compliance monitoring.  
 -   Educate stakeholders using a simple three-part model of AI (agentic/generative/curative) tied to concrete tasks and guardrails.  
 -   Reduce operational and capital costs by embedding AI into metadata, claims, and documentation workflows.  
@@ -69,6 +73,24 @@ AI can support working capital optimisation by enabling cheaper API-based liaiso
 -   Operate pooled “AI utilities” behind clear SLAs: reconciliation-as-a-service; watchlists for plagiarism/near-duplicates; machine-assisted translations/summaries for archival deposits.  
 -   Governance/ethics by design: audit logs, explainability notes, error budgets; opt-in data sharing; “green list” of permissible automations per partner.  
 -   Standards/regulation/public investment inline: model/data licensing; consent and transparency; targeted public funding for shared services.  
+
+### Curative AI as a Remediation Solution  
+
+While data sharing spaces establish the rules and structures for *new* data flows, they do not address the **legacy backlog** of poorly formatted or incomplete open data already in circulation. Here, **curative AI** provides a complementary solution. For the music ecosystem — and for public-sector bodies obliged under the *Open Data Directive* to release high-value datasets — such AI applications should be prioritised.  
+
+AI-assisted services can automatically detect duplicates, infer missing identifiers, and reconcile heterogeneous formats. They can enrich metadata with multilingual descriptions, cross-link authority files (e.g. ISNI, VIAF, ORCID), and repair legacy exports from outdated IT systems. In effect, they transform datasets that are legally open but practically unusable into resources that can circulate across the ecosystem.  
+
+In practical terms, curative AI reduces the hidden costs of “free” data. Even when datasets are available at zero monetary price, acquisition, transformation, and integration impose substantial burdens [@schnurr_ogd_markets_2021]. By pooling remediation services at the level of the Observatory — rather than leaving each SME or archive to hire scarce AI engineers — the sector can benefit from economies of scale and achieve more consistent outcomes.  
+
+Thus, governance and remediation are two sides of the same coin:  
+- **Data sharing spaces** ensure that *new* data is created and exchanged in interoperable ways.  
+- **Curative AI** repairs the *inherited stock* of legacy and low-quality datasets.  
+
+Together, they close the gap between the *right of reuse* granted by the Open Data Directive and the *means of reuse* required for music, culture, and AI-driven innovation.[^curative-ai]  
+
+[^curative-ai]: Empirical studies underline that legal openness alone rarely produces machine-actionable reuse. Without prescriptive standards, high-value datasets are published in divergent formats and with inconsistent metadata [@klimek_stirdata_2023, p.184]. Reference models and standards can mitigate this going forward [@noardo_standards_2024], but existing datasets often require intensive remediation. Curative AI provides this remediation by automating anomaly detection, schema transformations, and semantic enrichment. For example, Ni et al. demonstrate that machine-learning frameworks can flag outliers, propose corrected values, and normalise structures at scale, significantly reducing manual repair costs [@ni_automatic_repair_2023, p.3]. In cultural and company register contexts, pilots such as STIRData have shown how AI-driven pipelines transform heterogeneous exports into interoperable, HVD-compliant formats [@klimek_stirdata_2023, p.185]. These examples illustrate why curative AI, deployed as a shared Observatory service, is indispensable for turning open data from a *legal right* into a *practical resource*.  
+
+
 
 ### Lowering Documentation Barriers  
 

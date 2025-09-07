@@ -55,6 +55,7 @@ bibliography:
     - bib/musicmetadata.bib
     - bib/opendata.bib
     - bib/OpenMusE.bib
+    - bib/trustworthyAI.bib
     - bib/wikidata.bib
     
 csl: csl/chicago-author-date-17th-edition.csl

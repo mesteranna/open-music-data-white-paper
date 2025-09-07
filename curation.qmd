@@ -1,4 +1,4 @@
-# Data Collection, Improvement & Exchange
+# Data Collection, Improvement & Exchange {#sec-curation}
 
 **Scope:** Bottom + middle layers combined: primary data capture/curation; technical & semantic improvement; identifier hygiene; practical exchange between institutions.
 

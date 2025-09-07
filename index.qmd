@@ -29,10 +29,11 @@ Our document has been presented and discussed with industry specialists on the f
 
 - Echoes/ECCH:
 - Hungarian stakeholders interested in replication of the Slovak pilot versions [^hungary]
-- IAMIC [^iamic]
-- IAML [^iaml]
+- CISAC.
+- IAMIC [^iamic]: The _International Association of Music Information Centres_ and several key members of the organisation.
+- IAML [^iaml]: The _International Association of Music Libraries, Archives and Documentation Centers_ and several national chapters and key members.
 - Polifonia
-- Slovak national stakeholders interested in cultural data
+- Slovak national stakeholders interested in cultural data[^slovak]
 
 
 [^iamic]: We presented and discussed these ideas at the _International Association of Music Information Centres_ on the General Assembly and Annual Conference 2024 on November 21, 2024, at Music Austria, Vienna. See the presentation and its poster format [@skcmdb_iamic_poster_2024].
