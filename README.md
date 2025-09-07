@@ -23,6 +23,8 @@ The bibliographic references are organised by themese, and they are stored in th
 
 -   `bib/datamodels.bib`: bibliographic entries for data models.
 
+-   `bib/ISOData.bib`: bibliographic entries for relevant ISO standards.
+
 -   `bib/mme.bib`: Music Moves Europe policy documents bibliography.
 
 -   `bib/opendata.bib`: bibliography on the EU open data policies and regulations.
