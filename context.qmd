@@ -1,5 +1,67 @@
-# Policy Context
+# Context
 
-The _Music Ecosystem 2025_ study was motivated by the recognition that Europe’s music sector is no longer a simple value chain but a complex, interconnected ecosystem shaped by globalisation, platform dominance, and rapid technological change[^musicecosystemnote]. Its authors sought to capture this systemic transformation, addressing cultural diversity, economic precarity, the rise of AI, and the social and environmental sustainability of music in Europe. Our policy brief builds on this systemic perspective but adds a more focused angle: we look specifically at data and metadata as the critical infrastructure of the ecosystem. Where the Music Ecosystem 2025 study emphasises openness, cooperation, and resilience at the macro level, we show how these goals can be operationalised at the micro level of interoperable identifiers, lifecycle-based metadata sharing, and autonomous systems. Our aim is to ensure that automation and big data work for the music industry and cultural institutions, not against them — reducing inefficiencies, empowering small actors, and strengthening Europe’s capacity to compete fairly in a platform-driven global market.
+The European music ecosystem has undergone disruptive transformations in recent decades. 
+In the 2010s, the arrival of agentic AI in streaming platforms radically reconfigured 
+distribution and consumption. These systems centralised global sales, expanding the 
+commercially available repertoire in a typical EU country from roughly 100,000 titles to 
+over 100 million competitors. At the same time, the average transaction value collapsed 
+from around €18 (in current prices) to less than €0.005. This shock hollowed out much of 
+the traditional infrastructure — record stores, radios, and music television — and shifted 
+value capture toward data-driven platforms able to control access through recommender 
+algorithms.
 
-[^musicecosystemnote]: _Music Ecosystem 2025: Study on the Music Ecosystem_ [@music_ecossytem_2025]
+In the 2020s, the rise of generative AI further exacerbates this situation. 
+Large-scale models can mass-produce new compositions and recordings, often imitating or 
+plagiarising patterns of human creators. This inflates supply, undermines the position of 
+professional authors and performers, and aggravates existing problems of remuneration 
+and discoverability.[^context-1]
+
+EU-level studies and policy frameworks have recognised these dynamics and increasingly 
+frame them as systemic challenges. The *Feasibility Study for the Establishment of a 
+European Music Observatory* diagnosed the fragmented, scarce, and poorly harmonised 
+nature of music data collection across Member States, calling it the fundamental reason 
+for an EU-level observatory to ensure comparability, transparency, and regular monitoring. 
+The *Music Ecosystem 2025 study* reframes the sector as an interconnected ecosystem, 
+where platformisation, market consolidation, and emerging technologies like AI interact 
+with broader societal challenges such as precarity, gender inequality, and sustainability. 
+The European Parliament, in its Resolution on cultural diversity and the conditions for 
+authors in the European music streaming market, has echoed these concerns with explicit 
+calls for reform.[^context-2]
+
+Our policy brief positions itself within this policy landscape. It aims to support and 
+extend the Music Moves Europe framework by highlighting three crucial dimensions:  
+
+1. **Practical solutions**, grounded in interdisciplinary dialogue between research and 
+   industry, and inspired by concrete experiences with open, federated data-sharing 
+   approaches. These solutions can reduce duplication of work, lower costs, and improve 
+   interoperability across rights management, libraries, archives, and digital platforms.  
+
+2. **Potential pitfalls** in the implementation of certain policy proposals, particularly 
+   where well-meaning initiatives may clash with the realities of legacy systems, existing 
+   business practices, or contradictions in legislation. Our aim is to point out where 
+   promising ideas might fail without careful attention to operational details.  
+
+3. **Legal and operational conflicts**, such as the tension between GDPR’s data protection 
+   regime and the Berne Convention’s requirement of author attribution, or the challenge 
+   of creating a more open and complete metadata registration system while at the same time 
+   sustaining incentives for costly — and currently mostly private — investments in the 
+   maintenance of key registers like ISWC (works), ISRC (recordings), ISNI (creators), 
+   and IPN (performer numbers).  
+
+By foregrounding these issues, the brief contributes to the broader direction set by the 
+European Parliament and the Commission. It stresses that any effective response to the 
+transformations brought by AI — both agentic and generative — must include a 
+comprehensive overhaul of metadata practices, robust governance of identifiers, and 
+integration with open science and cultural heritage infrastructures. In this sense, our 
+approach complements the calls of the *Music Ecosystem 2025 study* and the Observatory 
+feasibility work for systemic, ecosystem-wide policies, while remaining attentive to the 
+practical challenges of implementation across Europe’s diverse music and cultural 
+landscapes.
+
+---
+
+[^context-1]: *Music Ecosystem 2025: Study on the Music Ecosystem* [@music_ecossytem_2025]; it frames the sector as an adaptive, networked ecosystem, highlights AI’s ability to disrupt on pp. 6–7, and mentions it as an opportunity particularly on p. 23.  
+*Feasibility Study for the Establishment of a European Music Observatory* [@emo_feasibility_2020]; stresses the fragmented, scarce, and poorly harmonised nature of music data (pp. 9–10), the need for cooperation with rights organisations, statistical agencies, and industry stakeholders (p. 61), and introduces CEEMID as a best practice (pp. 147–148). CEEMID emerged from Budapest, Bratislava, and Zagreb as an early effort to address data poverty in Eastern EU Member States.  
+
+[^context-2]: *European Parliament Resolution on cultural diversity and the conditions for authors in the European music streaming market* [@ep_resolution_music_streaming_2024]; it recognises streaming as the dominant global revenue source while leaving many authors with very low income (recitals F–H), stresses accurate metadata allocation at the time of creation using identifiers ISWC, ISRC, ISNI, IPI, and IPN (recital R), highlights the lack of quality data to properly identify authors, performers, and rights holders (recital L), and warns that AI-generated tracks are flooding streaming platforms, aggravating discoverability and remuneration imbalances (recital O).  
+
