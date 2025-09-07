@@ -1,67 +1,120 @@
-# Context
+# Policy Context & Problem Map
 
-The European music ecosystem has undergone disruptive transformations in recent decades. 
-In the 2010s, the arrival of agentic AI in streaming platforms radically reconfigured 
-distribution and consumption. These systems centralised global sales, expanding the 
-commercially available repertoire in a typical EU country from roughly 100,000 titles to 
-over 100 million competitors. At the same time, the average transaction value collapsed 
-from around €18 (in current prices) to less than €0.005. This shock hollowed out much of 
-the traditional infrastructure — record stores, radios, and music television — and shifted 
-value capture toward data-driven platforms able to control access through recommender 
-algorithms.
+The European music ecosystem has undergone disruptive transformations in recent decades. In the 2010s, the arrival of agentic AI in streaming platforms radically reconfigured distribution and consumption. These systems centralised global sales, expanding the commercially available repertoire in a typical EU country from roughly 100,000 titles to over 100 million competitors. At the same time, the average transaction value collapsed from around €18 (in current prices) to less than €0.005. This shock hollowed out much of the traditional infrastructure — record stores, radios, and music television — and shifted value capture toward data-driven platforms able to control access through recommender algorithms.
 
-In the 2020s, the rise of generative AI further exacerbates this situation. 
-Large-scale models can mass-produce new compositions and recordings, often imitating or 
-plagiarising patterns of human creators. This inflates supply, undermines the position of 
-professional authors and performers, and aggravates existing problems of remuneration 
-and discoverability.[^context-1]
+In the 2020s, the rise of generative AI further exacerbates this situation. Large-scale models can mass-produce new compositions and recordings, often imitating or plagiarising patterns of human creators. This inflates supply, undermines the position of professional authors and performers, and aggravates existing problems of remuneration and discoverability.[^context-1]
 
-EU-level studies and policy frameworks have recognised these dynamics and increasingly 
-frame them as systemic challenges. The *Feasibility Study for the Establishment of a 
-European Music Observatory* diagnosed the fragmented, scarce, and poorly harmonised 
-nature of music data collection across Member States, calling it the fundamental reason 
-for an EU-level observatory to ensure comparability, transparency, and regular monitoring. 
-The *Music Ecosystem 2025 study* reframes the sector as an interconnected ecosystem, 
-where platformisation, market consolidation, and emerging technologies like AI interact 
-with broader societal challenges such as precarity, gender inequality, and sustainability. 
-The European Parliament, in its Resolution on cultural diversity and the conditions for 
-authors in the European music streaming market, has echoed these concerns with explicit 
-calls for reform.[^context-2]
+EU-level studies and policy frameworks have recognised these dynamics and increasingly frame them as systemic challenges. The *Feasibility Study for the Establishment of a European Music Observatory* diagnosed the fragmented, scarce, and poorly harmonised nature of music data collection across Member States, calling it the fundamental reason for an EU-level observatory to ensure comparability, transparency, and regular monitoring. The *Music Ecosystem 2025 study* reframes the sector as an interconnected ecosystem, where platformisation, market consolidation, and emerging technologies like AI interact with broader societal challenges such as precarity, gender inequality, and sustainability. The European Parliament, in its Resolution on cultural diversity and the conditions for authors in the European music streaming market, has echoed these concerns with explicit calls for reform.[^context-2]
 
-Our policy brief positions itself within this policy landscape. It aims to support and 
-extend the Music Moves Europe framework by highlighting three crucial dimensions:  
+Our policy brief positions itself within this policy landscape. It aims to support and extend the Music Moves Europe framework by highlighting six crucial dimensions:
 
-1. **Practical solutions**, grounded in interdisciplinary dialogue between research and 
-   industry, and inspired by concrete experiences with open, federated data-sharing 
-   approaches. These solutions can reduce duplication of work, lower costs, and improve 
-   interoperability across rights management, libraries, archives, and digital platforms.  
+1. **Practical solutions**, grounded in interdisciplinary dialogue between research and industry, and inspired by concrete experiences with open, federated data-sharing approaches. These solutions can reduce duplication of work, lower costs, and improve interoperability across rights management, libraries, archives, and digital platforms.
 
-2. **Potential pitfalls** in the implementation of certain policy proposals, particularly 
-   where well-meaning initiatives may clash with the realities of legacy systems, existing 
-   business practices, or contradictions in legislation. Our aim is to point out where 
-   promising ideas might fail without careful attention to operational details.  
+2. **Potential pitfalls** in the implementation of certain policy proposals, particularly where well-meaning initiatives may clash with the realities of legacy systems, existing business practices, or contradictions in legislation. Our aim is to point out where promising ideas might fail without careful attention to operational details.
 
-3. **Legal and operational conflicts**, such as the tension between GDPR’s data protection 
-   regime and the Berne Convention’s requirement of author attribution, or the challenge 
-   of creating a more open and complete metadata registration system while at the same time 
-   sustaining incentives for costly — and currently mostly private — investments in the 
-   maintenance of key registers like ISWC (works), ISRC (recordings), ISNI (creators), 
-   and IPN (performer numbers).  
+3. **Legal and operational conflicts**, such as the tension between GDPR’s data protection regime and the Berne Convention’s requirement of author attribution, or the challenge of creating a more open and complete metadata registration system while at the same time sustaining incentives for costly — and currently mostly private — investments in the maintenance of key registers like ISWC (works), ISRC (recordings), ISNI (creators), and IPN (performer numbers).
 
-By foregrounding these issues, the brief contributes to the broader direction set by the 
-European Parliament and the Commission. It stresses that any effective response to the 
-transformations brought by AI — both agentic and generative — must include a 
-comprehensive overhaul of metadata practices, robust governance of identifiers, and 
-integration with open science and cultural heritage infrastructures. In this sense, our 
-approach complements the calls of the *Music Ecosystem 2025 study* and the Observatory 
-feasibility work for systemic, ecosystem-wide policies, while remaining attentive to the 
-practical challenges of implementation across Europe’s diverse music and cultural 
-landscapes.
+4. **Cooperation and workflow sharing**, recognising that no single actor in the music ecosystem can bear the full burden of metadata documentation. Federated registries and data spaces allow information to be captured once and reused many times, reducing duplication and improving quality for all.
+
+5. **Technology** for documentation, including automation, entity recognition, reconciliation, and persistent identifiers embedded directly in files. These tools can ease manual burdens but also bring governance challenges that must be carefully managed.
+
+6. **AI adaptation and cooperative infrastructures**, recognising that most stakeholders — micro-enterprises, NGOs, and even CMOs — cannot attract or retain scarce AI expertise. Instead of expecting each actor to develop in-house capacity, Europe must invest in shared AI infrastructures, open-source tools, and collaborative governance. This requires both educating the sector about what AI really is — agentic, generative, and curative — and building collective resources that allow smaller actors to benefit without dependence on global platforms.
+
+By foregrounding these issues, the brief contributes to the broader direction set by the European Parliament and the Commission. It stresses that any effective response to the transformations brought by AI — both agentic and generative — must include a comprehensive overhaul of metadata practices, robust governance of identifiers, and integration with open science and cultural heritage infrastructures. In this sense, our approach complements the calls of the *Music Ecosystem 2025 study* and the feasibility study for a **European Music Observatory** for systemic, ecosystem-wide policies, while remaining attentive to the practical challenges of implementation across Europe’s diverse music and cultural landscapes.
+
+[^context-1]: *Music Ecosystem 2025: Study on the Music Ecosystem* [@music_ecossytem_2025]; it frames the sector as an adaptive, networked ecosystem, highlights AI’s ability to disrupt on pp. 6–7, and mentions it as an opportunity particularly on p. 23. *Feasibility Study for the Establishment of a European Music Observatory* [@emo_feasibility_2020]; stresses the fragmented, scarce, and poorly harmonised nature of music data (pp. 9–10), the need for cooperation with rights organisations, statistical agencies, and industry stakeholders (p. 61), and introduces CEEMID as a best practice (pp. 147–148). CEEMID emerged from Budapest, Bratislava, and Zagreb as an early effort to address data poverty in Eastern EU Member States.
+
+[^context-2]: *European Parliament Resolution on cultural diversity and the conditions for authors in the European music streaming market* [@ep_resolution_music_streaming_2024]; it recognises streaming as the dominant global revenue source while leaving many authors with very low income (recitals F–H), stresses accurate metadata allocation at the time of creation using identifiers ISWC, ISRC, ISNI, IPI, and IPN (recital R), highlights the lack of quality data to properly identify authors, performers, and rights holders (recital L), and warns that AI-generated tracks are flooding streaming platforms, aggravating discoverability and remuneration imbalances (recital O).
+
+We see a wide policy consensus on a wide range of issues: streaming has centralised value capture, AI has intensified disruption, and Europe needs systemic solutions. But consensus at this level remains vague. To design practical reforms, we must diagnose the precise pressures facing rights-holders, cultural institutions, and small industry actors.
+
+Three structural pressures frame today’s metadata challenges:
+
+1.  **Extreme efficiency pressure.** Music is now monetised in micro-transactions worth a fraction of a cent. To equal the economic weight of a single CD, rightsholders must process and account for thousands of streams. Each metadata mistake means lost royalties, while big-tech platforms enjoy economies of scale that self-releasing artists, small labels, and national CMOs cannot match.
+
+2.  **AI-driven disruption.** Agentic AI in streaming platforms has already displaced much of the traditional retail and promotion infrastructure. Generative AI now risks flooding platforms with derivative works and further destabilising discoverability and revenues. At the same time, AI tools could help with documentation, reconciliation, and translation — if governance frameworks can support them.
+
+3.  **Governance and incentive conflicts.** Key identifiers such as ISWC (works), ISRC (recordings), ISNI (creators), and IPN (performers) are essential for attribution and royalty distribution. Yet they are maintained under costly, largely private regimes. Public policy increasingly demands more open and complete metadata, but sustaining investment in these registers remains a challenge. This creates fundamental tensions between openness, compliance, and long-term viability.
+
+These pressures mean that improving metadata is not only a matter of technical interoperability. It is a question of economic sustainability, legal coherence, and cultural policy. The following sections map how these pressures play out in practice and what directions of solution are possible.
+
+## Quest for Efficiency
+
+Technological progress, digitisation, automation, and now AI have transformed the music industry more dramatically than most sectors. After the collapse of the CD era under peer-to-peer piracy, a newly configured recording industry emerged around global platforms. Traditional retail and wholesale jobs largely disappeared, replaced by streaming platforms such as YouTube, Apple Music, and Spotify.
+
+This shift coincided with a structural **devaluation of music**. The licensed streaming model never recovered the real revenues of the pre-collapse recording market, and from this diminished base, platforms take a significant share. Where a CD sale once brought around €10–18 in today’s terms, the unit of account in streaming is a fraction of a cent — typically \$0.003–0.005 per play.
+
+To replace the economic weight of a single album sale, a rightsholder must now process and account for roughly 4,000 successful streams. This is not merely an economic shift, but an **administrative revolution**. The documentation efficiency needed to handle millions of micro-transactions profitably is far higher than in the analogue era.
+
+Streaming platforms are genuine big-data companies. Alphabet’s YouTube, Apple, and Spotify operate at a scale where billions of transactions and hundreds of millions of assets can be managed by autonomous agents and recommender engines. But the typical rightsholder — a self-releasing artist, an independent label, or even a national collective rights agency — works at a scale where each metadata mistake means lost royalties, and where IT or documentation specialists are often absent altogether. This asymmetry is so stark that even major CMOs rely on shared infrastructures like Mint to manage repertoire at scale.
+
+Music, then, is now sold in **extremely low-value transactions mediated by autonomous agents**. This reality enforces a very strong pressure on the entire ecosystem to improve data interoperability and metadata quality.
+
+By contrast, in most industries administrative overhead is modest:
+
+-   Retail/distribution: \~2–5% of net sales.
+
+-   Manufacturing: \~3–7%.
+
+-   Professional services: 10–15% (because administration blurs into the product).
+
+-   OECD/EU cross-industry averages: 3–8% of turnover.
+
+In “normal” industries, then, €50 of administrative cost is justified on €1000 of revenue. By comparison, in the recorded music industry, achieving that same 5% efficiency requires delivering faultlessly some 200,000 streaming transactions. This is a **very tall order** for a sector dominated by micro-enterprises and small independents without dedicated IT or metadata teams.
+
+The pressure for efficiency is not only present on the production side of the music business. In the **non-profit sector**, digitisation has profoundly transformed the workflows of archives, libraries, and heritage institutions as well. **Virág (2024)** showed how streaming has reduced demand for physical collections, forcing libraries to reframe their role around digitisation, knowledge organisation, and community functions rather than lending CDs or scores. New spaces like creative studios and digital repositories are expected, but funding is limited, so efficiency is critical. At the same time, the vast amount of born-digital assets — and now the endless output of generative AI systems — creates a puzzle for archives that remains unsolved today.
+
+The economic and technical pressures described above have made metadata efficiency a make-or-break issue for both industry and heritage institutions. To meet this challenge, we identify five families of solutions, each of which combines insights from research with lessons from our own experiments.
+
+**Data, metadata, blockchain and AI**
+
+In today’s music ecosystem, almost every asset is born digital. A modern composer’s score is produced in notation software; a performer’s recording originates as a digital file; even printing, distribution, and promotion leave their own digital traces. From the very start, each musical work and each recording comes with a dense **digital fingerprint**, far richer than anything Beethoven or his contemporaries could have imagined.
+
+As these works move through their lifecycle — composition, registration, performance, recording, distribution, preservation — they accumulate further **provenance statements**: *“X composed this,” “Y registered that,” “Z archived this file.”* Taken together, these traces form a chain of knowledge about the history of the work. Unlike in earlier centuries, this history is now almost continuously captured, though it often remains fragmented, messy, or with gaps — the “shadows” that Karabinos has described.
+
+Here, Pomerantz’s classic definition is a useful anchor: metadata is “data about data.” But in practice, this boundary is fluid. **Data by itself is inert** — a duration, a string of characters, a digital checksum is meaningless without context. Metadata transforms it into a **knowledge statement** with potential truth value: *“This recording lasts 7:35.”* *“This file is identified as ISRC XY-ABC-23-00001.”* Crucially, what is “data” for one actor can be “metadata” for another. For a notation program, “7:35” is a descriptive property; for a rights manager, the same value may serve as an identifying attribute; for Spotify, it becomes one feature among many in an algorithmic profile. In a lifecycle-based data sharing space, data and metadata are not absolute categories — they are relative to role, workflow, and context.
+
+This distributed, evolving record of provenance invites a comparison with **blockchains**, which are designed as tamper-evident, time-stamped ledgers of statements about digital objects. In music, we already have something similar in principle: every registration, every file embedding, every archival action adds another statement to the ledger of a work’s lifecycle. But unlike blockchains, this record is not unified, nor cryptographically secured. It is scattered across collective management organisations, distributors, streaming platforms, and archives. More seriously, the data is often inconsistent, disrupted, lost, or hidden due to conflicts of interest. Simply applying blockchain technology to such noisy data would not solve these problems; indeed, it could lock in their dysfunction. Curative AI or blockchain might one day help secure the chain of provenance, but only if the underlying parties work together rather than against one another.
+
+Conceptually, however, the **born-digital lifecycle of music already resembles a distributed chain of provenance statements**: some verifiable, some contradictory, some lost in the shadows. The challenge is not to create a single immutable ledger, but to ensure that across this distributed chain, the statements that matter can be made reliable, reusable, and interoperable.
+
+## Potential solutions
+
+The challenges described above call for **technical, organisational, regulatory, and governance responses**. To keep the structure manageable, we organise them into three layers that build on each other: **Data Collection, Improvement & Exchange**, **Data Sharing Spaces**, and **AI for the Music Ecosystem**. Standards, regulation, and public investment are horizontal topics that are mentioned in each layer where relevant, and recapped together in the conclusions.
 
 ---
 
-[^context-1]: *Music Ecosystem 2025: Study on the Music Ecosystem* [@music_ecossytem_2025]; it frames the sector as an adaptive, networked ecosystem, highlights AI’s ability to disrupt on pp. 6–7, and mentions it as an opportunity particularly on p. 23.  
-*Feasibility Study for the Establishment of a European Music Observatory* [@emo_feasibility_2020]; stresses the fragmented, scarce, and poorly harmonised nature of music data (pp. 9–10), the need for cooperation with rights organisations, statistical agencies, and industry stakeholders (p. 61), and introduces CEEMID as a best practice (pp. 147–148). CEEMID emerged from Budapest, Bratislava, and Zagreb as an early effort to address data poverty in Eastern EU Member States.  
+### Data Collection, Improvement & Exchange
 
-[^context-2]: *European Parliament Resolution on cultural diversity and the conditions for authors in the European music streaming market* [@ep_resolution_music_streaming_2024]; it recognises streaming as the dominant global revenue source while leaving many authors with very low income (recitals F–H), stresses accurate metadata allocation at the time of creation using identifiers ISWC, ISRC, ISNI, IPI, and IPN (recital R), highlights the lack of quality data to properly identify authors, performers, and rights holders (recital L), and warns that AI-generated tracks are flooding streaming platforms, aggravating discoverability and remuneration imbalances (recital O).  
+No single actor in the music ecosystem can afford to duplicate the full burden of metadata documentation. Rights managers, distributors, libraries, and archives each collect and curate information, but they often do so in parallel, repeating the same effort. A cooperative approach can reduce these inefficiencies. Federated registries and data spaces — such as those envisioned in the *European Interoperability Framework* — provide a model where each institution retains its role and mission, but contributes to a shared pipeline. In this way, data captured once can be reused many times across the lifecycle of a work or recording, lowering costs and improving quality for all.
 
+Technology has a critical role to play in reducing manual burdens. Tools for automation — ranging from AI-supported entity recognition, transcription, and translation, to metadata extraction — already assist libraries and archives in coping with overwhelming digital volumes. Semantic reconciliation tools, such as those piloted in the MERA and Music Meta Ontology projects, show how databases can be linked pragmatically. Embedding persistent identifiers directly in files ensures that crucial information survives transformations and transfers. Yet, these technologies are not a panacea. Each efficiency gain brings new governance challenges, particularly around bias, explainability, and sustainability.
+
+Industry-led initiatives, voluntary standards, and self-regulatory frameworks also have a vital role. History shows the value of lightweight, shared conventions: music notation itself has served for centuries as a simple but enduring metadata system. Today, the lesson is to avoid over-generalisation and monolithic ontologies. Instead, modular ontology patterns provide flexible bridges between systems, allowing interoperability without rigidity. Linking identifiers across domains — ISRC to ISWC, ISNI, VIAF, or Wikidata — can reduce friction in rights and documentation workflows. New forms of modular licensing and industry codes of conduct may also help reduce uncertainty without heavy-handed regulation.
+
+Regulation has both driven and complicated the push for efficiency. European measures such as the Collective Rights Management Directive sought to increase transparency and accountability, reinforcing the need for better metadata. At the same time, the General Data Protection Regulation (GDPR) introduced new compliance burdens, particularly around personal names and performer information, which remain essential for attribution. Regulation should support, not hinder, the ability of cultural and commercial actors to cope with the enormous pressure of metadata management.
+
+Finally, public investment is indispensable. The European Open Science Cloud (EOSC), the European Collaborative Cloud for Cultural Heritage (ECCCH), national libraries and archives, and global platforms like Wikidata are all infrastructures that already serve scientific, cultural, and civic goals. With the right design, they can also support the music industry. Public investment into shared metadata infrastructures can lower the costs borne by small and medium-sized enterprises, collective management organisations, and self-releasing artists, ensuring that cultural diversity and economic sustainability are not sacrificed in the drive for efficiency.
+
+The projects and drafts developed within our consortium — the Slovak Comprehensive Music Database, the Open Music Observatory, MusicBase, Unlabel, and Open Music Registers — all attempt to cope with these pressures in complementary ways. They start from the insight that **metadata cannot be managed by any single actor; and centralised data solutions anyways failed in the decentralised music industry riddled with conflicts of interests.**
+
+### Data Sharing Spaces (The Open Music Observatory)
+
+The fragmentation of today’s music metadata ecosystem forces every institution — rights managers, distributors, libraries, archives — to repeat the same documentation work in parallel. This wastes scarce resources and leaves smaller actors unable to keep up with the standards set by global platforms. Cooperation is therefore not only a question of efficiency, but of survival. Shared workflows can reduce duplication and, at the same time, create the **critical mass needed to negotiate with vertically integrated platforms** that dominate today’s music economy. Our proposal is to develop a **decentralised data sharing space**, where data captured once can be reused many times across the lifecycle of a work or recording. This is the principle underpinning the Open Music Observatory: not centralisation, but federation and reuse.
+
+The evolution of **data sharing spaces** and our **Unlabel** experiment point to new business practices that integrate legal compliance, organisational coordination, and collaborative workflows. By combining public institutions (libraries, archives) with private distributors in a shared metadata infrastructure, supported by open source tools, we can reduce friction and align incentives. This is not theoretical: Unlabel demonstrates how librarians and rights managers can prepare metadata once for both distribution and long-term preservation.
+
+As Norman Paskin warned two decades ago, standards such as ISRC, ISWC, ISMN, ISNI, and VIAF were developed in silos, without sufficient attention to interoperability. The result is inefficiency: named entity resolution today can consume up to **30% of back-office costs** in rights organisations and distributors. We do not reject standardisation — notation itself shows its long-term value — but we argue for a pragmatic, **pattern-based and modular approach** to standards, avoiding monolithic frameworks while improving crosswalks and reconciliation.
+
+European regulation has both improved and complicated metadata practices. The Collective Rights Management Directive improved transparency, while the GDPR created new compliance burdens for names and personal data that remain essential for attribution. Regulation should be recalibrated to **support coping with metadata pressures, not add to them**. We will review these cases and suggest adjustments.
+
+Europe has invested heavily in infrastructures such as the **European Open Science Cloud (EOSC)**, the **European Collaborative Cloud for Cultural Heritage (ECCCH)**, and **Europeana**. Yet these often remain disconnected from the highly digital private sector of the music industry. Better public-private alignment is needed. We argue for **bridges between public investment and industry use cases**, so that collective resources support both cultural preservation and competitive participation in digital markets.
+
+
+### Applications: AI that Serves the Music Ecosystem
+
+Advanced data documentation has so far been the preserve of large technology companies. They employ data engineers, ontologists, and machine-learning experts to automate the collection and management of music metadata — a capability that has directly increased their market share at the expense of rightsholders. To close this gap, **technological adaptation must reach small and micro companies** as well. Open-source software, ontology design patterns, and libraries that package the latest advances in information science and AI can be embedded into the everyday workflows of labels, publishers, and cultural institutions. In this way, rightsholders and memory institutions alike can benefit from automation and reconciliation tools without the prohibitive costs of in-house R&D. Our pilots demonstrate how such adaptation can be made practical and affordable.
+
+The **AI adaptation and cooperative infrastructures** dimension recognises that most stakeholders — micro-enterprises, NGOs, and even CMOs — cannot attract or retain scarce AI expertise. Instead of expecting each actor to develop in-house capacity, Europe must invest in shared AI infrastructures, open-source tools, and collaborative governance. This requires both educating the sector about what AI really is — agentic, generative, and curative — and building collective resources that allow smaller actors to benefit without dependence on global platforms.
+
+Shared AI services could operate as pooled utilities behind clear agreements: reconciliation-as-a-service, watchlists for plagiarism and near-duplicates, machine-assisted translations and summaries for archives and deposits, and automated assistance for identifier coverage. Governance must include explainability notes, audit logs, error budgets, and “green lists” of permissible automations per partner. Standards and licensing for models and data, GDPR and consent for personal data, and targeted public investment in cooperative AI infrastructures all form part of the solution.

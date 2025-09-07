@@ -3,7 +3,8 @@ project:
   output-dir: _book
 
 book:
-  title: "Policy Brief"
+  title: "A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem"
+  subtitle: "Practical Steps Towards a Decentralised and Open European Music Observatory"
   author:
      - name: "Daniel Antal, CFA"
        orcid: 0000-0001-7513-6760
@@ -19,7 +20,7 @@ book:
      - name: "Mester, Anna Márta"
        role: "Contributor"
        orcid: 0000-0001-7513-6760
-  date: "2024-06-09"
+  date: "2024-09-07"
   repo-url: https://github.com/dataobservatory-eu/open-music-data-white-paper
   repo-actions: [edit]
   chapters:

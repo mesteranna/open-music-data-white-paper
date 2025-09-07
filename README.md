@@ -15,7 +15,7 @@ chapters:
 
 ## Bibliographical references
 
-The bibliographic references are organised by themese, and they are stored in the `bib` folder. See for example `mme.bib`.
+The bibliographic references are organised by themes, and they are stored in the `bib` folder. See for example `mme.bib`.
 
 -   `bib/administrativedata.bib`: bibliography on administrative data sources in statistics.
 
