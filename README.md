@@ -2,7 +2,6 @@
 
 Change history
 
-
 ## Main files for the report
 
 chapters:
@@ -11,13 +10,15 @@ chapters:
 
 -   `glossary.qmd`: Glossary
 
--   `context.qmd`: Source file of the _Policy Context & Problem Map_ chapter.
+-   `context.qmd`: Source file of the *Policy Context & Problem Map* chapter.
 
--    `curation.qmd`: Source file of the _Data Collection, Improvement & Exchange_ chapter.
+-   `curation.qmd`: Source file of the *Data Collection, Improvement & Exchange* chapter.
 
--   `obsevatory.qmd`: Source file of the _The Open Music Observatory as a Data Sharing Space_ chapter.
+-   `obsevatory.qmd`: Source file of the *The Open Music Observatory as a Data Sharing Space* chapter.
 
+-   `conclusions.qmd` A placeholder for conclustions.
 
+-   `references.qmd`: A placeholder start printing the bibliographic references.
 
 ## Bibliographical references
 
@@ -25,9 +26,9 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/administrativedata.bib`: bibliography on administrative data sources in statistics.
 
--    `bib/BVDA.bib`: resources from the Big Data Value Association.
+-   `bib/BVDA.bib`: resources from the Big Data Value Association.
 
--    `bib/CISAC.bib`: resources related to CISAC and the ISWC system.
+-   `bib/CISAC.bib`: resources related to CISAC and the ISWC system.
 
 -   `bib/collections.bib`: bibliographic entries for theories and conceptualisations of collections.
 
@@ -37,7 +38,7 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/decolonisation.bib`: Bibliography related to heritage decolonisation and repair.
 
--    `bib/eulaw.bib`: European legal acts and jurisprudence.
+-   `bib/eulaw.bib`: European legal acts and jurisprudence.
 
 -   `bib/eupolicies.bib`: European policy papers.
 
@@ -49,7 +50,7 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/metadata.bib`: General metadata literature.
 
--   `bib/MLC.bib`: resources related to the _Mechanical Licensing Collective_.
+-   `bib/MLC.bib`: resources related to the *Mechanical Licensing Collective*.
 
 -   `bib/mme.bib`: Music Moves Europe policy documents bibliography.
 

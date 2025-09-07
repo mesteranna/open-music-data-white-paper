@@ -1,4 +1,4 @@
-# Applications: AI that Serves the Music Ecosystem {#sec-ai}
+# AI that Works for Music, Not Against It {#sec-ai}
 
 The European Parliament’s resolution on the music streaming market warns of the risks that AI-generated content poses for *discoverability, attribution, and fair remuneration* if metadata remains incomplete or unreliable. At the same time, the *Music Ecosystem 2025* study highlights that AI will be both a disruption and an opportunity: while it can overwhelm systems with synthetic material, it also offers tools to automate documentation, reduce costs, and strengthen evidence-based policymaking [@music_ecossytem_2025, pp.23–24].  
 
