@@ -49,8 +49,7 @@ Recent research extends this point further. In the age of abundant data, cultura
 
 ### Data Sharing Space
 
-Taken together, these developments highlight that both cultural statistics and broader evidence for cultural policy are produced in federated, decentralised ways — a reality that any future European Music Observatory must acknowledge and build upon.
-
+Taken together, these developments highlight that both cultural statistics and broader evidence for cultural policy are produced in federated, decentralised ways — a reality that any future _European Music Observatory_ must acknowledge and build upon.
 
 The broader policy direction is clear. As the BDVA/DAIRO Federation Working Group notes, *“federation is a key enabler of European data spaces, allowing diverse actors to interoperate without relinquishing control over their data”* [@federation_wg_position_2023, p4]. Centralised data lakes may seem attractive for efficiency, but they cannot accommodate the diversity of governance regimes, incentive structures, and sovereignty concerns across Member States and sectors.  
 

@@ -35,9 +35,11 @@ Our document has been presented and discussed with industry specialists on the f
 - Slovak national stakeholders interested in cultural data
 
 
-[^iamic]: See the presentation and its poster format [@skcmdb_iamic_poster_2024].
+[^iamic]: We presented and discussed these ideas at the _International Association of Music Information Centres_ on the General Assembly and Annual Conference 2024 on November 21, 2024, at Music Austria, Vienna. See the presentation and its poster format [@skcmdb_iamic_poster_2024].
 
-[^slovak]: [@antal_slovak-cult-stat-pilot]
+[^iaml]: We presented and discussed these ideas at the _International Association of Music Libraries, Archives and Documentation Centers_ on the General Assembly and Annual Conference  7th and 9th of July 2025 in Salzburg, Austria. See the presentation and its poster format [@skcmdb_iaml_presentation_2025; @skcmdb_iaml_poster_2025].
+
+[^slovak]: Based on a memorandum of understanding with a broad range of public and private stakeholders, [@open_music_europe_sk_mou_2023] we developed a model for renewing statistical production for better cultural and music statistics [@antal_slovak-cult-stat-pilot].
 
 [^hungary]: Federation possibilities of the Slovak music data sharing space in Hungary [@antal_2024_networkshop]
 
