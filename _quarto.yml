@@ -15,11 +15,17 @@ book:
                  country: The Netherlands
                  postal-code: "2516 AH"
                  url: https://reprex.nl/
-  date: "2024-05-20"
-  repo-url: https://github.com/dataobservatory-eu/opencollections-manual
+  contributor:
+     - name: "Mester, Anna Márta"
+       role: "Contributor"
+       orcid: 0000-0001-7513-6760
+  date: "2024-06-09"
+  repo-url: https://github.com/dataobservatory-eu/open-music-data-white-paper
   repo-actions: [edit]
   chapters:
     - index.qmd
+    - context.qmd
+    - problems.qmd
     - references.qmd
 
 bibliography: 
@@ -28,12 +34,18 @@ bibliography:
     - bib/musicmetadata.bib
     - bib/OpenMusE.bib
     - bib/wikidata.bib
+    
+csl: csl/chicago-author-date-17th-edition.csl
 
 format:
   html:
     theme: cosmo
+  docx: default
   pdf:
     documentclass: scrreprt
+    papersize: a4            
+    geometry: top=25mm, bottom=25mm, left=25mm, right=25mm
+    fontsize: 12pt
   epub: default 
 
 editor: visual
