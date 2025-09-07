@@ -117,6 +117,8 @@ This makes Wikibase/Wikidata a pragmatic starting point for federated metadata i
 -   Workflow playbooks: rights→distribution→charting→preservation; change-propagation patterns; provenance trails that survive system boundaries.
 -   Legal/standards/public investment inline: GDPR legal bases per flow; recommended codes of conduct; lightweight policy for data fitness/quality; funding hooks (ECCCH pilots, national ministries).
 
+### Make Open Data Accessible 
+
 ### Alignment with the European Open Science Cloud
 
 Conformance and observability rules in the Open Music Observatory should be designed in line with the European Interoperability Framework (EIF) and the FAIR data principles. This ensures compatibility with wider European data space initiatives and reduces integration costs for institutions already adapting to these standards [@emo_feasibility_2020, p9].
