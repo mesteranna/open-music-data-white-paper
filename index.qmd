@@ -55,11 +55,11 @@ Our document has been presented and discussed with industry specialists on the f
 -   IAML [^index-5]: The *International Association of Music Libraries, Archives and Documentation Centers* and several national chapters and key members.
 -   Polifonia
 -   Slovak national stakeholders interested in cultural data[^index-6]
--   Wikimedia community and developers[^wikimedia]
+-   Wikimedia community and developers[^wikimedia].
 
 [^index-3]: Federation possibilities of the Slovak music data sharing space in Hungary [@antal_2024_networkshop]
 
-[^^wikimedia]: Our work was presented in the Technology session of the Wikimedia CEE Meeting 2024 in Istanbul, and we have built relationships with various national chapters to help our technology development, data curation and dissemination efforts. [@antal_wikimedia_cee_2024]
+[^wikimedia]: Our work was presented in the Technology session of the Wikimedia CEE Meeting 2024 in Istanbul, and we have built relationships with various national chapters to help our technology development, data curation and dissemination efforts. [@antal_wikimedia_cee_2024]
 
 [^index-4]: We presented and discussed these ideas at the *International Association of Music Information Centres* on the General Assembly and Annual Conference 2024 on November 21, 2024, at Music Austria, Vienna. See the presentation and its poster format [@skcmdb_iamic_poster_2024].
 

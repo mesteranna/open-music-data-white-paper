@@ -10,17 +10,26 @@ European policy provides guidance for this balancing act. The *Ethics Guidelines
 
 Against this backdrop, the Observatory proposes AI not as a substitute for human creativity or governance, but as a **shared utility**: a way to pool curative, agentic, and generative services within a federated infrastructure. This ensures that SMEs, non-profits, and community archives gain access to trustworthy AI capacities, reducing costs and risks while preserving diversity and accountability in the European music ecosystem.
 
-### Executive summary (what we propose)
+### Executive summary
+
+::: callout-caution
+This is a pre-releasing editing reminder and placeholder for comments
 
 **Scope:** Top layer: applied services that ride on the data space (curative, agentic, and generative uses); shared AI capacity so SMEs/NGOs aren’t forced to hire scarce talent. - Create *shared AI services* (not bespoke in-house teams) for entity recognition, duplicate detection, cross-catalogue matching, multilingual enrichment, and compliance monitoring.\
 - Educate stakeholders using a simple three-part model of AI (agentic/generative/curative) tied to concrete tasks and guardrails.\
 - Reduce operational and capital costs by embedding AI into metadata, claims, and documentation workflows.\
 - Support creators by embedding metadata from the point of creation, extending the Parliament’s “metadata from birth” principle.
+:::
 
 ## Discussion
 
--   EP resolution on AI-generated flooding and discoverability/remuneration risks [@ep_resolution_music_streaming_2024]; ecosystem report on AI as disruption *and* opportunity.\
--   Practical gaps: SMEs/CMOs lack AI engineers; asymmetry with platform capabilities.
+-   ::: callout-note
+    #### Pre-release reminder and editing space {.unnumbered}
+
+    -   EP resolution on AI-generated flooding and discoverability/remuneration risks [@ep_resolution_music_streaming_2024]; ecosystem report on AI as disruption *and* opportunity.\
+
+    -   Practical gaps: SMEs/CMOs lack AI engineers; asymmetry with platform capabilities.
+    :::
 
 The following subsections highlight lessons from international practice and concrete cases where AI can reduce costs, improve data quality, and create more equitable access to metadata services.
 
