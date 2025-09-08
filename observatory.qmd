@@ -21,6 +21,8 @@ The Open Music Observatory is a cornerstone task of the OpenMusE project (runnin
 
 The Music Ecosystem 2025 report already emphasised that the music sector should be understood as a distributed ecosystem where value and knowledge are held by many small actors [@music_ecossytem_2025, pp6–7]. This perspective reinforces why centralised repositories fail and why federated observatories, built on cooperation and interoperability, are more realistic.
 
+[![Over the past decade, feasibility studies, national reports, and EU pilot projects have laid the foundation for the Open Music Observatory. The roadmap (2014–2026) shows a gradual build-up: from local experiments, through cross-border collaborations, to a European-wide federation aligned with cultural data spaces and interoperability frameworks. This trajectory underlines the Observatory’s pragmatic, step-by-step approach to scaling music data infrastructure. DOI: [10.6084/m9.figshare.30073291.v1](https://doi.org/10.6084/m9.figshare.30073291.v1)](png/OMO/OMO_timeline_20250908.png){fig-align="center"}](https://figshare.com/articles/figure/Timeline_of_the_Open_Music_Observatory_and_European_Music_Data_Initiatives_2014_2026_/30073291/1?file=57754420)
+
 ## Discussion
 
 -   EMO feasibility on scarcity/fragmentation and the need for regular, comparable data; EU dataspace thinking (EIF, FAIR); *Music Ecosystem 2025* on systemic view.
@@ -36,7 +38,7 @@ The heritage sector, including music heritage, has consistently stressed the nee
 
 The two most important industry bodies supporting the commercial circulation of hundreds of millions of music assets, CISAC and IFPI, already operate on principles of federalisation. The ISRC system, managed by IFPI as the International Registration Authority, is inherently decentralised: 58 national agencies allocate prefixes, and codes are assigned by rights owners or their representatives [@isrc_handbook_2021, p5]. This model resembles ISBN for books or ISMN for sheet music: globally unique identifiers achieved through subsidiarity and distributed governance.
 
-CISAC operates CIS-Net, a federated database of works and rights information maintained by its national member societies. Although users access CIS-Net through a centralised interface, the underlying data remains under the stewardship of each member. Likewise, the Mint initiative, launched by CISAC and Armonia Online, shows how shared infrastructure can deliver economies of scale for identifier allocation and metadata management, while avoiding dependence on a single global repository [@cisac_mint_digital_services].
+CISAC operates *CIS-Net*, a federated database of works and rights information maintained by its national member societies. Although users access CIS-Net through a centralised interface, the underlying data remains under the stewardship of each member. Likewise, the Mint initiative, launched by CISAC and Armonia Online, shows how shared infrastructure can deliver economies of scale for identifier allocation and metadata management, while avoiding dependence on a single global repository [@cisac_mint_digital_services].
 
 These federated arrangements are not temporary fixes but structural features of global identifier systems. The ISRC system functions only because allocation is distributed among national agencies [@isrc_handbook_2021, p5], while CISAC’s CIS-Net provides access to rights data without centralising ownership [@cisac_mint_digital_services]. The Observatory builds on this same principle: decentralised stewardship combined with shared interfaces and conformance rules.
 
@@ -118,6 +120,8 @@ This makes Wikibase/Wikidata a pragmatic starting point for federated metadata i
 
 Conformance and observability rules in the *Open Music Observatory* should be designed in line with the *European Interoperability Framework* (EIF) and the FAIR data principles. This ensures compatibility with wider European data space initiatives and reduces integration costs for institutions already adapting to these standards [@emo_feasibility_2020, p9].
 
+[![The Open Music Observatory sits where open science, public sector information reuse, and music industry workflows overlap. By aligning with the European Interoperability Framework, it creates a shared space where libraries, rights managers, publishers, and researchers can collaborate. This positioning highlights OMO’s role as a bridge between cultural heritage, commercial distribution, and open knowledge. DOI: [10.6084/m9.figshare.30073267.v1](10.6084/m9.figshare.30073267.v1)](png/OMO/OMO_Venn_diagram.png){fig-align="center"}](https://figshare.com/articles/dataset/The_Open_Music_Observatory_at_the_Intersection_of_Open_Science_Open_Data_and_Music_Industry_Workflows/30073267?file=57754399)
+
 ### Make Open Data Truly Accessible
 
 The gaps of the *Open Data Directive* are not unique to the music sector. Across Europe, datasets are frequently released in heterogeneous formats, with incomplete metadata, and little harmonisation between Member States. A well-designed **data sharing space** addresses these weaknesses by providing the semantic, technical, and governance building blocks that turn legal openness into practical interoperability.
@@ -131,3 +135,5 @@ For the music sector, a data sharing space anchored in the *Open Music Observato
 [^observatory-4]: Comparative research shows that without prescriptive standards, high-value datasets are released in divergent formats and with incomplete metadata, undermining reuse [@klimek_stirdata_2023, p.184]. Reference models and blueprint components can mitigate this by aligning producers around canonical schemas [@noardo_standards_2024]. Data spaces also address semantic and legal interoperability together — shared vocabularies, certification processes, and trust frameworks reduce uncertainty and lower entry costs for SMEs and public institutions alike [@atzori_dataspaces_2023; @terzis_ehds_2024].
 
 ### Alignment with the European Open Science Cloud
+
+{{< pagebreak >}}

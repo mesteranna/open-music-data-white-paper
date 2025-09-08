@@ -27,41 +27,37 @@ The invention of the computer, and later the internet, introduced new ways to do
 ::: callout-note
 This document is an early-stage policy paper prepared in line with **Open Policy Analysis** and the **Horizon Europe Data Management Guidelines**. It has been released early, with access to its components, to enable meaningful consultation, incorporation of stakeholder ideas, and to provide an auditable development process. It will form the basis for the following outputs:
 
--  _A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem — Practical Steps Towards a Decentralised and Open European Music Observatory_ \[current document\]  
--  Deliverable D5.4 for the _Open Music Europe_ consortium  
--  A White Paper to be discussed at LineCheck 2025 and at the final policy forum of _Open Music Europe_ and its system projects in Brussels, December 2025  
+-   *A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem — Practical Steps Towards a Decentralised and Open European Music Observatory* \[current document\]\
+-   Deliverable D5.4 for the *Open Music Europe* consortium\
+-   A White Paper to be discussed at LineCheck 2025 and at the final policy forum of *Open Music Europe* and its system projects in Brussels, December 2025
 
 **Transparency note:** Following the principles of **Open Policy Analysis**, we have made all related deliverables, including technical documentation, publicly accessible to foster broad stakeholder engagement and ensure a clear audit trail. Supporting documents for each chapter of this Green Paper are referenced in similar information boxes throughout. The current version of this Green Paper (and subsequent White Paper versions) is available at <https://zenodo.org/records/placeholder>. Minor edits, as well as access to standardised folders, figures, and bibliographies, are available at <https://github.com/dataobservatory-eu/open-music-data-white-paper>.
 
-**Funding acknowledgement:** This project has received funding from the European Union’s Horizon Europe programme under Grant Agreement No. [101095295](https://cordis.europa.eu/project/id/101095295). The views expressed are those of the authors only and do not necessarily reflect those of the European Commission or its agencies.[^eu-disclaimer]
+**Funding acknowledgement:** This project has received funding from the European Union’s Horizon Europe programme under Grant Agreement No. [101095295](https://cordis.europa.eu/project/id/101095295). The views expressed are those of the authors only and do not necessarily reflect those of the European Commission or its agencies.[^index-1]
 
-**Citation note:** If you refer to this Green Paper in correspondence, publications, or blog posts, please cite the latest **versioned DOI** available on Zenodo and, if applicable, include the date of access when referring to material on our GitHub repository.[^citation-note]
-
+**Citation note:** If you refer to this Green Paper in correspondence, publications, or blog posts, please cite the latest **versioned DOI** available on Zenodo and, if applicable, include the date of access when referring to material on our GitHub repository.[^index-2]
 :::
+
+[^index-1]: This document has been prepared by Open Music Europe (OpenMusE) project partners as an account of work carried out within the framework of this contract. Any dissemination of results must indicate that it reflects only the author’s view and that the Commission Agency is not responsible for any use that may be made of the information it contains. Neither Project Coordinator, nor any signatory party of Open Music Europe (OpenMusE) Project Consortium Agreement, nor any person acting on behalf of any of them:\
+    (a) makes any warranty or representation whatsoever, express or implied, (i) with respect to the use of any information, apparatus, method, process, or similar item disclosed in this document, including merchantability and fitness for a particular purpose, or (ii) that such use does not infringe on or interfere with privately owned rights, including any party's intellectual property, or (iii) that this document is suitable to any particular user's circumstance; or\
+    (b) assumes responsibility for any damages or other liability whatsoever (including any consequential damages, even if advised of the possibility) resulting from your selection or use of this document or any information, apparatus, method, process, or similar item disclosed herein.
+
+[^index-2]: Always use the latest versioned DOI when citing this Green Paper, available via Zenodo. If you rely on supporting material hosted in the GitHub repository, please add the date of access in your reference.
 
 Our document has been presented and discussed with industry specialists on the following forums:
 
-- Echoes/ECCH:
-- Hungarian stakeholders interested in replication of the Slovak pilot versions [^hungary]
-- CISAC.
-- IAMIC [^iamic]: The _International Association of Music Information Centres_ and several key members of the organisation.
-- IAML [^iaml]: The _International Association of Music Libraries, Archives and Documentation Centers_ and several national chapters and key members.
-- Polifonia
-- Slovak national stakeholders interested in cultural data[^slovak]
+-   Echoes/ECCH:
+-   Hungarian stakeholders interested in replication of the Slovak pilot versions [^index-3]
+-   CISAC.
+-   IAMIC [^index-4]: The *International Association of Music Information Centres* and several key members of the organisation.
+-   IAML [^index-5]: The *International Association of Music Libraries, Archives and Documentation Centers* and several national chapters and key members.
+-   Polifonia
+-   Slovak national stakeholders interested in cultural data[^index-6]
 
+[^index-3]: Federation possibilities of the Slovak music data sharing space in Hungary [@antal_2024_networkshop]
 
-[^iamic]: We presented and discussed these ideas at the _International Association of Music Information Centres_ on the General Assembly and Annual Conference 2024 on November 21, 2024, at Music Austria, Vienna. See the presentation and its poster format [@skcmdb_iamic_poster_2024].
+[^index-4]: We presented and discussed these ideas at the *International Association of Music Information Centres* on the General Assembly and Annual Conference 2024 on November 21, 2024, at Music Austria, Vienna. See the presentation and its poster format [@skcmdb_iamic_poster_2024].
 
-[^iaml]: We presented and discussed these ideas at the _International Association of Music Libraries, Archives and Documentation Centers_ on the General Assembly and Annual Conference  7th and 9th of July 2025 in Salzburg, Austria. See the presentation and its poster format [@skcmdb_iaml_presentation_2025; @skcmdb_iaml_poster_2025].
+[^index-5]: We presented and discussed these ideas at the *International Association of Music Libraries, Archives and Documentation Centers* on the General Assembly and Annual Conference 7th and 9th of July 2025 in Salzburg, Austria. See the presentation and its poster format [@skcmdb_iaml_presentation_2025; @skcmdb_iaml_poster_2025].
 
-[^slovak]: Based on a memorandum of understanding with a broad range of public and private stakeholders, [@open_music_europe_sk_mou_2023] we developed a model for renewing statistical production for better cultural and music statistics [@antal_slovak-cult-stat-pilot].
-
-[^hungary]: Federation possibilities of the Slovak music data sharing space in Hungary [@antal_2024_networkshop]
-
-[^eu-disclaimer]: This document has been prepared by Open Music Europe (OpenMusE) project partners as an account of work carried out within the framework of this contract. Any dissemination of results must indicate that it reflects only the author’s view and that the Commission Agency is not responsible for any use that may be made of the information it contains. Neither Project Coordinator, nor any signatory party of Open Music Europe (OpenMusE) Project Consortium Agreement, nor any person acting on behalf of any of them:  
-(a) makes any warranty or representation whatsoever, express or implied, (i) with respect to the use of any information, apparatus, method, process, or similar item disclosed in this document, including merchantability and fitness for a particular purpose, or (ii) that such use does not infringe on or interfere with privately owned rights, including any party's intellectual property, or (iii) that this document is suitable to any particular user's circumstance; or  
-(b) assumes responsibility for any damages or other liability whatsoever (including any consequential damages, even if advised of the possibility) resulting from your selection or use of this document or any information, apparatus, method, process, or similar item disclosed herein.
-
-[^citation-note]: Always use the latest versioned DOI when citing this Green Paper, available via Zenodo. If you rely on supporting material hosted in the GitHub repository, please add the date of access in your reference.
-
-
+[^index-6]: Based on a memorandum of understanding with a broad range of public and private stakeholders, [@open_music_europe_sk_mou_2023] we developed a model for renewing statistical production for better cultural and music statistics [@antal_slovak-cult-stat-pilot].

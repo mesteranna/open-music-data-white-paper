@@ -62,6 +62,8 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/privatelyhelddata.bib` on the coordination of privately held and government statistical data.
 
+-   `bib/services.bib` future services and service design.
+
 -   `bib/trustworthyAI.bib` on trustworthy AI.
 
 -   `bib/wikidata.bib` bibliography on the use of Wikidata and Wikibase.

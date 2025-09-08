@@ -36,6 +36,11 @@ book:
     - conclusion.qmd
     - references.qmd
 
+citation:
+  container-title: "Open Music Observatory"
+  doi: "10.5281/zenodo.17075796"
+  url: https://example.com/summarizing-output
+
 bibliography: 
     - bib/BVDA.bib
     - bib/datainteroperability.bib
