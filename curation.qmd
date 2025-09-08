@@ -2,16 +2,27 @@
 
 **Scope:** Bottom + middle layers combined: primary data capture/curation; technical & semantic improvement; identifier hygiene; practical exchange between institutions.
 
+::: callout-caution
 ### Executive summary (what we propose)
+
+This is a placeholder
 
 -   Establish shared, low-friction pipelines for capturing and improving music metadata at source (creation, release, registration, distribution, preservation), with simple mechanisms for reuse across stakeholders.
 -   Prioritise persistent identifier coverage and crosswalks (ISWC↔ISRC↔ISNI↔IPN↔VIAF↔Wikidata) to reduce reconciliation costs and leakage.
 -   Produce lightweight exchange patterns (profiles) that smaller actors can actually implement.
+:::
+
+[![Curating data from multiple sources ensures that music information stays accurate, visible, and reusable over time. Reuse (DOI): \[10.6084/m9.figshare.30073888.v1\](https://doi.org/10.6084/m9.figshare.30073888.v1)](png/OMO/OMO_data_curation.png){fig-align="center"}](https://doi.org/10.6084/m9.figshare.30073888.v1)
 
 ## Discussion
 
--   Streaming-era inefficiencies and micro-transaction reality; identifier silos and reconciliation overheads; feasibility/Observatory emphasis on harmonised, comparable data; *Music Ecosystem 2025*’s ecosystem framing.
--   Industry practice: CISAC/IFPI/ISO identifier regimes; library/archives practice on authority files; Wikimedia/Wikidata as low-cost backbone.
+-   ::: callout-note
+    ### These are pre-finalisation notes
+
+    -   Streaming-era inefficiencies and micro-transaction reality; identifier silos and reconciliation overheads; feasibility/Observatory emphasis on harmonised, comparable data; *Music Ecosystem 2025*’s ecosystem framing.
+
+    -   Industry practice: CISAC/IFPI/ISO identifier regimes; library/archives practice on authority files; Wikimedia/Wikidata as low-cost backbone.
+    :::
 
 ### Data fragmentation as a structural fact
 
@@ -82,6 +93,8 @@ Our policy solution is to promote *pattern-based modular alignment*, where small
 \[\^polifonia:\] Working with ontological patterns can be reviewed in [@gangemi_ontology_2005; @blomqvist_engineering_2016; @carriero_pattern-based_2021] as method; the Polifonia project applied it to create a new family of modular music ontologies [@de_berardinis_polifonia_2023].
 
 Other domains provide useful analogies for this approach. For instance, **ORCID** identifiers have been increasingly reconciled with **VIAF** authority files using reconciliation services such as OpenRefine, helping to unify researcher identity across research and library systems without enforcing a single authority file [@openrefine_refine_services, @jegan2023authority]. Similarly, the **DataCite to Dublin Core mapping**, as formalised in DataCite's v4.4 schema, shows how two widely used metadata data repository and library standards can be aligned systematically and bidirectionally, while retaining their distinct schema scopes [@datacite_to_dublincore_2021].
+
+[![Pragmatic metadata alignment relies on modular patterns, not “giga-schemas.” The example shown here from our Wikibase pilot encodes roles, events, and provenance using reusable ontology design patterns. This allowed identifiers from rights management (ISWC, ISRC) to be reconciled with library authorities (ISNI, VIAF), proving that interoperability can be achieved incrementally without forcing any actor to abandon its systems. DOI: [10.6084/m9.figshare.30075379.v1](https://doi.org/10.6084/m9.figshare.30075379.v1)](png/OMO/OMO_DCTERMS_patterns.png){fig-align="center"}](https://figshare.com/articles/figure/Pattern-Based_Metadata_Alignment_Illustrated_Through_a_Wikibase_Record_of_a_Published_Score/30075379)
 
 In music, similar periodic reconciliation is necessary across identifier systems. As Paskin highlighted, **ISRC** (for recordings), **ISWC** (for works), and **ISMN** (for printed music) were designed separately and risk divergence if not actively maintained [@paskin_2006]. The same applies to personal and organisational identifiers like **ISNI**, **VIAF**, and **IPI**. Without regular cross-checking, authority records can fragment, causing duplication and inconsistency.
 

@@ -1,10 +1,10 @@
 # What Europe Should Do Next for Music Data & AI {#sec-conclusion}
 
-Europe’s music ecosystem is under pressure. Streaming pays in micro-royalties, metadata mistakes cost real money, and AI threatens to overwhelm platforms with untracked content. But solutions are within reach. This Green Paper sets out a path forward, built on three pillars: better metadata, shared data spaces, and AI that works for everyone. (See @sec-introduction for the background and policy context.)
+Europe’s music ecosystem is under pressure. Streaming pays in micro-royalties, metadata mistakes cost real money, and AI threatens to overwhelm platforms with untracked content. But solutions are within reach. This Green Paper sets out a path forward, built on three pillars: better metadata, shared data spaces, and AI that works for everyone. (See @sec-policy-context for the background and policy context.)
 
 The first step is to **fix metadata at the source**. Rights societies, platforms, labels, libraries, and archives all capture fragments of information about works and recordings. Today this is done in parallel, wasting effort and creating errors. Smarter pipelines, shared identifiers, and pragmatic exchange patterns can make documentation “capture once, reuse many.” This is not just a technical issue — it’s the foundation for fair royalties and cultural visibility.
 
-See @sec-dataspaces for how shared infrastructures can make this possible.
+See @sec-observatory for how shared infrastructures can make this possible.
 
 The second step is to build **federated data sharing spaces**. Instead of a single giant database, Europe should connect what already exists: collective management systems, heritage archives, and platform catalogues. Each actor stays in control of its own data but agrees to shared profiles, identifiers, and rules. This approach lowers costs, improves trust, and makes cross-border reuse realistic. The Open Music Observatory is our proposal for such a space: not a central repository, but a convening layer that makes decentralisation work.
 
@@ -14,8 +14,8 @@ The third step is to treat **AI as a shared utility**. Big platforms already use
 
 Taken together, these steps close the gap between the *right of reuse* granted by the Open Data Directive and the *means of reuse* that the music industry actually needs. Europe should:
 
-- Support metadata capture and cross-domain identifiers.  
-- Invest in federated data sharing spaces like the Open Music Observatory.  
-- Provide pooled AI services that SMEs, CMOs, and archives can all use.  
+-   Support metadata capture and cross-domain identifiers.\
+-   Invest in federated data sharing spaces like the Open Music Observatory.\
+-   Provide pooled AI services that SMEs, CMOs, and archives can all use.
 
 This is how we make Europe’s music ecosystem more fair, efficient, and future-proof — for creators, for industry, and for audiences alike.

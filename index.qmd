@@ -1,5 +1,7 @@
 # Introduction {.unnumbered}
 
+![](png/Banner_OME_Green_Paper_white.png){fig-align="center"}
+
 There are musical works that are reinterpreted thousands of times across centuries. A symphony by Beethoven or a folk song from the Baltic coast can be heard again and again, each performance producing a new reading of something that never becomes “final.” The same is true of sound recordings. Some perennial recordings are rediscovered after sixty years, remastered, and brought into circulation for new audiences.
 
 Music assets, in other words, have an unusually long lifecycle. This is just as true of their documentation — the metadata that accompanies them from creation to archiving. Metadata does not freeze a work or recording in time. Instead, it evolves with it: from the moment of rights registration, through commercial distribution and playlisting, to preservation in a library or archive. Each new interpretation, remix, or reissue generates new metadata; and each new information system demands new connections and contexts.
@@ -25,24 +27,24 @@ This is not an invitation to reinvent the wheel. We can read Beethoven’s early
 The invention of the computer, and later the internet, introduced new ways to document and transmit music. These innovations brought powerful efficiencies: identifiers like the ISRC and ISWC, digital distribution pipelines, and networked catalogues have enabled the global circulation of music at unprecedented scale. But they also created new fragmentation. Standards proliferated, identifiers failed to interconnect, and workflows designed for one purpose often broke down in another. What was intended as progress sometimes left behind a mess of overlapping, incompatible, or incomplete metadata — a mess that now needs to be cleared up.
 
 ::: callout-note
-This document is an early-stage policy paper prepared in line with **Open Policy Analysis** and the **Horizon Europe Data Management Guidelines**. It has been released early, with access to its components, to enable meaningful consultation, incorporation of stakeholder ideas, and to provide an auditable development process. It will form the basis for the following outputs:
+This Green Paper is an early-stage policy document, prepared in line with **Open Policy Analysis** and the **Horizon Europe Data Management Guidelines**. It has been released early to allow consultation, incorporate stakeholder input, and provide a transparent development process. It will serve as the basis for:
 
 -   *A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem — Practical Steps Towards a Decentralised and Open European Music Observatory* \[current document\]\
--   Deliverable D5.4 for the *Open Music Europe* consortium\
+-   Deliverable D5.7 (Policy Brief) for the *Open Music Europe* consortium\
 -   A White Paper to be discussed at LineCheck 2025 and at the final policy forum of *Open Music Europe* and its system projects in Brussels, December 2025
 
-**Transparency note:** Following the principles of **Open Policy Analysis**, we have made all related deliverables, including technical documentation, publicly accessible to foster broad stakeholder engagement and ensure a clear audit trail. Supporting documents for each chapter of this Green Paper are referenced in similar information boxes throughout. The current version of this Green Paper (and subsequent White Paper versions) is available at <https://zenodo.org/records/placeholder>. Minor edits, as well as access to standardised folders, figures, and bibliographies, are available at <https://github.com/dataobservatory-eu/open-music-data-white-paper>.
+**Transparency note:** Following the principles of **Open Policy Analysis**, all related deliverables and technical documentation are publicly accessible to foster broad engagement and ensure a clear audit trail. Supporting documents for each chapter of this Green Paper are referenced in similar boxes. The current version (and future White Paper drafts) is available at <https://zenodo.org/records/placeholder>. Standardised folders, figures, and bibliographies are available at <https://github.com/dataobservatory-eu/open-music-data-white-paper>.
 
 **Funding acknowledgement:** This project has received funding from the European Union’s Horizon Europe programme under Grant Agreement No. [101095295](https://cordis.europa.eu/project/id/101095295). The views expressed are those of the authors only and do not necessarily reflect those of the European Commission or its agencies.[^index-1]
 
-**Citation note:** If you refer to this Green Paper in correspondence, publications, or blog posts, please cite the latest **versioned DOI** available on Zenodo and, if applicable, include the date of access when referring to material on our GitHub repository.[^index-2]
+**Citation note:** When citing this Green Paper, please use the latest **versioned DOI** available on Zenodo, and include the date of access if referring to material hosted on our GitHub repository.[^index-2]  This is an early version ({{< meta greenpaper.version >}}.)
 :::
 
 [^index-1]: This document has been prepared by Open Music Europe (OpenMusE) project partners as an account of work carried out within the framework of this contract. Any dissemination of results must indicate that it reflects only the author’s view and that the Commission Agency is not responsible for any use that may be made of the information it contains. Neither Project Coordinator, nor any signatory party of Open Music Europe (OpenMusE) Project Consortium Agreement, nor any person acting on behalf of any of them:\
     (a) makes any warranty or representation whatsoever, express or implied, (i) with respect to the use of any information, apparatus, method, process, or similar item disclosed in this document, including merchantability and fitness for a particular purpose, or (ii) that such use does not infringe on or interfere with privately owned rights, including any party's intellectual property, or (iii) that this document is suitable to any particular user's circumstance; or\
     (b) assumes responsibility for any damages or other liability whatsoever (including any consequential damages, even if advised of the possibility) resulting from your selection or use of this document or any information, apparatus, method, process, or similar item disclosed herein.
 
-[^index-2]: Always use the latest versioned DOI when citing this Green Paper, available via Zenodo. If you rely on supporting material hosted in the GitHub repository, please add the date of access in your reference.
+[^index-2]: Always use the latest versioned DOI when citing this Green Paper, available via Zenodo. If you rely on supporting material hosted in the GitHub repository, please add the date of access in your reference. The figures and charts can be found on [FigShare](https://figshare.com/account/home#/projects/129944) and may be reused separately, citing their DOI and, for context, the Green Paper that contains them.
 
 Our document has been presented and discussed with industry specialists on the following forums:
 

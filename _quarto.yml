@@ -4,10 +4,15 @@ project:
   
 execute:
   freeze: auto
+  
+greenpaper:
+  version: "v0.1"
 
 book:
   title: "A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem"
   subtitle: "Practical Steps Towards a Decentralised and Open European Music Observatory"
+  downloads: [pdf, epub, docx] 
+  output-file: green-paper-v01
   author:
      - name: "Daniel Antal, CFA"
        orcid: 0000-0001-7513-6760
@@ -22,7 +27,7 @@ book:
   contributor:
      - name: "Mester, Anna Márta"
        role: "Contributor"
-       orcid: 0000-0001-7513-6760
+       orcid: 0009-0008-2274-8163
   date: "2024-09-07"
   repo-url: https://github.com/dataobservatory-eu/open-music-data-white-paper
   repo-actions: [edit]
@@ -39,7 +44,7 @@ book:
 citation:
   container-title: "Open Music Observatory"
   doi: "10.5281/zenodo.17075796"
-  url: https://example.com/summarizing-output
+  url: https://downloads.reprex.nl/2025/greenpaper/
 
 bibliography: 
     - bib/BVDA.bib
@@ -60,6 +65,7 @@ bibliography:
     - bib/musicmetadata.bib
     - bib/opendata.bib
     - bib/OpenMusE.bib
+    - bib/services.bib
     - bib/trustworthyAI.bib
     - bib/wikidata.bib
     
@@ -68,11 +74,17 @@ csl: csl/chicago-author-date-17th-edition.csl
 format:
   html:
     theme: cosmo
-  docx: default
+  docx: 
+    reference-doc: docx/OpenMusE_simple_template.docx
+    papersize: a4 
   pdf:
     documentclass: scrreprt
-    papersize: a4            
-    geometry: top=25mm, bottom=25mm, left=25mm, right=25mm
+    classoption:
+      - paper=a4
+      - oneside
+      - pagesize
+      - BCOR=0mm
+      - DIV=13   # try 12–13 for ~25 mm; 14–15 for ~20 mm
     fontsize: 12pt
   epub: default 
 
