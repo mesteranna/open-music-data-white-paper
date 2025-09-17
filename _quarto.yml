@@ -48,7 +48,9 @@ citation:
 
 bibliography: 
     - bib/BVDA.bib
+    - bib/eccch.bib
     - bib/datainteroperability.bib
+    - bib/datamodels.bib
     - bib/dataspace.bib
     - bib/decolonisation.bib
     - bib/CISAC.bib

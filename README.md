@@ -32,6 +32,8 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/collections.bib`: bibliographic entries for theories and conceptualisations of collections.
 
+-   `bib/eccch.bib`: European Cultural Heritage Cloud resources.
+
 -   `bib/datainteroperability.bib`: data interoperability literature.
 
 -   `bib/datamodels.bib`: bibliographic entries for data models.

@@ -70,6 +70,34 @@ Studies consistently show that open data remains more of a promise than a realit
 
 This gap is directly relevant to the music ecosystem. Simply publishing datasets under the Open Data Directive does not make them fit for royalty distribution, cultural statistics, or AI-driven discovery. The Open Music Observatory seeks to fill this gap by turning “open data in principle” into **reusable data in practice**, through shared identifiers, metadata profiles, and federation rules.
 
+### Public cultural infrastructures bypass music’s real data flows
+
+Europe has invested heavily in Europeana, ECCCH and other cultural data infrastructures, but their data models and workflows remain weakly aligned with how music metadata is generated and maintained in practice — largely by private actors (labels, distributors, CMOs) who already finished most digitisation, including heritage repertoire. Unlike in the case of old libraries, documentary records in archives, artefacts in museums, where digitisation is mainly funded with public money, in music and film most of the digitisation took place (also for high-value classical, early or folk music) in the private sector.
+
+The _Europeana Data Model_ was based mainly on public collection practices and library models, and it cannot truly handle the fact that music that can be listened to and viewed has at least three creator groups that need to be assigned: authors, producers and performers. We have been proposing solutions for this to Europeana, and we hope that during the remaining period of OpenMusE we will be able to demonstrate our solution (see later.) [^edm]
+
+[^edm]: The Europeana data model largely builds on DCTERMS, which is suitable for handling printed music sheets; they are regularly stored in library systems. Printed music needs a reference for the author and the publisher. However, sound recordings (including video sound recordings) must identify the neighboring rightsholders, the producer and the performer. See our suggestions later in this chapter. [@EDM_2017]
+
+The _Report on a European collaborative cloud for cultural heritage_ (ECCCH report) does not mention music at all. Its scope was conceived around heritage institutions (archives, museums, libraries, monuments), and it overlooked the specific needs of the music sector.[^eccch] The first ECCCH projects focus on digitisation and advanced data infrastructures for cultural heritage, but none address music directly. **AUTOMATA** develops low-cost, AI-assisted digitisation workflows for archaeological ceramics and lithics, integrating enriched 3D data into the cloud. **TEXTaiLES** tackles the specific challenges of textile heritage, creating AI- and sensor-based tools for capturing, preserving, and restoring fabrics. **HERITALISE** advances digitisation across diverse heritage assets, using machine learning, CT scanning, HBIM, and XR/VR services for immersive representation and conservation. **ECHOES** establishes the core European Cultural Heritage Cloud, building a shared platform with interoperable tools, metadata vocabularies, and training for heritage professionals. We tried to establish contact with ECHOES, and we also suggested in their cascading grant program to fit in large music datasets that handle all aspects of music metadata; one of them was eliminated in the first stage, the other, related to a conceptual exploitation pathway of our Open Music Observatory, the Finno-Ugric Data Sharing Space, may still be able to try to insert music data into the ECCCH.
+
+[^eccch]: _Report on a European collaborative cloud for cultural heritage – Ex–ante impact assessment_ [@eccch_report_2022]
+
+Even the **Polifonia project**, which we cited earlier as a good example and whose methodology we could use well, was "blind" to the private data infrastructure of music. While it created a set of modular ontologies, it did not cover rights management, and even its central classes for musical works and sound recordings were not fully aligned with the ISWC and ISRC standards used by industry to identify and register musical works and sound recordings.
+
+This misalignment is structural, not incidental. The result is duplication and gaps: public knowledge graphs and registries don’t interoperate smoothly with industry identifiers (ISRC/ISWC/ISNI/IPN), reconciliation is costly, and culturally significant catalogues stay under-used across public and commercial systems. This is a missed opportunity for both sectors. 
+
+### Alignment with the European Open Science Cloud (EOSC)
+
+The **European Open Science Cloud (EOSC)** is intended as Europe’s flagship infrastructure for sharing and reusing research data across domains. By “EOSC data model” we mean the conceptual and technical framework that enables EOSC to function as a federated, distributed, and interoperable ecosystem for research data, tools, and services.
+
+In practice, EOSC remains highly complex and fragmented, and its connections to music are limited. Music has been touched only tangentially, mainly through the work of **DARIAH-EU** (*Digital Research Infrastructure for the Arts and Humanities*), which has supported humanities-driven approaches to digital musicology but not the broader music ecosystem. Yet, just like in ECCCH, we see music underrepresented in the DARIAH-EU system.
+
+In our understanding, the **ECHOES** project aims to build interoperability with cultural data providers as well as EOSC.  
+
+Our projects already interact with EOSC through **Zenodo** and **OpenAIRE**. We deposit music-related datasets on Zenodo, ensuring visibility, persistence (via DOIs), and EOSC integration. This creates a foothold for music data within EOSC, and we see that some of our deposits are highly visited. However, so far we do not see a clear curatorial pathway for music-related research being deposited in large quantities to EOSC, or industry being able to easily utilise music data from EOSC. 
+
+From a policy perspective, EOSC should not be overlooked: it is the default European infrastructure for open science, and cultural heritage and creative industry data are increasingly expected to align with it. For music, this means recognising where EOSC provides real value — long-term preservation, persistent identifiers, cross-domain discovery — while also acknowledging its gaps in rights-aware, industry-aligned metadata. Our strategy is to use EOSC as a **public backbone for open deposits**, while federating more specialised infrastructures (such as the Open Music Observatory) to ensure that music’s specific needs for identifiers, attribution, and rights management are respected.
+
 ### European Interoperability Framework
 
 The **European Interoperability Framework (EIF)** is the European Commission’s reference model for building interoperable digital public services across Member States. It defines interoperability not only in technical terms, but also across legal, organisational, and semantic layers, ensuring that administrations can exchange data and services smoothly while respecting national sovereignty.
@@ -142,6 +170,28 @@ For the music sector, a data sharing space anchored in the *Open Music Observato
 
 [^observatory-4]: Comparative research shows that without prescriptive standards, high-value datasets are released in divergent formats and with incomplete metadata, undermining reuse [@klimek_stirdata_2023, p.184]. Reference models and blueprint components can mitigate this by aligning producers around canonical schemas [@noardo_standards_2024]. Data spaces also address semantic and legal interoperability together — shared vocabularies, certification processes, and trust frameworks reduce uncertainty and lower entry costs for SMEs and public institutions alike [@atzori_dataspaces_2023; @terzis_ehds_2024].
 
+### Connect to Europeana & ECCCH
+
+
+
+We are not only pointing out gaps — we are also building bridges. In 2024, we formally requested to become a **Europeana data provider**, with the intention of delivering a dataset larger than Europeana’s current music holdings. Our pilot shows that even the existing EDM can be used to expose a much richer set of music for listening and viewing, though some modernisation will be inevitable. This would demonstrate that music can be integrated into Europeana without waiting for a full re-engineering of its model.
+
+We also submitted **two cascading grant proposals** to the ECHOES consortium, seeking to demonstrate how music metadata can flow across both public and private infrastructures. One proposal — based on Livonian folk music from the Latvian Archives of Folklore — was unsuccessful, but another, linked to our **Finno-Ugric Data Sharing Space** (a conceptual pathway of the Open Music Observatory), may still enable insertion of music data into ECCCH. Regardless of funding outcomes, we see value in dialogue between the ECHOES/ECCCH data model and the Open Music Observatory’s model.
+
+Our choice of **Wikibase/Wikidata** as the technical backbone is deliberate. Wikidata has proven its ability to connect public and private infrastructures at global scale, and it is formally recommended by the EU Publications Office as a semantic authority. Wikibase offers a pragmatic way to map elements of public and private ontologies, enabling cooperation without forcing either side to abandon its systems. With Google among its early supporters, Wikidata is today the largest open graph in the world — an infrastructure already woven into the backbone of the web.
+
+Our approach is one of **ontological pragmatism**: using tested, open technologies to bridge gaps, while focusing on the harder legal and organisational aspects of interoperability in a public-private setting. This makes the Open Music Observatory not just another cultural repository, but a realistic path towards aligning music’s real data flows with Europe’s wider cultural data infrastructures.
+
+
+
 ### Alignment with the European Open Science Cloud
+
+
+#### Other
+
+**Bridge cultural clouds and market workflows via a federated Music Data Sharing Space.**  
+Position the Open Music Observatory as the *convening + conformance + observability* layer that connects ECCCH/Europeana and GLAM authority files with industry pipelines. Concretely: (1) **capture once, reuse many** across creation→registration→distribution→preservation; (2) require **minimal profiles** that smaller actors can actually implement; (3) prioritise **identifier crosswalks** (ISRC↔ISWC↔ISNI↔VIAF/Wikidata) and change-propagation; (4) use **Wikibase/Wikidata** as a low-friction backbone where appropriate; (5) govern with EIF/FAIR-aligned rules, auditability, and PPP participation so rights-holders and memory institutions keep stewardship while interoperating. 
+
+This reframes Europe’s investments from siloed repositories into a shared **data space** that lowers reconciliation costs, respects subsidiarity, and makes cultural metadata usable across public and commercial contexts — the practical foundation for any future European Music Observatory. 
 
 {{< pagebreak >}}
