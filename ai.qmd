@@ -8,9 +8,21 @@ Artificial intelligence is therefore central to the future of Europe’s music e
 
 European policy provides guidance for this balancing act. The *Ethics Guidelines for Trustworthy AI* underline that AI must be lawful, ethical, and robust throughout its lifecycle [@ethics_guidelines_trustworthy_ai_2019]. The *Getting the Future Right* report by the Fundamental Rights Agency stresses the need to align AI with fundamental rights, especially where vulnerable groups and cultural participation are concerned [@getting_the_future_right_2020]. Most recently, the **AI Act** enshrines a risk-based regulatory framework, defining obligations for providers and deployers of AI systems while reaffirming the principles of subsidiarity and proportionality in EU digital policy [@ai_act_2024].
 
+Our own engagement with these issues began with the *Listen Local* feasibility study in 2020. By experimenting with the Spotify API, we discovered that Slovak users were rarely recommended Slovak music — not because Spotify was at fault, but because the data about local repertoire was sparse. Spotify’s open API was, in fact, uniquely transparent compared to competitors, and it enabled us to see a larger policy problem: without structured, machine-readable knowledge of diverse repertoires, algorithms cannot deliver fair outcomes. This lesson has guided our work ever since: improving metadata and interoperability is the first step to better AI governance.
+
+::: callout-note
+#### Case Study: Lessons from the Spotify API {.unnumbered}
+
+Our first encounter with AI governance in music came during the *Listen Local* feasibility study (2020). By experimenting with the Spotify API, we found that Slovak listeners were rarely recommended Slovak music. This was not Spotify’s fault. In fact, Spotify’s open API and conceptual documentation gave us more insight than any competing platform (Deezer and Apple never even replied to our requests).
+
+That transparency revealed a deeper policy issue: without structured, machine-readable metadata on diverse repertoires, even the most advanced recommender systems cannot deliver fair results. This insight shaped the rest of our work — showing that better outcomes depend not on blaming algorithms, but on supplying them with the right knowledge.
+:::
+
+Today, the same dynamics are playing out across the ecosystem. **Agentic AI** powers recommender systems and rights management tools; **Generative AI** is spreading rapidly, raising fears for the economic basis of music; and **Inference AI** offers a path to guardrails, cross-checking recommendations against cultural policies (such as local content quotas) or verifying generative outputs against copyright and attribution rules. Our proposal is triangular: agentic, generative, and inference AI should complement and, when necessary, correct each other — always with the human in ultimate control.
+
 Against this backdrop, the Observatory proposes AI not as a substitute for human creativity or governance, but as a **shared utility**: a way to pool curative, agentic, and generative services within a federated infrastructure. This ensures that SMEs, non-profits, and community archives gain access to trustworthy AI capacities, reducing costs and risks while preserving diversity and accountability in the European music ecosystem.
 
-### Executive summary
+#### Executive summary {.unnumbered}
 
 ::: callout-caution
 This is a pre-releasing editing reminder and placeholder for comments
@@ -33,23 +45,71 @@ This is a pre-releasing editing reminder and placeholder for comments
 
 The following subsections highlight lessons from international practice and concrete cases where AI can reduce costs, improve data quality, and create more equitable access to metadata services.
 
-### The U.S. Mechanical Licensing Collective (MLC) as a Metadata Clearinghouse
+### Structural Problems for Music Businesses to Apply AI
 
-The *Mechanical Licensing Collective* (MLC) was created under the U.S. *Music Modernization Act* (2018) and began operations in January 2021. It administers a **blanket mechanical license** for digital streaming and download services, replacing fragmented song-by-song licensing. Its mandate is to ensure that songwriters, lyricists, composers, and publishers receive timely mechanical royalties, while providing transparency through a public works database and member portal [@mlc_annual_report_2021].
+1.  **AI benefits are unevenly distributed.**\
+    Music businesses operate in value chains where platforms and large intermediaries already use agentic, generative, and even inference AI. These actors reap most of the benefits, while smaller publishers, labels, and managers may not even be aware that AI is shaping outcomes in discoverability, rights management, and revenue flows.
 
-From its inception, the MLC inherited more than **\$424 million in unmatched royalties** from digital service providers (DSPs)—funds that could not be allocated because works were not properly registered or matched. These unmatched sums must eventually be distributed, and if they cannot be claimed, they are paid out to publishers on a market-share basis. For independent songwriters, this creates both an opportunity and a risk: registration with the MLC is free, but failure to register means royalties may be permanently lost.
+2.  **AI impacts the bottom line in multiple ways.**
 
-The MLC highlights a systemic lesson: identifiers like ISWC and ISRC must be correctly captured and maintained at source, or royalties remain trapped in the “black box.” To address this, the MLC has developed **matching and reconciliation routines** and offers search tools so creators can check whether their works are properly registered. Education remains a critical challenge, since many independent songwriters incorrectly assume that affiliation with ASCAP, BMI, or SESAC (performance rights organisations) covers mechanical royalties as well.
+-   *Operating costs (OPEX):* Most European music is released by self-publishers or very small labels who cannot afford dedicated staff for documentation or accounting. They save costs by using Excel or freelance accountants, but per unit this is very expensive and leads to poor metadata. As a result, their works perform badly on agentic platforms where poor documentation means poor sales. AI could sharply reduce documentation and claims costs — but deploying it is not easy.
 
-By late 2022, the MLC had already distributed nearly **\$700 million in royalties**, but its operations also illustrate the fragility of metadata-dependent systems. In 2025, it filed—and lost—a high-profile lawsuit against Spotify, which had sought to classify audiobooks within its music service to reduce royalty obligations [@varghese_blackbox_2024]. This underscores that even with centralised licensing, **governance and enforcement remain contested**.
+-   *Capital costs (CAPEX):* Investing in proper IT or ERP systems is rarely viable at small scale. A system that pays off when managing a million works is wasteful when managing 3,000. Curative AI could extend the life of outdated IT and reduce the need for costly replacements.
 
-For European debates, the MLC demonstrates how a large-scale, rights-compliant clearinghouse can consolidate reporting, improve metadata quality, and distribute royalties more transparently. Yet it also shows the **limits of centralisation**: creators still need to actively claim and maintain their records, education gaps persist, and disputes between collective agencies and global platforms remain unresolved.
+-   *Working capital:* Many rightsholders experience late or missing royalty payouts, even for well-known artists, because the cost of claiming is high compared to the low value of claims. This ties up cash between payment periods. AI could accelerate claims processing and improve matching, smoothing liquidity.
 
-### Economies of Scale in Metadata
+-   *Sales:* While dedicated “sales AI” projects are often prone to failure, in music most transactions already run through agentic AI on platforms like Spotify, YouTube, TikTok, and Apple Music. Simply providing these agents with better documented music can improve sales outcomes without the need for standalone sales AI.
 
-Large platforms and major labels manage to document millions of assets in parallel, achieving economies of scale that smaller actors cannot match. By contrast, for SMEs, non-profits, or community archives, the cost of documentation per asset is disproportionately high, often exceeding the commercial value of the repertoire. This gap explains why so many “frozen” assets remain unregistered and invisible in the digital ecosystem.
+3.  **Generative AI is only part of the problem.**\
+    Public debate often focuses on generative AI flooding the market with unlimited non-copyrighted music, which can devalue existing repertoires. This is a real issue, but it is not the only one. Agentic AI in distribution platforms has been shaping the market for at least 14 years, determining who gets discovered, listened to, and paid — long before generative AI became a concern[^ai-1].
 
-Agentic AI, if deployed within a shared knowledge base and aligned with modular ontologies in a federated data sharing space, can reduce operational expenditure (OPEX) by automating repetitive documentation tasks. This would allow smaller players to benefit from the same scale effects as the global platforms, without compromising quality or compliance. The frozen asset case is only the most visible example: AI-enabled economies of scale would lower costs across the entire long tail of music assets.
+4.  **Severe talent shortages.**\
+    Recruiting and integrating digital expertise is difficult across industries, but especially in music where most enterprises are micro-enterprises. A Chief Data Officer (CDO) is often recommended, yet unrealistic for most publishers, labels, or agencies. Even Fortune 500 companies — far larger than Europe’s 50,000 “large” enterprises — report persistent difficulties in filling CDO and AI leadership roles. With 23 million SMEs in Europe, and several hundred thousand music entities, usually with less than 2 people in full-time positions, this AI and data talent shortage cannot be solved on an individual business level[^cci_size].
+
+[^cci_size]: According to Eurostat’s *Culture statistics — 2023 edition*, cultural and creative industry (CCI) enterprises in the EU are overwhelmingly micro-enterprises. More than 95\% employ fewer than 10 people, and the average enterprise size across the sector is below two employees [@eurostat_cultural_statistics_2023]. This structural feature explains why most music publishers, labels, and agencies lack in-house IT, accounting, documentation, or HR functions — and why recruiting specialised AI or data talent is unrealistic without shared infrastructures.
+
+
+[^ai-1]: Surveys and management research confirm these patterns. PwC’s *Global CEO Survey* shows how quickly generative AI rose from a marginal issue in 2023 to a central boardroom concern by 2024–25, though most executives expressed only “bounded optimism” [@pwc_ceo_survey_2024]. Bloomberg and BCG’s *CEO Radar* tracked quarterly earnings calls in 2025, reporting a 100% increase in references to AI and machine learning, but also rising caution about productivity claims [@bloomberg_bcg_ai_2025]. MIT’s *Project NANDA* concluded in August 2025 that 95% of enterprise generative AI initiatives failed to deliver measurable value, with back-office automation offering the clearest returns [@mit_nanda_2025]. These findings mirror evidence from talent studies: Gartner’s *CDO Survey* reports persistent shortages in chief data officer and AI leadership roles, even among Fortune 500 companies [@gartner_cdo_survey_2024], while PwC’s *Digital IQ* survey highlights the difficulties of capturing ROI on digital transformation and AI investments [@pwc_digital_iq_2023].
+
+### European Regulation That Misses the Point
+
+Europe prides itself on having some of the world’s strictest AI rules. Compared to the United States and China, the EU has adopted a risk-based framework in the **AI Act**, with strong obligations for high-risk systems (such as self-driving cars) and lighter rules for low-risk ones. But this framework is poorly suited to music.
+
+Music was classified as “low-risk” on the assumption that nobody is harmed by being offered a bad song. This framing ignores how **agentic AI governs the marketplace itself**. If recommendation systems consistently fail to show music by women, small nations, or minorities, they devalue those repertoires to zero by depriving them of discoverability. Copyright value is based on the present value of expected royalty flows; if works are never recommended, those flows vanish, and with them the rights protected under EU law and international treaties.
+
+In other words: Europe regulates AI strictly where physical safety is at stake, but does not protect cultural diversity, women’s authorship, or the economic rights of creators. What is framed as “low-risk” can in practice be *systemically high-risk* for the music ecosystem. This problem is then reflected in the actual design of commercial or institutional AI systems.
+
+### Policy Issues at the Intersection of AI, Copyright, and GDPR {#sec-gdpr-ai}
+
+AI in music does not operate in a legal vacuum. It interacts with existing European law on intellectual property, author’s rights, moral rights, and data protection. In practice, this creates tensions and unresolved policy gaps that directly undermine cultural policy goals. This governance problem builds directly on the interoperability failures described in @sec-gdpr-observatory.
+
+1. **Attribution vs GDPR.**  
+   The Treaty on the Functioning of the European Union enshrines protection of intellectual property. European copyright law gives authors moral rights, including attribution. Yet GDPR may prohibit storing or publishing the same identifying data needed to respect these rights. In the absence of jurisprudence from the Court of Justice of the EU or guidance from competent data protection authorities, actors who try to give proper attribution risk GDPR penalties. This legal uncertainty has direct implications for AI:  
+   - If attribution is blocked, it becomes impossible to test whether AI systems treat authors fairly.  
+   - More broadly, GDPR makes it difficult to safeguard against algorithmic discrimination if information on gender, nationality, or other attributes cannot legally be used.  
+
+2. **Local content protection gaps.**  
+   In broadcasting, local content quotas were established in line with WTO rules to safeguard cultural diversity (e.g. Slovak radios playing at least 20% Slovak music). Similar obligations now exist in audiovisual streaming. But in music streaming there are no binding European diversity or local content rules. This creates two problems:  
+   - AI-driven distribution platforms can crowd out local repertoire with global catalogues, depriving smaller nations of audiences.  
+   - Even where voluntary quotas exist, compliance depends on knowing the origin of repertoire. If we cannot know whether a work is Slovak, French, or by a young author, quotas or diversity targets cannot be implemented.  
+
+3. **Voluntary compliance is impractical.**  
+   Current practice relies on voluntary measures by radio editors, festival curators, or platform users to include local or diverse content. But without accessible data, this becomes unworkable. Our own experiments with GDPR balancing tests and opt-ins show the futility of this approach. Fewer than 1% of artists responded to requests to consent to attribution data — even prominent Slovak artists, puzzled at being asked to consent to rights they already legally hold.  
+
+In short, **AI cannot be made trustworthy for music without resolving these legislative and policy blocks**. The AI Act currently misplaces risk, treating music as “low-risk” while ignoring systemic harms. GDPR, in practice, blocks data use that would enable fairness testing. And the absence of local content rules in streaming removes a cornerstone of cultural policy. AI in music will remain misaligned with European policy goals unless these conflicts are addressed.
+
+
+### AI Design Without Awareness of Limits
+
+AI systems are not usually designed with an awareness of their own conceptual limits.
+
+-   **Agentic AI** systems (recommenders, playlist builders, rights-management bots) operate without recognising the biases or incompleteness of the datasets they learn from. Because European legislation deems the agentic use of AI in music "low risk", currently there are no real expectations to address this problem.
+
+-   **Generative AI** produces synthetic material without constraints, and its training processes seldom acknowledge gaps or skew in the underlying data. This problem touches upon various issues that we discussed earlier in this paper: author's rights and peformer rights are assigned to natural persons (and their heirs), as well as sometimes producer's rights, too. GDPR currently appears to be at conflict with both designing safer AI system, and generally to provide proper attribution without legal risk to creators of protected work. We could technically guardrail generative AI to not produce plagiarism, but not without giving it access to whose work is forbidden.
+
+-   Even **Inference AI**, which is supposed to reason from formal rules, can miss the point: ontological relativity and incompleteness are structural limits and not not optional refinements. We discussed in the @sec-curation, and just as well as databse designers must be aware that that no ontology or schema is ever complete, AI engineers must realise that they train algorithms that cannot capture all perspectives. Without this awareness, AI will silently reproduce exclusions — whether of women, minorities, or smaller repertoires — while appearing “intelligent.”
+
+This is a design issue: the guardrails must be built in from the start, not bolted on afterwards. We see a lot of promise in builidng Inference AI tools, perhaps in a public-private partnership, that can actually provide help for human-in-control principles for the use of agentic and generative AI.
 
 ### Unfreezing Frozen Assets
 
@@ -57,11 +117,7 @@ Many music assets remain “frozen” because their documentation costs exceed t
 
 The *Unlabel* pilot illustrates this problem: by treating catalogue transfers and documentation as high-cost, high-friction processes, valuable repertoires remain locked away. AI-assisted metadata repair and DDEX-compliant catalogue transfer workflows provide a pathway to lower costs and bring neglected repertoires back into circulation.
 
-### AI and Smarter Capital Expenditure
 
-For small-to-medium actors such as CMOs, music information centres, and libraries, IT systems are a major capital expense. Many run on amortised or obsolete infrastructure that is expensive to maintain, upgrade, or replace. Traditional CAPEX planning assumes periodic replacement cycles, but this is not realistic for institutions with constrained budgets.
-
-Curative and reparative AI can extend the useful life of such systems by translating, reconciling, and enriching outputs from outdated software. For example, an AI service can process legacy royalty accounting exports, standardise them against current identifier regimes, and feed them into observatory workflows. This reduces the urgency of costly IT replacement while preserving interoperability.
 
 ### AI Support for Investment Into New Repertoire Assets
 
@@ -69,21 +125,93 @@ While generative AI that disregards human repertoires can undermine cultural val
 
 This perspective aligns with the European Parliament’s call for “metadata from birth” [@ep_resolution_music_streaming_2024], but it goes further. AI can not only generate metadata automatically at the moment of creation, but also support sound recording, scoring, and archiving processes directly, ensuring that new assets enter circulation with complete, interoperable metadata.
 
-### Embedding AI in Creative Workflows Instead of Replacing Creatives
+## Policy Proposals: Aligning AI with Governance and Value Creation
 
-We propose to embed AI services directly into music creation and distribution tools, so that metadata is generated and validated as part of the creative process. These services should respect human authorship and repertoires, while reducing costs for creators by automating documentation and identifier allocation. Public support could incentivise software vendors and open-source projects to integrate such features, ensuring that SMEs, independent artists, and non-commercial creators also benefit. This would extend the Parliament’s “metadata from birth” principle into a broader vision of *creation with embedded metadata*, lowering barriers for creators and strengthening the metadata foundations of the European music ecosystem.
+Generative AI and related technologies are now woven into the global creative economy. But value is not created by algorithms alone — it comes from governance, curated data, and institutions that ensure trust. Policy interventions are therefore needed on three levels: **EU**, **industry**, and **organisational**.
 
-## AI for Working Capital Optimisation
+Our policy brief proposal is focused on the data needs and metadata improvements of the music industry, i.e., from labels via distributors, promoters, talent managers, and not on the creative process of making or generating new music.
+
+### EU-Level Policy: Compass and Guardrails
+
+-   **Embed cultural sector in the EU AI Act & Data Spaces**\
+    Ensure that the implementation of the EU AI Act and European Data Spaces addresses the needs of music, cultural heritage, and creative industries.\
+-   **Subsidise “shared AI utilities”**\
+    Fund pan-European AI services for identifier reconciliation, metadata repair, and plagiarism/fraud detection. These should be open to CMOs, archives, publishers, and SMEs.\
+-   **Adopt “metadata from birth” principles**\
+    Require EU-funded projects and subsidised AI tools to embed ISNI/ISWC/ISRC identifiers at the point of creation, enabling downstream interoperability.\
+-   **Tax incentives for onboarding frozen assets**\
+    Provide financial support for digitising and enriching under-documented back catalogues, unlocking dormant cultural and economic value.
+
+<!--- Possible illustration: how EU supported cross-border rights infrastructures (e.g. ARMONIA Online) and how similar support could fund AI utilities --->
+
+#### Towards a Real Solution
+
+For AI systems, voluntary GDPR workarounds are not enough. As already discussed in @sec-gdpr-curation, attribution is indispensable but legally uncertain under GDPR. If attribution data cannot be processed with legal certainty, then recommender systems cannot be tested for fairness, quotas cannot be monitored, and generative AI cannot be constrained against plagiarism. 
+
+The real solution must come from EU-level action:  
+- The European Commission could initiate a technical amendment to GDPR clarifying how attribution and identifier data in the cultural and creative sectors should be treated.  
+- The Commission or Member States could bring a test case to the Court of Justice of the EU to resolve the contradiction between copyright attribution and GDPR.  
+- Industry bodies could formally request guidance from Data Protection Authorities, giving operators a clear baseline for processing attribution data.  
+
+Without one of these interventions, AI governance in music will remain fundamentally misaligned with Europe’s own copyright and cultural diversity objectives.  
+
+
+### Industry-Level Policy: Standards and Collaboration
+
+-   **Codes of conduct for AI in music**\
+    Following the GDPR “codes of conduct” model, CISAC, IFPI, IAML, IAMIC and others should develop voluntary but enforceable standards for trustworthy AI in music documentation, licensing, and claims.\
+-   **Identifier crosswalks**\
+    Extend interoperability across existing identifier systems (ISRC ↔ ISWC ↔ ISNI ↔ VIAF), ensuring AI tools can reconcile and enrich catalogues across domains.\
+-   **Federated AI services**\
+    Build shared AI services at the sector level (claims automation, multilingual reconciliation, watchlists), to avoid duplication and ensure critical mass.\
+-   **Sectoral training and reskilling**\
+    Coordinate industry-wide training initiatives to address the talent gap in data stewardship and AI governance within the creative economy.
+
+<!--- Case study to add: CISAC and ICE’s work on cross-border licensing; or the MLC (US) as a model of pooling metadata + AI-assisted claims --->
+
+
+#### AI for Working Capital Optimisation
 
 For many rightsholders, especially smaller ones, cash flow is delayed because of slow or inefficient links between their systems and platforms, or between authors, publishers, and collective management organisations. Uploads, claims, and distributions are often handled through manual, fragmented processes that increase transaction costs and tie up working capital.
 
 AI can support working capital optimisation by enabling cheaper API-based liaisons with platforms and CMOs, automating the management of routine claims, and improving the matching of works and recordings. This reduces delays and transaction friction, allowing creators and small organisations to access revenue more quickly.
 
-## Policy Proposals
 
--   Operate pooled “AI utilities” behind clear SLAs: reconciliation-as-a-service; watchlists for plagiarism/near-duplicates; machine-assisted translations/summaries for archival deposits.\
--   Governance/ethics by design: audit logs, explainability notes, error budgets; opt-in data sharing; “green list” of permissible automations per partner.\
--   Standards/regulation/public investment inline: model/data licensing; consent and transparency; targeted public funding for shared services.
+### Organisational-Level Policy: Playbooks for CMOs, Publishers, and Archives
+
+### Embedding AI in Creative Workflows Instead of Replacing Creatives
+
+We propose to embed AI services directly into music creation and distribution tools, so that metadata is generated and validated as part of the creative process. These services should respect human authorship and repertoires, while reducing costs for creators by automating documentation and identifier allocation. Public support could incentivise software vendors and open-source projects to integrate such features, ensuring that SMEs, independent artists, and non-commercial creators also benefit. This would extend the Parliament’s “metadata from birth” principle into a broader vision of *creation with embedded metadata*, lowering barriers for creators and strengthening the metadata foundations of the European music ecosystem.
+
+#### Avoid redundandcy
+
+-   **Adopt “capture once, reuse many” workflows**\
+    Ensure metadata captured at creation (song, recording, performance, archive item) can flow across internal and external systems.
+
+We propose to establish AI-enabled metadata services within European data sharing spaces, governed by shared ontologies and ethical guardrails. These services should automate routine documentation tasks (identifier reconciliation, crosswalks, enrichment from external knowledge bases) and distribute the resulting efficiencies across all actors, not just the majors. Public investment should support the creation of open, agentic AI modules that plug into observatory infrastructures and enable SMEs, non-profits, and independent creators to achieve platform-level economies of scale. This would not only unfreeze frozen assets but systematically reduce the OPEX of music metadata management across Europe.
+
+#### CAPEX
+
+-   **Invest in knowledge capital, not just IT CAPEX**\
+    Prioritise ontologies, controlled vocabularies, and multilingual metadata enrichment that can feed into AI tools.
+
+We propose a funding and governance model that prioritises investment in *knowledge capital*—shared ontologies, pattern libraries, and AI modules—rather than continuous replacement of IT assets. By deploying AI to extend the functionality of legacy systems, CMOs and cultural institutions can redirect scarce capital away from hardware/software churn and into data quality, interoperability, and human expertise. This reallocation of CAPEX would create more durable value: instead of buying new IT every five years, institutions would invest in collective intelligence that strengthens the entire music ecosystem.
+
+#### Use shared AI utilities
+
+Subscribe to industry-level services for fraud detection, multilingual enrichment, and claims reconciliation, rather than building isolated tools in-house.
+
+We propose to develop AI-assisted services for claims management and API integration across the European music ecosystem. By lowering the cost of system-to-system communication, these tools would give European SMEs and rightsholders the same efficiencies that global platforms already enjoy. The US **Mechanical Licensing Collective (MLC)** has demonstrated how coordinated metadata and streamlined claiming processes can accelerate payouts and reduce disputes [@varghese_blackbox_2024]. Europe should build on this model by investing in shared, AI-enabled liaison services that optimise working capital for creators, CMOs, and independent labels alike.
+
+#### Develop internal AI governance
+
+Appoint a Chief Data Officer (or equivalent) responsible for AI adoption and metadata governance. Even SMEs and CMOs can designate an “AI steward” role to avoid shadow AI dependence.
+
+<!--- Illustration: Unison, Slovak CMD, or smaller publishers who successfully improved claims and royalties via metadata cleaning + external AI-assisted tools --->
+
+### Closing Note
+
+AI will only create sustainable value for the creative industries when governance, interoperability, and human capital are aligned. The EU sets the **compass and guardrails**, industry bodies provide **shared standards and utilities**, and organisations themselves must adopt **governance and playbooks**. Without this three-level alignment, AI risks becoming the digital equivalent of *lemons on a tree* — showy but unfit for purpose.
 
 ### Curative AI as a Remediation Solution
 
@@ -93,26 +221,18 @@ AI-assisted services can automatically detect duplicates, infer missing identifi
 
 In practical terms, curative AI reduces the hidden costs of “free” data. Even when datasets are available at zero monetary price, acquisition, transformation, and integration impose substantial burdens [@schnurr_ogd_markets_2021]. By pooling remediation services at the level of the Observatory — rather than leaving each SME or archive to hire scarce AI engineers — the sector can benefit from economies of scale and achieve more consistent outcomes.
 
-Thus, governance and remediation are two sides of the same coin:\
-- **Data sharing spaces** ensure that *new* data is created and exchanged in interoperable ways.\
+Thus, governance and remediation are two sides of the same coin:
+
+- **Data sharing spaces** ensure that *new* data is created and exchanged in interoperable ways.
+
 - **Curative AI** repairs the *inherited stock* of legacy and low-quality datasets.
 
-Together, they close the gap between the *right of reuse* granted by the Open Data Directive and the *means of reuse* required for music, culture, and AI-driven innovation.[^ai-1]
+Together, they close the gap between the *right of reuse* granted by the Open Data Directive and the *means of reuse* required for music, culture, and AI-driven innovation.[^ai-2]
 
-[^ai-1]: Empirical studies underline that legal openness alone rarely produces machine-actionable reuse. Without prescriptive standards, high-value datasets are published in divergent formats and with inconsistent metadata [@klimek_stirdata_2023, p.184]. Reference models and standards can mitigate this going forward [@noardo_standards_2024], but existing datasets often require intensive remediation. Curative AI provides this remediation by automating anomaly detection, schema transformations, and semantic enrichment. For example, Ni et al. demonstrate that machine-learning frameworks can flag outliers, propose corrected values, and normalise structures at scale, significantly reducing manual repair costs [@ni_automatic_repair_2023, p.3]. In cultural and company register contexts, pilots such as STIRData have shown how AI-driven pipelines transform heterogeneous exports into interoperable, HVD-compliant formats [@klimek_stirdata_2023, p.185]. These examples illustrate why curative AI, deployed as a shared Observatory service, is indispensable for turning open data from a *legal right* into a *practical resource*.
+[^ai-2]: Empirical studies underline that legal openness alone rarely produces machine-actionable reuse. Without prescriptive standards, high-value datasets are published in divergent formats and with inconsistent metadata [@klimek_stirdata_2023, p.184]. Reference models and standards can mitigate this going forward [@noardo_standards_2024], but existing datasets often require intensive remediation. Curative AI provides this remediation by automating anomaly detection, schema transformations, and semantic enrichment. For example, Ni et al. demonstrate that machine-learning frameworks can flag outliers, propose corrected values, and normalise structures at scale, significantly reducing manual repair costs [@ni_automatic_repair_2023, p.3]. In cultural and company register contexts, pilots such as STIRData have shown how AI-driven pipelines transform heterogeneous exports into interoperable, HVD-compliant formats [@klimek_stirdata_2023, p.185]. These examples illustrate why curative AI, deployed as a shared Observatory service, is indispensable for turning open data from a *legal right* into a *practical resource*.
 
 ### Lowering Documentation Barriers
 
 We propose to adapt *Unlabel*’s approach as a model for unfreezing frozen assets. By leveraging AI-assisted metadata repair and DDEX-compliant catalogue transfer workflows, documentation costs can be reduced enough to enable non-profits, small labels, and community archives to register and redistribute neglected repertoires. Public support should be directed to subsidise initial onboarding costs, create standardised transfer pipelines, and incentivise low-friction reuse of metadata across systems. This would extend the benefits of metadata interoperability to cultural assets currently excluded from the digital market.
 
-### Shared AI Services for Scale Efficiency
-
-We propose to establish AI-enabled metadata services within European data sharing spaces, governed by shared ontologies and ethical guardrails. These services should automate routine documentation tasks (identifier reconciliation, crosswalks, enrichment from external knowledge bases) and distribute the resulting efficiencies across all actors, not just the majors. Public investment should support the creation of open, agentic AI modules that plug into observatory infrastructures and enable SMEs, non-profits, and independent creators to achieve platform-level economies of scale. This would not only unfreeze frozen assets but systematically reduce the OPEX of music metadata management across Europe.
-
-### Redirecting CAPEX Toward Knowledge Capital
-
-We propose a funding and governance model that prioritises investment in *knowledge capital*—shared ontologies, pattern libraries, and AI modules—rather than continuous replacement of IT assets. By deploying AI to extend the functionality of legacy systems, CMOs and cultural institutions can redirect scarce capital away from hardware/software churn and into data quality, interoperability, and human expertise. This reallocation of CAPEX would create more durable value: instead of buying new IT every five years, institutions would invest in collective intelligence that strengthens the entire music ecosystem.
-
 ### AI-Powered Claims and API Integration
-
-We propose to develop AI-assisted services for claims management and API integration across the European music ecosystem. By lowering the cost of system-to-system communication, these tools would give European SMEs and rightsholders the same efficiencies that global platforms already enjoy. The US **Mechanical Licensing Collective (MLC)** has demonstrated how coordinated metadata and streamlined claiming processes can accelerate payouts and reduce disputes [@varghese_blackbox_2024]. Europe should build on this model by investing in shared, AI-enabled liaison services that optimise working capital for creators, CMOs, and independent labels alike.

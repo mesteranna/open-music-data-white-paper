@@ -31,10 +31,8 @@ The Music Ecosystem 2025 report already emphasised that the music sector should 
 ## Discussion
 
 ::: callout-caution
-**This will be removed consultation**
--   EMO feasibility on scarcity/fragmentation and the need for regular, comparable data; EU dataspace thinking (EIF, FAIR); *Music Ecosystem 2025* on systemic view.
--   Industry positions on centralisation vs. federation; CMOs’ reliance on shared infra (e.g., Mint); heritage sector’s openness requirements.
-::: 
+**This will be removed consultation** - EMO feasibility on scarcity/fragmentation and the need for regular, comparable data; EU dataspace thinking (EIF, FAIR); *Music Ecosystem 2025* on systemic view. - Industry positions on centralisation vs. federation; CMOs’ reliance on shared infra (e.g., Mint); heritage sector’s openness requirements.
+:::
 
 ### Why centralisation is a futile model
 
@@ -70,21 +68,31 @@ Studies consistently show that open data remains more of a promise than a realit
 
 This gap is directly relevant to the music ecosystem. Simply publishing datasets under the Open Data Directive does not make them fit for royalty distribution, cultural statistics, or AI-driven discovery. The Open Music Observatory seeks to fill this gap by turning “open data in principle” into **reusable data in practice**, through shared identifiers, metadata profiles, and federation rules.
 
+### Why Voluntary Workarounds Do Not Scale {#sec-gdpr-observatory}
+
+The Slovak pilot shows that voluntary workarounds for attribution under GDPR are possible (see @sec-gdpr-curation), but they do not scale. Even with strong communication and opt-in procedures, fewer than 1.3% of authors responded. Every new dataset requires fresh balancing tests, repeated notifications, and continued exposure to legal risk.
+
+For observatories and data spaces, this is untenable. Interoperability requires clarity and legal certainty across borders and institutions. Without guidance from a Data Protection Authority or the European Commission, every national or sectoral initiative risks being challenged. The consequence is paralysis: public infrastructures cannot fully attribute works, and private actors refrain from sharing metadata for fear of liability.
+
+In effect, Europe’s music data infrastructures remain locked in uncertainty — unable to guarantee attribution, diversity monitoring, or local content compliance. This makes a purely local or voluntary approach insufficient. The solution must be systemic: a **federated data sharing space**, supported by common specifications and clear governance frameworks, so that attribution and interoperability can scale. These unresolved attribution issues ultimately undermine not only observatories but also AI fairness and governance (see @sec-gdpr-ai).
+
+
+
 ### Public cultural infrastructures bypass music’s real data flows
 
 Europe has invested heavily in Europeana, ECCCH and other cultural data infrastructures, but their data models and workflows remain weakly aligned with how music metadata is generated and maintained in practice — largely by private actors (labels, distributors, CMOs) who already finished most digitisation, including heritage repertoire. Unlike in the case of old libraries, documentary records in archives, artefacts in museums, where digitisation is mainly funded with public money, in music and film most of the digitisation took place (also for high-value classical, early or folk music) in the private sector.
 
-The _Europeana Data Model_ was based mainly on public collection practices and library models, and it cannot truly handle the fact that music that can be listened to and viewed has at least three creator groups that need to be assigned: authors, producers and performers. We have been proposing solutions for this to Europeana, and we hope that during the remaining period of OpenMusE we will be able to demonstrate our solution (see later.) [^edm]
+The *Europeana Data Model* was based mainly on public collection practices and library models, and it cannot truly handle the fact that music that can be listened to and viewed has at least three creator groups that need to be assigned: authors, producers and performers. We have been proposing solutions for this to Europeana, and we hope that during the remaining period of OpenMusE we will be able to demonstrate our solution (see later.) [^observatory-4]
 
-[^edm]: The Europeana data model largely builds on DCTERMS, which is suitable for handling printed music sheets; they are regularly stored in library systems. Printed music needs a reference for the author and the publisher. However, sound recordings (including video sound recordings) must identify the neighboring rightsholders, the producer and the performer. See our suggestions later in this chapter. [@EDM_2017]
+[^observatory-4]: The Europeana data model largely builds on DCTERMS, which is suitable for handling printed music sheets; they are regularly stored in library systems. Printed music needs a reference for the author and the publisher. However, sound recordings (including video sound recordings) must identify the neighboring rightsholders, the producer and the performer. See our suggestions later in this chapter. [@EDM_2017]
 
-The _Report on a European collaborative cloud for cultural heritage_ (ECCCH report) does not mention music at all. Its scope was conceived around heritage institutions (archives, museums, libraries, monuments), and it overlooked the specific needs of the music sector.[^eccch] The first ECCCH projects focus on digitisation and advanced data infrastructures for cultural heritage, but none address music directly. **AUTOMATA** develops low-cost, AI-assisted digitisation workflows for archaeological ceramics and lithics, integrating enriched 3D data into the cloud. **TEXTaiLES** tackles the specific challenges of textile heritage, creating AI- and sensor-based tools for capturing, preserving, and restoring fabrics. **HERITALISE** advances digitisation across diverse heritage assets, using machine learning, CT scanning, HBIM, and XR/VR services for immersive representation and conservation. **ECHOES** establishes the core European Cultural Heritage Cloud, building a shared platform with interoperable tools, metadata vocabularies, and training for heritage professionals. We tried to establish contact with ECHOES, and we also suggested in their cascading grant program to fit in large music datasets that handle all aspects of music metadata; one of them was eliminated in the first stage, the other, related to a conceptual exploitation pathway of our Open Music Observatory, the Finno-Ugric Data Sharing Space, may still be able to try to insert music data into the ECCCH.
+The *Report on a European collaborative cloud for cultural heritage* (ECCCH report) does not mention music at all. Its scope was conceived around heritage institutions (archives, museums, libraries, monuments), and it overlooked the specific needs of the music sector.[^observatory-5] The first ECCCH projects focus on digitisation and advanced data infrastructures for cultural heritage, but none address music directly. **AUTOMATA** develops low-cost, AI-assisted digitisation workflows for archaeological ceramics and lithics, integrating enriched 3D data into the cloud. **TEXTaiLES** tackles the specific challenges of textile heritage, creating AI- and sensor-based tools for capturing, preserving, and restoring fabrics. **HERITALISE** advances digitisation across diverse heritage assets, using machine learning, CT scanning, HBIM, and XR/VR services for immersive representation and conservation. **ECHOES** establishes the core European Cultural Heritage Cloud, building a shared platform with interoperable tools, metadata vocabularies, and training for heritage professionals. We tried to establish contact with ECHOES, and we also suggested in their cascading grant program to fit in large music datasets that handle all aspects of music metadata; one of them was eliminated in the first stage, the other, related to a conceptual exploitation pathway of our Open Music Observatory, the Finno-Ugric Data Sharing Space, may still be able to try to insert music data into the ECCCH.
 
-[^eccch]: _Report on a European collaborative cloud for cultural heritage – Ex–ante impact assessment_ [@eccch_report_2022]
+[^observatory-5]: *Report on a European collaborative cloud for cultural heritage – Ex–ante impact assessment* [@eccch_report_2022]
 
 Even the **Polifonia project**, which we cited earlier as a good example and whose methodology we could use well, was "blind" to the private data infrastructure of music. While it created a set of modular ontologies, it did not cover rights management, and even its central classes for musical works and sound recordings were not fully aligned with the ISWC and ISRC standards used by industry to identify and register musical works and sound recordings.
 
-This misalignment is structural, not incidental. The result is duplication and gaps: public knowledge graphs and registries don’t interoperate smoothly with industry identifiers (ISRC/ISWC/ISNI/IPN), reconciliation is costly, and culturally significant catalogues stay under-used across public and commercial systems. This is a missed opportunity for both sectors. 
+This misalignment is structural, not incidental. The result is duplication and gaps: public knowledge graphs and registries don’t interoperate smoothly with industry identifiers (ISRC/ISWC/ISNI/IPN), reconciliation is costly, and culturally significant catalogues stay under-used across public and commercial systems. This is a missed opportunity for both sectors.
 
 ### Alignment with the European Open Science Cloud (EOSC)
 
@@ -92,9 +100,9 @@ The **European Open Science Cloud (EOSC)** is intended as Europe’s flagship in
 
 In practice, EOSC remains highly complex and fragmented, and its connections to music are limited. Music has been touched only tangentially, mainly through the work of **DARIAH-EU** (*Digital Research Infrastructure for the Arts and Humanities*), which has supported humanities-driven approaches to digital musicology but not the broader music ecosystem. Yet, just like in ECCCH, we see music underrepresented in the DARIAH-EU system.
 
-In our understanding, the **ECHOES** project aims to build interoperability with cultural data providers as well as EOSC.  
+In our understanding, the **ECHOES** project aims to build interoperability with cultural data providers as well as EOSC.
 
-Our projects already interact with EOSC through **Zenodo** and **OpenAIRE**. We deposit music-related datasets on Zenodo, ensuring visibility, persistence (via DOIs), and EOSC integration. This creates a foothold for music data within EOSC, and we see that some of our deposits are highly visited. However, so far we do not see a clear curatorial pathway for music-related research being deposited in large quantities to EOSC, or industry being able to easily utilise music data from EOSC. 
+Our projects already interact with EOSC through **Zenodo** and **OpenAIRE**. We deposit music-related datasets on Zenodo, ensuring visibility, persistence (via DOIs), and EOSC integration. This creates a foothold for music data within EOSC, and we see that some of our deposits are highly visited. However, so far we do not see a clear curatorial pathway for music-related research being deposited in large quantities to EOSC, or industry being able to easily utilise music data from EOSC.
 
 From a policy perspective, EOSC should not be overlooked: it is the default European infrastructure for open science, and cultural heritage and creative industry data are increasingly expected to align with it. For music, this means recognising where EOSC provides real value — long-term preservation, persistent identifiers, cross-domain discovery — while also acknowledging its gaps in rights-aware, industry-aligned metadata. Our strategy is to use EOSC as a **public backbone for open deposits**, while federating more specialised infrastructures (such as the Open Music Observatory) to ensure that music’s specific needs for identifiers, attribution, and rights management are respected.
 
@@ -128,7 +136,6 @@ Large platforms and major labels manage to document millions of assets in parall
 
 Agentic AI, if deployed within a shared knowledge base and aligned with modular ontologies in a federated data sharing space, can reduce operational expenditure (OPEX) by automating repetitive documentation tasks. This would allow smaller players to benefit from the same scale effects as the global platforms, without compromising quality or compliance. The frozen asset case is only the most visible example: AI-enabled economies of scale would lower costs across the entire long tail of music assets.
 
-
 ### The U.S. Mechanical Licensing Collective (MLC) as a Metadata Clearinghouse
 
 The *Mechanical Licensing Collective* (MLC) was created under the U.S. *Music Modernization Act* (2018) and began operations in January 2021. It administers a **blanket mechanical license** for digital streaming and download services, replacing fragmented song-by-song licensing. Its mandate is to ensure that songwriters, lyricists, composers, and publishers receive timely mechanical royalties, while providing transparency through a public works database and member portal [@mlc_annual_report_2021].
@@ -150,6 +157,13 @@ The European Commission’s communication *A European Strategy for Data* defines
 For the music ecosystem, a data sharing space provides three immediate benefits. First, it reduces reconciliation costs by promoting *“capture once, reuse many”* practices: identifiers and metadata entered in one system can propagate to others. Second, it safeguards subsidiarity by ensuring that collective management organisations, archives, and platforms remain responsible for their own registries. Third, it enhances observability: policymakers, creators, and researchers can monitor flows across the sector without requiring full access to proprietary data.
 
 The *Feasibility Study for a European Music Observatory* already recognised that fragmentation and duplication are structural features of the music sector [@emo_feasibility_2020, p9]. A federated data sharing space addresses this by acknowledging decentralisation as a fact and turning it into an advantage. Instead of aspiring to a monolithic central repository, the Open Music Observatory is conceived as a convening, conformance, and observability layer that enables decentralised contributions to function as a coherent whole.
+
+As we mentioned in the problem discussion, our Slovak pilot shows that voluntary workarounds for attribution under GDPR are possible, but they do not scale. 
+
+Partial solutions exist. The **Data Space Support Centre (DSSC)** led by KU Leuven, in collaboration with GAIA-X and BDVA, has developed blueprints and building blocks to scale data sharing under current legal frameworks. These mechanisms can help stabilise the “tinkering” approach and provide a technical foundation for federated governance.  
+
+But the real solution cannot come from technical fixes alone. The **European Parliament’s resolution on music streaming** clearly calls for systematic identifier usage and stronger attribution. Meeting this goal requires action from the Commission: either by clarifying GDPR for attribution data, requesting guidance from DPAs, or ultimately pursuing a legislative or jurisprudential solution. Only then can data spaces for music scale legally and sustainably across Europe.
+
 
 ### Wikibase as a Cultural Metadata Backbone
 
@@ -177,6 +191,20 @@ Conformance and observability rules in the *Open Music Observatory* should be de
 
 [![The Open Music Observatory sits where open science, public sector information reuse, and music industry workflows overlap. By aligning with the European Interoperability Framework, it creates a shared space where libraries, rights managers, publishers, and researchers can collaborate. This positioning highlights OMO’s role as a bridge between cultural heritage, commercial distribution, and open knowledge. DOI: \[10.6084/m9.figshare.30073267.v1\](10.6084/m9.figshare.30073267.v1)](png/OMO/OMO_Venn_diagram.png){fig-align="center"}](https://figshare.com/articles/dataset/The_Open_Music_Observatory_at_the_Intersection_of_Open_Science_Open_Data_and_Music_Industry_Workflows/30073267?file=57754399)
 
+### Federated Infrastructure as a Cost and Governance Solution {#sec-dss-solution}
+
+As introduced in @sec-dataspace-definition, a **data sharing space** allows organisations to exchange and reuse data on an *“as-needed”* or *“as-permitted”* basis, while keeping full control of their own assets. This avoids the impossible task of forcing everyone into a single metadata schema or legal agreement in advance. For music — where rights, identifiers, and content are dispersed across hundreds of micro-actors and institutions — such federation is the only realistic option.
+
+The challenge is that music also stress-tests the model. Attribution is entangled with privacy law, rights data are inconsistently standardised, and most enterprises are too small to build complex compliance systems. In this sense, music is both a “problem case” and a laboratory: if federation can work here, it can work anywhere.
+
+The lesson is clear: the **European Music Observatory cannot be a central database**. It must be designed as a federated data sharing space — a convening and observability layer that enables decentralised contributions to function as a coherent whole. Only in this form can it reduce duplication, lower per-unit costs for small actors, ensure attribution, and provide the governance substrate needed for trustworthy AI in the music ecosystem.[^dss]
+
+[^dss]: **Policy and practice foundations for data spaces in music.**  
+- **EU baseline.** The *European Strategy for Data* (2020) defines Common European Data Spaces as federated ecosystems; the *Data Governance Act* (2022) and *Data Act* (2023) provide the governance tools and access rights.  
+- **Technical frameworks.** The *Data Spaces Support Centre (DSSC)* in its *Blueprint v2.0* sets out participants, services, rulebooks, and cross-data space interoperability profiles [@dssc_blueprint_intro_2025; @dssc_blueprint_interop_2025].  
+- **Governance framing.** The **Big Data Value Association (BDVA)** highlights trusted frameworks, lifecycle integration, and governance pillars with trust at the centre [@bdva_position_2019; @bdva_designing_2022; @bdva_discussion_paper_2023]. The **Federation Working Group** identifies federation, not centralisation, as the only sustainable model [@federation_wg_position_2023].  
+- **Music mandate.** The *Feasibility Study for a European Music Observatory* and the *Music Ecosystem 2025* study both document fragmentation and duplication in music markets, calling for federated solutions. The **European Parliament’s Resolution on the music streaming market** reinforces this by urging systematic use of ISNI, IPI, IPN alongside ISWC/ISRC, and stronger attribution [@emo_feasibility_2020; @music_ecossytem_2025; @ep_resolution_music_streaming_2024].
+
 ### Make Open Data Truly Accessible
 
 The gaps of the *Open Data Directive* are not unique to the music sector. Across Europe, datasets are frequently released in heterogeneous formats, with incomplete metadata, and little harmonisation between Member States. A well-designed **data sharing space** addresses these weaknesses by providing the semantic, technical, and governance building blocks that turn legal openness into practical interoperability.
@@ -185,13 +213,11 @@ The *Open Music Observatory* can take on this role in three complementary ways. 
 
 Equally important, data spaces embed governance rules and certification processes into their architecture: conformance tests, trust frameworks, and legal interoperability mechanisms ensure that data use is both technically reliable and legally safe [@terzis_ehds_2024]. In this way, data sharing spaces do not simply *publish* data but actively lower transaction costs, prevent fragmentation, and ensure compliance across borders.
 
-For the music sector, a data sharing space anchored in the *Open Music Observatory* would guarantee that datasets — whether from CMOs, platforms, or cultural institutions — are published with agreed profiles, identifiers, and governance safeguards. This creates an infrastructure where decentralised actors can interoperate at scale without losing autonomy.[^observatory-4] Yet, data sharing spaces are not a silver bullet: they can prevent the creation of unusable data in the future, but legacy releases require a complementary strategy — namely the application of **curative AI**. This is the focus of the next section (@sec-ai).
+For the music sector, a data sharing space anchored in the *Open Music Observatory* would guarantee that datasets — whether from CMOs, platforms, or cultural institutions — are published with agreed profiles, identifiers, and governance safeguards. This creates an infrastructure where decentralised actors can interoperate at scale without losing autonomy.[^observatory-6] Yet, data sharing spaces are not a silver bullet: they can prevent the creation of unusable data in the future, but legacy releases require a complementary strategy — namely the application of **curative AI**. This is the focus of the next section (@sec-ai).
 
-[^observatory-4]: Comparative research shows that without prescriptive standards, high-value datasets are released in divergent formats and with incomplete metadata, undermining reuse [@klimek_stirdata_2023, p.184]. Reference models and blueprint components can mitigate this by aligning producers around canonical schemas [@noardo_standards_2024]. Data spaces also address semantic and legal interoperability together — shared vocabularies, certification processes, and trust frameworks reduce uncertainty and lower entry costs for SMEs and public institutions alike [@atzori_dataspaces_2023; @terzis_ehds_2024].
+[^observatory-6]: Comparative research shows that without prescriptive standards, high-value datasets are released in divergent formats and with incomplete metadata, undermining reuse [@klimek_stirdata_2023, p.184]. Reference models and blueprint components can mitigate this by aligning producers around canonical schemas [@noardo_standards_2024]. Data spaces also address semantic and legal interoperability together — shared vocabularies, certification processes, and trust frameworks reduce uncertainty and lower entry costs for SMEs and public institutions alike [@atzori_dataspaces_2023; @terzis_ehds_2024].
 
 ### Connect to Europeana & ECCCH
-
-
 
 We are not only pointing out gaps — we are also building bridges. In 2024, we formally requested to become a **Europeana data provider**, with the intention of delivering a dataset larger than Europeana’s current music holdings. Our pilot shows that even the existing EDM can be used to expose a much richer set of music for listening and viewing, though some modernisation will be inevitable. This would demonstrate that music can be integrated into Europeana without waiting for a full re-engineering of its model.
 
@@ -201,16 +227,13 @@ Our choice of **Wikibase/Wikidata** as the technical backbone is deliberate. Wik
 
 Our approach is one of **ontological pragmatism**: using tested, open technologies to bridge gaps, while focusing on the harder legal and organisational aspects of interoperability in a public-private setting. This makes the Open Music Observatory not just another cultural repository, but a realistic path towards aligning music’s real data flows with Europe’s wider cultural data infrastructures.
 
-
-
 ### Alignment with the European Open Science Cloud
-
 
 #### Other
 
-**Bridge cultural clouds and market workflows via a federated Music Data Sharing Space.**  
-Position the Open Music Observatory as the *convening + conformance + observability* layer that connects ECCCH/Europeana and GLAM authority files with industry pipelines. Concretely: (1) **capture once, reuse many** across creation→registration→distribution→preservation; (2) require **minimal profiles** that smaller actors can actually implement; (3) prioritise **identifier crosswalks** (ISRC↔ISWC↔ISNI↔VIAF/Wikidata) and change-propagation; (4) use **Wikibase/Wikidata** as a low-friction backbone where appropriate; (5) govern with EIF/FAIR-aligned rules, auditability, and PPP participation so rights-holders and memory institutions keep stewardship while interoperating. 
+**Bridge cultural clouds and market workflows via a federated Music Data Sharing Space.**\
+Position the Open Music Observatory as the *convening + conformance + observability* layer that connects ECCCH/Europeana and GLAM authority files with industry pipelines. Concretely: (1) **capture once, reuse many** across creation→registration→distribution→preservation; (2) require **minimal profiles** that smaller actors can actually implement; (3) prioritise **identifier crosswalks** (ISRC↔ISWC↔ISNI↔VIAF/Wikidata) and change-propagation; (4) use **Wikibase/Wikidata** as a low-friction backbone where appropriate; (5) govern with EIF/FAIR-aligned rules, auditability, and PPP participation so rights-holders and memory institutions keep stewardship while interoperating.
 
-This reframes Europe’s investments from siloed repositories into a shared **data space** that lowers reconciliation costs, respects subsidiarity, and makes cultural metadata usable across public and commercial contexts — the practical foundation for any future European Music Observatory. 
+This reframes Europe’s investments from siloed repositories into a shared **data space** that lowers reconciliation costs, respects subsidiarity, and makes cultural metadata usable across public and commercial contexts — the practical foundation for any future European Music Observatory.
 
 {{< pagebreak >}}

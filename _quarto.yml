@@ -6,13 +6,13 @@ execute:
   freeze: auto
   
 greenpaper:
-  version: "v0.1"
+  version: "v0.3"
 
 book:
   title: "A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem"
   subtitle: "Practical Steps Towards a Decentralised and Open European Music Observatory"
   downloads: [pdf, epub, docx] 
-  output-file: green-paper-v01
+  output-file: green-paper-v03
   author:
      - name: "Daniel Antal, CFA"
        orcid: 0000-0001-7513-6760
@@ -28,7 +28,7 @@ book:
      - name: "Mester, Anna Márta"
        role: "Contributor"
        orcid: 0009-0008-2274-8163
-  date: "2024-09-07"
+  date: "2024-09-18"
   repo-url: https://github.com/dataobservatory-eu/open-music-data-white-paper
   repo-actions: [edit]
   chapters:
