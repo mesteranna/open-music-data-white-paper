@@ -47,6 +47,7 @@ citation:
   url: https://downloads.reprex.nl/2025/greenpaper/
 
 bibliography: 
+    - bib/aibusiness.bib
     - bib/BVDA.bib
     - bib/eccch.bib
     - bib/datainteroperability.bib
@@ -65,6 +66,7 @@ bibliography:
     - bib/MLC.bib
     - bib/mme.bib
     - bib/musicmetadata.bib
+    - bib/ontologies.bib
     - bib/opendata.bib
     - bib/OpenMusE.bib
     - bib/services.bib
