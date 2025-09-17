@@ -122,6 +122,25 @@ The European Data Strategy explicitly recognises subsidiarity by promoting data 
 Our pilot with the Finno-Ugric Data Sharing Space illustrates how subsidiarity works in practice. By collaborating with regional NGOs and national archives, we were able to curate and repair datasets that would have remained invisible in a central repository. The project showed that decentralised actors are best placed to manage their own data, but that interoperability frameworks and shared observability layers can connect them effectively.
 :::
 
+### Economies of Scale in Metadata
+
+Large platforms and major labels manage to document millions of assets in parallel, achieving economies of scale that smaller actors cannot match. By contrast, for SMEs, non-profits, or community archives, the cost of documentation per asset is disproportionately high, often exceeding the commercial value of the repertoire. This gap explains why so many “frozen” assets remain unregistered and invisible in the digital ecosystem.
+
+Agentic AI, if deployed within a shared knowledge base and aligned with modular ontologies in a federated data sharing space, can reduce operational expenditure (OPEX) by automating repetitive documentation tasks. This would allow smaller players to benefit from the same scale effects as the global platforms, without compromising quality or compliance. The frozen asset case is only the most visible example: AI-enabled economies of scale would lower costs across the entire long tail of music assets.
+
+
+### The U.S. Mechanical Licensing Collective (MLC) as a Metadata Clearinghouse
+
+The *Mechanical Licensing Collective* (MLC) was created under the U.S. *Music Modernization Act* (2018) and began operations in January 2021. It administers a **blanket mechanical license** for digital streaming and download services, replacing fragmented song-by-song licensing. Its mandate is to ensure that songwriters, lyricists, composers, and publishers receive timely mechanical royalties, while providing transparency through a public works database and member portal [@mlc_annual_report_2021].
+
+From its inception, the MLC inherited more than **\$424 million in unmatched royalties** from digital service providers (DSPs)—funds that could not be allocated because works were not properly registered or matched. These unmatched sums must eventually be distributed, and if they cannot be claimed, they are paid out to publishers on a market-share basis. For independent songwriters, this creates both an opportunity and a risk: registration with the MLC is free, but failure to register means royalties may be permanently lost.
+
+The MLC highlights a systemic lesson: identifiers like ISWC and ISRC must be correctly captured and maintained at source, or royalties remain trapped in the “black box.” To address this, the MLC has developed **matching and reconciliation routines** and offers search tools so creators can check whether their works are properly registered. Education remains a critical challenge, since many independent songwriters incorrectly assume that affiliation with ASCAP, BMI, or SESAC (performance rights organisations) covers mechanical royalties as well.
+
+By late 2022, the MLC had already distributed nearly **\$700 million in royalties**, but its operations also illustrate the fragility of metadata-dependent systems. In 2025, it filed—and lost—a high-profile lawsuit against Spotify, which had sought to classify audiobooks within its music service to reduce royalty obligations [@varghese_blackbox_2024]. This underscores that even with centralised licensing, **governance and enforcement remain contested**.
+
+For European debates, the MLC demonstrates how a large-scale, rights-compliant clearinghouse can consolidate reporting, improve metadata quality, and distribute royalties more transparently. Yet it also shows the **limits of centralisation**: creators still need to actively claim and maintain their records, education gaps persist, and disputes between collective agencies and global platforms remain unresolved.
+
 ### Data Sharing Space
 
 A **data sharing space** is both a governance framework and a technical architecture that allows independent organisations to share, access, and reuse data under agreed rules, without relinquishing control over their assets. Instead of pooling everything into a central repository, each participant maintains stewardship of its own datasets while aligning with interoperability profiles, identifier schemes, and contractual safeguards. This arrangement lowers duplication costs, strengthens legal certainty, and builds trust among actors with diverse incentives but overlapping needs. In practice, data sharing spaces operate through a common semantic and governance layer — for example, shared identifier systems, metadata crosswalks, and access policies — while leaving local databases and workflows intact.
