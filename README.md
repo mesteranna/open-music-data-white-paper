@@ -50,6 +50,8 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/europeana.bib`: Europeana resources.
 
+-   `bib/identifiers.bib`: Resources on identifiers, PIDs.
+
 -   `bib/IFPI.bib`: resources related to IFPI and the ISRC system.
 
 -   `bib/ISOData.bib`: bibliographic entries for relevant ISO standards.
@@ -59,6 +61,8 @@ The bibliographic references are organised by themes, and they are stored in the
 -   `bib/MLC.bib`: resources related to the *Mechanical Licensing Collective*.
 
 -   `bib/mme.bib`: Music Moves Europe policy documents bibliography.
+
+-   `bib/musicindustry.bib`: Music industry typologies, conceptualisations.
 
 -   `bib/opendata.bib`: bibliography on the EU open data policies.
 
