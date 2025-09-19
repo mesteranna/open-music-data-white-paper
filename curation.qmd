@@ -1,30 +1,19 @@
 # Fixing Music Data at the Source {#sec-curation}
 
-**Scope:** Bottom + middle layers combined: primary data capture/curation; technical & semantic improvement; identifier hygiene; practical exchange between institutions.
-
-::: callout-caution
-### Executive summary (what we propose)
-
-This is a placeholder
-
--   Establish shared, low-friction pipelines for capturing and improving music metadata at source (creation, release, registration, distribution, preservation), with simple mechanisms for reuse across stakeholders.
--   Prioritise persistent identifier coverage and crosswalks (ISWC↔ISRC↔ISNI↔IPN↔VIAF↔Wikidata) to reduce reconciliation costs and leakage.
--   Produce lightweight exchange patterns (profiles) that smaller actors can actually implement.
-:::
 
 [![Curating data from multiple sources ensures that music information stays accurate, visible, and reusable over time. Reuse (DOI): \[10.6084/m9.figshare.30073888.v1\](https://doi.org/10.6084/m9.figshare.30073888.v1)](png/OMO/OMO_data_curation.png){fig-align="center"}](https://doi.org/10.6084/m9.figshare.30073888.v1)
 
 ## Discussion
 
--   ::: callout-note
+::: callout-note
     ### These are pre-finalisation notes
 
     -   Streaming-era inefficiencies and micro-transaction reality; identifier silos and reconciliation overheads; feasibility/Observatory emphasis on harmonised, comparable data; *Music Ecosystem 2025*’s ecosystem framing.
 
     -   Industry practice: CISAC/IFPI/ISO identifier regimes; library/archives practice on authority files; Wikimedia/Wikidata as low-cost backbone.
-    :::
+:::
 
-### Data fragmentation as a structural fact
+### Structural fragmentation of data and value flows
 
 In the music ecosystem, data is not simply decentralised by design but *structurally scattered*. Rights metadata is maintained by hundreds of collective management organisations and publishers, while recordings and distribution data are spread across labels, distributors, and global platforms. Libraries and archives manage their own authority files, often linked only imperfectly to international standards such as ISNI, VIAF, or ISBN. Independent projects and community-driven infrastructures, such as *Wikidata* and Wikibase, add yet another layer of documentation.
 
@@ -32,58 +21,69 @@ This fragmentation is not an anomaly but the normal condition of the sector: ten
 
 Recognising this scattered landscape is essential. It explains why reconciliation overheads are high, why identifier coverage is incomplete, and why “capture once, reuse many” pipelines are necessary. It also provides the foundation for the next chapter: explaining why *attempts at centralisation are futile* in such an ecosystem, and why sustainable solutions must build on federation and interoperability.
 
-### Cost Barriers in Documentation and Claims {#sec-econ-curation}
+Yet fragmentation is not only institutional — it is also economic. Classic value-chain analyses describe three main income streams — live performance, publishing, and recordings — that still structure industry practice.[^curation-1] Digital distribution has blurred these categories without unifying the underlying infrastructures. Each handover in the lifecycle — authoring, performing, recording, distributing, streaming — generates both a financial flow and a data event. Business flows are continuous, but metadata flows are siloed. ISWCs do not connect seamlessly with ISRCs; ISRCs are rarely linked to ISNIs or VIAF authority files. The result is redundancy, inconsistency, and costly reconciliation work.
+
+[^curation-1]: This value-chain framing originates in Hull’s *The Music Business and Recording Industry* [@hull_music_2011] and Leurdijk et al.’s *Statistical, Ecosystem and Competitiveness Analysis of the Media and Content Industries* [@leurdijk_statistical_2012], and was adapted in subsequent CEEMID reports [@antal_slovenskom_hudobnom_2019_en, @antal_ceereport_2020]. The CEEMID work was recognised as a best practice in the *Feasibility Study for a European Music Observatory* [@emo_feasibility_2020], which highlighted its role in linking fragmented data sources into a coherent economic analysis.
+
+[![Adoptation of the value chain model of the European music ecosystem in the CEEMID report](png/ecosystem/Music_value_chain.png){fig-align="center"}](https://doi.org/10.6084/m9.figshare.19174310.v1)
+
+Market-comparator methods show how this fragmentation translates into measurable distortions: per-hour royalty equivalents differ radically between licensing regimes, and zero-price uses (radio, YouTube, ad-supported streaming) further obscure comparability. Rights are harmonised in law, but fragmented in practice by national licensing, opaque deductions, and reporting asymmetries [@antal_mce_2021]. These hidden inequalities are not an accident: they stem directly from the structural misalignment between economic flows and data flows.
+
+### Cost barriers in documentation and claims {#sec-econ-curation}
 
 For small publishers, labels, and self-publishing artists, the economics of documentation create a vicious circle. Most European repertoire is released by micro-enterprises that cannot afford dedicated staff for accounting or metadata. They save costs by using spreadsheets or freelance accountants, but this is efficient only in total terms — on a per-unit basis, the costs of documentation and claims are very high. Poor metadata then leads to poor discoverability on platforms, which in turn depresses revenues and leaves even less money for proper documentation.
 
 Capital investments (CAPEX) present the same dilemma. Enterprise IT systems or royalty accounting platforms may be cost-effective for catalogues with millions of assets, but are unsustainable for catalogues of a few thousand. As a result, many small actors are locked into obsolete systems that are costly to maintain but too expensive to replace.
 
-This structural imbalance means that metadata costs are proportionally higher for small entities than for large ones. Without a way to share infrastructure or reduce per-unit costs, small rightsholders remain stuck: they cannot spend more on documentation and claims than their total royalty income allows, yet under-documentation ensures that much of their income is never collected. 
+This structural imbalance means that metadata costs are proportionally higher for small entities than for large ones. Without a way to share infrastructure or reduce per-unit costs, small rightsholders remain stuck: they cannot spend more on documentation and claims than their total royalty income allows, yet under-documentation ensures that much of their income is never collected.
 
 These cost barriers are not isolated bookkeeping problems — they are structural features of music data curation. How a data sharing space can provide scale effects and relieve these constraints is discussed in @sec-dss-solution.
 
-### Why one grand collection model will not work
+### Why one grand collection model will not work {#sec-no-univeral-ontology}
 
-Every actor in music — a library, an archive, a label, a rights society — has its own way of defining what is music, what is a sound recording, how to collect such things, and what belongs in a “collection.” These logics are shaped by their missions, legal obligations, and incentives. A library may collect under a national deposit law, a collective management organisation must register what its members submit, and a distributor includes whatever its clients release. None of these logics are wrong, but they are different. This is why attempts to force everything into one universal collection model have failed.
+Every actor in music — a library, an archive, a label, or a rights society — has its own way of defining what counts as music, what is a sound recording, how to collect such things, and what belongs in a “collection.” These logics are shaped by their missions, legal obligations, and incentives. A library may collect under a national deposit law, a collective management organisation must register what its members submit, and a distributor includes whatever its clients release. None of these logics are wrong, but they are different. This is why attempts to force everything into one universal collection model have failed.
 
-In abstract terms, there is no single “conceptualisation” of the world that can fit a rights management organisation, a library, and a music archive equally well. On a very abstract level, the same lesson was drawn in mathematics and philosophy: Gödel showed that no formal system can capture all truths within itself, and Quine argued that reference is always relative to a conceptual scheme. In computer and information science, we know this as the impossibility of a universal ontology that could serve all databases. These limits are well understood, but recognising them is not an excuse for inaction. It means we should work pragmatically: push systems closer to their theoretical limits, rather than accept today’s very imperfect state of affairs in music data.
+In abstract terms, there is no single “conceptualisation” of the world that can fit a rights management organisation, a library, and a music archive equally well. On a very abstract level, the same lesson was drawn in mathematics and philosophy: Gödel showed that no formal system can capture all truths within itself, and Quine argued that reference is always relative to a conceptual scheme. In computer and information science, we know this as the impossibility of a universal ontology that could serve all databases.[^curation-2] These limits are well understood, but recognising them is not an excuse for inaction. It means we should work pragmatically: accept that multiple logics exist, and focus on making them interoperable where possible.
 
 ::: callout-note
 #### Why collections differ in databases {.unnumbered}
 
--   **Libraries** collect under *legal deposit rules*: every book or score published in a country must be included, regardless of popularity.\
--   **Archives** follow *provenance*: they keep what an organisation or individual produced, not necessarily what is “important.”\
--   **Collective management organisations (CMOs)** must register *only what their members submit* — the collection reflects contracts and repertoire, not cultural completeness.\
--   **Distributors** take what their clients release: the “collection” is shaped by market demand and contracts.
+- **Libraries** collect under *legal deposit rules*: every book or score published in a country must be included, regardless of popularity.  
+- **Archives** follow *provenance*: they keep what an organisation or individual produced, not necessarily what is “important.”  
+- **Collective management organisations (CMOs)** must register *only what their members submit* — the collection reflects contracts and repertoire, not cultural completeness.  
+- **Distributors** take what their clients release: the “collection” is shaped by market demand and contracts.  
 
-Each of these logics is valid, but none can be reduced to the others. This is why a single “grand ontology” for all collections is not achievable. The pragmatic solution is to connect them through lightweight, modular patterns that allow data to flow across boundaries while respecting institutional differences[^curation-1].
+Each of these logics is valid, but none can be reduced to the others. This is why a single “grand ontology” for all collections is not achievable. The pragmatic task is to connect them through lightweight, modular patterns that allow data to flow across boundaries while respecting institutional differences.
 :::
 
-[^curation-1]: As information science shows, a *collection* is not a mathematical set but a socially and institutionally constructed grouping, shaped by curatorial or organisational logics. Attempts to create one “giga-ontology” for music metadata have consistently failed, because the sector is too heterogeneous — collective management organisations, libraries, archives, platforms, and distributors operate under different standards and governance models. Research on **Ontology Design Patterns (ODPs)** and the **Extreme Design (XD)** methodology underlines that interoperability can be achieved more sustainably by modelling recurring structures (e.g. Agent–Role–Activity, Work–Recording–Performance, Event–Time–Place) rather than enforcing schema unification ([@gangemi_ontology_2005]; [@blomqvist_engineering_2016]). The Polifonia project has already demonstrated this approach in practice, building a modular ontology network for musical heritage without attempting a monolithic schema [@de_berardinis_polifonia_2023]. At a more philosophical level, Quine reminds us that any ontology is relative to its conceptual scheme, and there is no absolute description of the world that can serve all purposes equally ([@quine_1968]). Gödel’s incompleteness results, likewise, show the inherent limits of formal systems, underscoring why computer science and database theory recognise that no single universal ontology can capture all possible cases.
+[^curation-2]: As information science shows, a *collection* is not a mathematical set but a socially and institutionally constructed grouping, shaped by curatorial or organisational logics. Attempts to create one “giga-ontology” for music metadata have consistently failed, because the sector is too heterogeneous — collective management organisations, libraries, archives, platforms, and distributors operate under different standards and governance models. At a more philosophical level, Quine reminds us that any ontology is relative to its conceptual scheme, and there is no absolute description of the world that can serve all purposes equally ([@quine_1968]). Gödel’s incompleteness results, likewise, show the inherent limits of formal systems, underscoring why computer science and database theory recognise that no single universal ontology can capture all possible cases.
 
-This does not mean that we have to give up on cooperation and interoperability. Understanding the theoretical, absolute limits of interoperability allows us to go beyond the current state of the art and reach towards the limits.
 
-This insight was already realised in the music metadata project Polifonia, which came to the conclusion that music is better served with modular ontologies (or data models) that share their design principles but do not try to solve every problem in one conceptual framework.
+### Legacy metadata {#sec-legacy-metadata}
 
-The solution we propose builds on these foundational results in information science, collections management, and music metadata research: the future European Music Observatory should work pragmatically — capture data once, reuse it many times, and connect systems through lightweight, modular patterns that respect institutional differences.
+The European Parliament has emphasised that accurate and standardised metadata is essential for ensuring fair remuneration and proper attribution in the music streaming market. It calls for identifiers such as ISWC, ISRC, ISNI, IPI, and IPN to be allocated at the moment of creation, and warns that the flood of AI-generated tracks will worsen discoverability and revenue imbalances if metadata remains incomplete or inconsistent.[^curation-3]
 
-### Legacy Metadata
+[^curation-3]: European Parliament resolution of 17 January 2024 on cultural diversity and the conditions for authors in the European music streaming market, recital 32 [@ep_resolution_music_streaming_2024].
 
-The European Parliament has emphasised that accurate and standardised metadata is essential for ensuring fair remuneration and proper attribution in the music streaming market. It calls for identifiers such as ISWC, ISRC, ISNI, IPI and IPN to be allocated at the moment of creation, highlights the systemic problems caused by poor data quality, and warns that the flood of AI-generated tracks further exacerbates discoverability and revenue imbalances if metadata remains incomplete or inconsistent.[^curation-2]
+In practice, achieving this goal has proven very difficult. The registers that underpin music metadata are privately governed, require continuous investment, and cannot simply be rebuilt from scratch. Hundreds of millions of assets are already circulating, and billions of transactions are handled annually on the basis of this legacy infrastructure. Even the term *metadata* is ambiguous: in libraries and IT it means descriptive information (title, genre, provenance), but in the music industry it usually refers narrowly to administrative identifiers that drive royalty distribution. This gap in terminology adds to confusion and misplaced expectations.
 
-[^curation-2]: European Parliament resolution of 17 January 2024 on cultural diversity and the conditions for authors in the European music streaming market, recital 32.
+::: callout-note
+#### Forward-looking identifier pilots: PRS Nexus and Teosto ISNI
 
-While we fully agree with this goal, we have witnessed in the past years how difficult it is to achieve. This is partly due to data protection issues (introduced later), and partly because the registers that underpin music metadata are privately governed, require continuous investment, and cannot be rebuilt from scratch. Hundreds of millions of assets are in circulation, with billions of transactions handled annually, all of which rely on this existing infrastructure. Moreover, the very use of the word *metadata* is misleading in the music industry: while in libraries and IT it usually means descriptive information (title, genre, provenance), in music business practice it refers narrowly to administrative identifiers that drive royalty distribution. This terminological gap itself contributes to misunderstandings and misplaced expectations.
+Two recent initiatives show how the industry is moving towards *better identifier coverage at source*:
 
-The *International Standard Recording Code* (**ISRC**) was introduced in 1986 as a 12-character identifier for individual sound and video recordings, formalised in ISO 3901 [@iso_isrc_2019]. Operational management was placed with the IFPI, which continues to publish practical guidance [@isrc_handbook_2021]. National agencies began implementation in the late 1980s and early 1990s, and by 1991–1992 IFPI and the RIAA had circulated operational recommendations. A revision of ISO 3901 in 2001 and later updates sought to address shortcomings in registrant roles and metadata practices as digital distribution became dominant. Despite these efforts, persistent problems include retroactive assignment, inconsistent embedding, and weak interoperability with other identifiers such as ISWC [@paskin_2006, p4]. The ISRC system reflects the pre-internet era: much like the *International Standard Book Number* (**ISBN**, ISO 2108) which predated widespread online catalogues, ISRC relied on decentralised registrant ranges distributed by post and manually reported back [@iso_isbn_2017].
+-   **PRS for Music – Nexus.** A new portal linking works (ISWC) and recordings (ISRC) at the moment of release. It already covers nearly 3 million works and offers APIs for rights-holders and DSPs [@prsformusic_nexus_2023; @wipo_nexus_2023]. By embedding ISWC allocation into distribution workflows, Nexus aims to accelerate royalty payments and reduce reconciliation delays that often last months or years.
 
-The *International Standard Musical Work Code* (**ISWC**) was standardised later, as ISO 15707 [@iso_iswc_2022], and is managed centrally by CISAC through the ISWC Agency. It was designed to identify musical works (compositions, lyrics), complementing ISRC’s recording-level scope. Yet adoption has been hindered by data-quality problems: duplicate ISWCs for the same work, mismatches between ISWC and ISRC, and governance challenges within collective management organisations. As Paskin observed nearly twenty years ago, the fundamental issues of interoperability and reliability across identifier systems were already well recognised but unresolved [@paskin_2006, p7].
+-   **Teosto – ISNI for authors.** The Finnish CMO Teosto now assigns ISNIs to its members, giving authors and composers persistent identifiers that interlink with VIAF, ORCID, and Wikidata [@teosto_isni_2024]. This connects music rights data with library and research infrastructures and strengthens international interoperability.
 
-Often overlooked in this debate is the *International Standard Music Number* (**ISMN**, ISO 10957), which identifies printed music publications [@iso_ismn_2021]. ISMN plays a bridging role: it links the abstract work level of ISWC with the concrete manifestations of print editions, enabling continuity between bibliographic and rights-management practices. Despite its potential, ISMN remains underused in digital workflows and is rarely considered in discussions of streaming-era metadata.
+These projects simplify metadata at the point of creation and release, aligning with persistent identifier strategies in the research sector [@nwo_pid_strategy_2021]. But they mainly address *future repertoire*. The much larger challenge lies in the **hundreds of millions of legacy assets** already circulating without complete identifier links — a problem that requires complementary solutions, discussed later in this chapter.
+:::
 
-Together, ISRC, ISWC, and ISMN form the backbone of music identification. Their coexistence illustrates both the strength and fragility of the current system: robust in theory, but in practice plagued by legacy design, inconsistent uptake, and high maintenance costs. This makes the European Parliament’s ambitions difficult to realise without new layers of interoperability, observability, and shared responsibility.
+Together, ISRC (recordings), ISWC (works), and ISMN (printed music) form the backbone of music identification. In theory they provide global coverage, but in practice they remain fragmented: many recordings never receive identifiers, links between identifiers are often missing, and uptake is uneven across registries. This fragility makes the European Parliament’s ambitions difficult to realise without new layers of interoperability, observability, and shared responsibility. The sheer growth in repertoire makes this gap impossible to close with manual workflows: by 2024, more music was released in a single day than in the entire year of 1989 [@abing_more_music_2024][^curation-4]. This scale of legacy under-documentation cannot realistically be resolved with manual workflows alone — it points directly to the need for **curative AI** approaches, which we return to in @sec-ai-policy.
 
-### Named-Entity Resolution, Attribution, and Privacy {#sec-gdpr-curation}
+[^curation-4]: The *International Standard Recording Code* (ISRC) was introduced in 1986 as a 12-character identifier for recordings (ISO 3901) and is managed operationally by IFPI [@iso_isrc_2019; @isrc_handbook_2021]. Persistent problems include retroactive assignment, inconsistent embedding, and weak interoperability with ISWC [@paskin_2006, p4]. The *International Standard Musical Work Code* (ISWC) identifies compositions and lyrics (ISO 15707), managed by CISAC through the ISWC Agency [@iso_iswc_2022]. Challenges include duplicate codes, mismatches with ISRC, and uneven adoption by CMOs [@paskin_2006, p7]. The *International Standard Music Number* (ISMN, ISO 10957) identifies printed music publications [@iso_ismn_2021]. It provides a bridge between bibliographic and rights-management practices, but remains underused in digital workflows.
+
+### Named-entity resolution, attribution, and privacy {#sec-gdpr-curation}
 
 Attribution is not optional in music: the names of authors, performers, and producers are structurally necessary for copyright, royalties, and cultural record-keeping. Yet under GDPR, these names count as personal data, creating a contradiction at the very foundations of metadata curation. What is mandatory under copyright law becomes a liability under data protection law. In practice, private actors face repeated balancing tests, inconsistent interpretations, and the risk of complaints even when attribution is legally required.
 
@@ -93,43 +93,64 @@ Policy communities in Europe recognise these issues. The **Big Data Value Associ
 
 How these structural problems can be addressed at systemic level is the subject of @sec-gdpr-observatory, where we show how data sharing spaces provide a way forward.
 
+## Policy proposals {#sec-curation-policy-proposals}
 
-## Policy proposals
+::: callout-caution
+#### Editing reminer {.unnumbered}
 
 -   Pilots: Slovak CMD + MusicBase for capture and reconciliation; Open Music Registers for cross-domain linking; Unlabel for “document once, reuse many” (distribution + preservation).
+
 -   Deliverables: (a) “Capture once, reuse many” profile pack; (b) minimal identifier coverage checklist; (c) recommended crosswalk templates and validation scripts.
+
 -   Standards/regulation/public investment: call out per subsection (e.g., GDPR for name exposure; DCMI/METS/MODS/DCAT/JSON-LD profiles; EOSC/ECCCH/Europeana alignment).
+:::
 
-### Reducing Redundancy
+[![Explanation](png/20250707_D_Antal_IAM_for_charts/Slide3.PNG){fig-align="center"}](https://zenodo.org/records/16634558)
 
-The European Parliament has rightly highlighted that fragmented and unreliable metadata remains a major obstacle in the music sector. We agree with this diagnosis, but stress that the root cause lies partly in the need for backward compatibility with several hundred million legacy assets, and in the costly redundancy of today’s practices: the same information must be repeatedly entered into separate systems such as ISNI, ISWC, ISRC, VIAF, or local authority files. This duplication creates errors, increases costs, and discourages accurate registration.
+### Reducing redundancy {#sec-curation-redundancy}
 
-Our policy solution is to encourage the parallelisation of registration processes and the harmonisation of the data that enters costly, manually curated registers. We demonstrate this approach with our *Open Music Registers* pilot: a federated infrastructure designed to enable harmonised, parallel, and redundancy-free registration. Instead of duplicating efforts, the registers interconnect persistent identifiers (ISWC, ISRC, ISNI, VIAF) and link them where relevant to business and statistical identifiers (OpenCorporates, NACE, ISCO). This allows music creators and organisations to benefit from smoother workflows, while downstream users gain more reliable data for royalty distribution, cultural visibility, and AI-driven discovery.
+The European Parliament has rightly highlighted that fragmented and unreliable metadata remains a major obstacle in the music sector. We agree with this diagnosis, but stress that the root cause lies partly in the need for backward compatibility with hundreds of millions of legacy assets, and in the costly redundancy of today’s practices: the same information must be repeatedly entered into separate systems such as ISNI, ISWC, ISRC, VIAF, or local authority files. This duplication creates errors, increases costs, and discourages accurate registration.
 
-The Open Music Registers deliberately avoid centralisation. Each registrar—collective management organisations, libraries, archives, or statistical offices—retains ownership of its data, but contributes to a shared semantic framework built on the European Interoperability Framework and the 8-Star FAIR model. By connecting rather than merging registers, we reduce redundancy while safeguarding subsidiarity, accountability, and trust across public and private actors. This distributed model directly answers Parliament’s call for metadata systems that are reliable, inclusive, and supportive of creators.[^curation-3]
+Our policy solution is to support **redundancy-free registration** by aligning the workflows of those who already maintain authoritative data. Instead of duplicating efforts, registration steps can be coordinated once and reused many times. We demonstrate this approach with our *Open Music Registers* pilot: a federated infrastructure that interconnects persistent identifiers (ISWC, ISRC, ISNI, VIAF) and, where relevant, links them to business and statistical identifiers (e.g. OpenCorporates, NACE, ISCO). This allows music creators and organisations to benefit from smoother workflows, while downstream users gain more reliable data for royalty distribution, cultural visibility, and AI-driven discovery.
 
-[^curation-3]: For a full methodological discussion and technical architecture, see [@open_music_registers_2025].
+The *Open Music Registers* deliberately avoid centralisation. Each registrar — collective management organisations, libraries, archives, or statistical offices — retains ownership of its data, but contributes to a shared semantic framework.[^curation-5] By connecting rather than merging registers, redundancy is reduced while subsidiarity, accountability, and trust are safeguarded across public and private actors. This distributed model directly answers Parliament’s call for metadata systems that are reliable, inclusive, and supportive of creators.[^curation-6]
 
-As the DSSC’s *Blueprint v2.0* notes, identifiers and rulebooks are the foundation of any data space [@dssc_blueprint_intro_2025]. For music, however, attribution identifiers themselves are caught in the GDPR contradiction (see @sec-gdpr-curation).
+[^curation-5]: Technically, this corresponds to a *provenance-oriented modelling* approach such as the W3C **PROV-O** standard [@prov_model_2013; @prov_o_2013], which connects actors, activities, and entities in chains of attribution (“a composer authors a work, a performer interprets it, a producer records it…”). These chains can be expressed in the layered terms of the *European Interoperability Framework* (EIF), ensuring legal, organisational, semantic, and technical interoperability [@eif_2017].
 
-### Reconciling Attribution and Privacy
+[^curation-6]: The *Data Spaces Support Centre (DSSC)* Blueprint v2.0 underlines that identifiers and rulebooks are the foundation of any common European data space [@dssc_blueprint_intro_2025]. In the music sector, however, attribution identifiers themselves are caught in the GDPR contradiction (see @sec-gdpr-curation), which underscores the importance of redundancy-free but legally robust registration practices.
+
+### Reconciling attribution and privacy {#sec-reconcile-attribution-privacy}
 
 The problem of reconciling copyright attribution with GDPR obligations cannot be solved by ignoring either side: both are binding legal requirements. Our approach, tested in the *Slovak Comprehensive Music Database* (SkCMDb), shows that progress is possible through layered governance and careful balancing. Academic institutions and libraries, with their cultural and research mandates, can lawfully handle personal data under derogations for public-interest processing. Collective management organisations (CMOs) and private actors, by contrast, must rely on legitimate interest tests, supported by transparent documentation, notification to rightsholders, and opt-out mechanisms where possible.
+
+::: callout-note
+#### Interoperability is a means, not a goal
+
+Our Slovak pilot, the **Slovak Comprehensive Music Database (SKCMDb)**, links libraries, rights management, streaming services, and the statistical office.  
+
+This is not “interoperability for its own sake.” Ontologies and crosswalks are valuable only insofar as they enable **better services**:  
+
+- **For audiences**: making music findable and accessible across cultural and commercial platforms.  
+- **For rightsholders**: ensuring that attribution, identifiers, and royalty flows are correct.  
+- **For policymakers**: providing reliable data to support cultural policy and measure the music economy.  
+
+In short, interoperability at the data level is the condition for **usable services** at the societal level.
+:::
+
 
 Balancing tests play a central role: each dataset is audited, divided into *public* and *non-public* categories, and then assessed again for personal vs. non-personal data. Public information such as names of authors, performers, and work titles—already widely available in catalogues and concert programmes—can justifiably be shared under legitimate interest, especially when linked to rights management purposes. Sensitive data (e.g. addresses, nationality, pseudonyms) require stricter access tiers and are only made available to selected stakeholders under contractual safeguards.
 
 This layered compliance model does not eliminate GDPR challenges, but it creates a robust defence: it demonstrates that the legitimate interest in accurate attribution and royalty distribution outweighs the minimal risks of publishing already public information. In practice, this means rights metadata can circulate across the ecosystem while privacy-sensitive data are contained. Building such workflows into federated observatories and data spaces allows the music sector to comply with data protection rules without undermining attribution, and provides a model for European-scale solutions.
 
-
-### Pragmatic Metadata Alignment (Enhanced with Cross-Domain Examples)
+### Pragmatic metadata alignment {#sec-curation-pragmatic-solution}
 
 Attempts to build one comprehensive, harmonised schema for music metadata have repeatedly failed. The sector is too heterogeneous: collective management organisations, libraries, archives, distributors, and platforms all operate with different standards and governance models. Pursuing a single “giga-ontology” would be prohibitively costly, brittle, and ultimately futile.
 
-Our policy solution is to promote *pattern-based modular alignment*, where small, reusable ontology design patterns (ODPs) are used to model recurring structures such as **Agent–Role–Activity**, **Work–Recording–Performance**, or **Event–Time–Place**. This method, formalised in the *eXtreme Design* (XD) approach to be used together with pattern-based development, allows interoperability to be achieved incrementally and pragmatically, without forcing any actor to abandon its systems. The Polifonia project has already demonstrated how XD and ODPs can underpin modular music ontologies at European scale \[\^polifonia\].
+Our policy solution is to promote *pattern-based modular alignment*, where small, reusable ontology design patterns (ODPs) are used to model recurring structures such as **Agent–Role–Activity**, **Work–Recording–Performance**, or **Event–Time–Place**. This method, formalised in the *eXtreme Design* (XD) approach to be used together with pattern-based development, allows interoperability to be achieved incrementally and pragmatically, without forcing any actor to abandon its systems. The Polifonia project has already demonstrated how XD and ODPs can underpin modular music ontologies at European scale.[^polifonia]
 
-\[\^polifonia:\] Working with ontological patterns can be reviewed in [@gangemi_ontology_2005; @blomqvist_engineering_2016; @carriero_pattern-based_2021] as method; the Polifonia project applied it to create a new family of modular music ontologies [@de_berardinis_polifonia_2023].
+[^polifonia]: Working with ontological patterns can be reviewed in [@gangemi_ontology_2005; @blomqvist_engineering_2016; @carriero_pattern-based_2021] as method; the Polifonia project applied it to create a new family of modular music ontologies [@de_berardinis_polifonia_2023].
 
-Other domains provide useful analogies for this approach. For instance, **ORCID** identifiers have been increasingly reconciled with **VIAF** authority files using reconciliation services such as OpenRefine, helping to unify researcher identity across research and library systems without enforcing a single authority file [@openrefine_refine_services, @jegan2023authority]. Similarly, the **DataCite to Dublin Core mapping**, as formalised in DataCite's v4.4 schema, shows how two widely used metadata data repository and library standards can be aligned systematically and bidirectionally, while retaining their distinct schema scopes [@datacite_to_dublincore_2021].
+Other domains provide useful analogies for this approach. For instance, **ORCID** identifiers have been increasingly reconciled with **VIAF** authority files using reconciliation services such as OpenRefine, helping to unify researcher identity across research and library systems without enforcing a single authority file [@openrefine_refine_services; @jegan2023authority]. Similarly, the **DataCite to Dublin Core mapping**, as formalised in DataCite’s v4.4 schema, shows how two widely used metadata data repository and library standards can be aligned systematically and bidirectionally, while retaining their distinct schema scopes [@datacite_to_dublincore_2021].
 
 [![Pragmatic metadata alignment relies on modular patterns, not “giga-schemas.” The example shown here from our Wikibase pilot encodes roles, events, and provenance using reusable ontology design patterns. This allowed identifiers from rights management (ISWC, ISRC) to be reconciled with library authorities (ISNI, VIAF), proving that interoperability can be achieved incrementally without forcing any actor to abandon its systems. DOI: \[10.6084/m9.figshare.30075379.v1\](https://doi.org/10.6084/m9.figshare.30075379.v1)](png/OMO/OMO_DCTERMS_patterns.png){fig-align="center"}](https://figshare.com/articles/figure/Pattern-Based_Metadata_Alignment_Illustrated_Through_a_Wikibase_Record_of_a_Published_Score/30075379)
 

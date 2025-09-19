@@ -2,13 +2,13 @@
 
 The European music ecosystem has undergone disruptive transformations in recent decades. In the 2010s, the arrival of agentic AI in streaming platforms radically reconfigured distribution and consumption. These systems centralised global sales, expanding the commercially available repertoire in a typical EU country from roughly 100,000 titles to over 100 million competitors. At the same time, the average transaction value collapsed from around €18 (in current prices) to less than €0.005. This shock hollowed out much of the traditional infrastructure — record stores, radios, and music television — and shifted value capture toward data-driven platforms able to control access through recommender algorithms.
 
-In the 2020s, the rise of generative AI further exacerbates this situation. Large-scale models can mass-produce new compositions and recordings, often imitating or plagiarising patterns of human creators. This inflates supply, undermines the position of professional authors and performers, and aggravates existing problems of remuneration and discoverability.[^context-1]
+In the 2020s, the rise of generative AI further exacerbates this situation. Large-scale models can mass-produce new compositions and recordings, often imitating or plagiarising patterns of human creators. This inflates supply, undermines the position of professional authors and performers, and aggravates existing problems of remuneration and discoverability.[^context_old-1]
 
-[^context-1]: *Music Ecosystem 2025: Study on the Music Ecosystem* [@music_ecossytem_2025]; it frames the sector as an adaptive, networked ecosystem, highlights AI’s ability to disrupt on pp. 6–7, and mentions it as an opportunity particularly on p. 23. *Feasibility Study for the Establishment of a European Music Observatory* [@emo_feasibility_2020]; stresses the fragmented, scarce, and poorly harmonised nature of music data (pp. 9–10), the need for cooperation with rights organisations, statistical agencies, and industry stakeholders (p. 61), and introduces CEEMID as a best practice (pp. 147–148). CEEMID emerged from Budapest, Bratislava, and Zagreb as an early effort to address data poverty in Eastern EU Member States.
+[^context_old-1]: *Music Ecosystem 2025: Study on the Music Ecosystem* [@music_ecossytem_2025]; it frames the sector as an adaptive, networked ecosystem, highlights AI’s ability to disrupt on pp. 6–7, and mentions it as an opportunity particularly on p. 23. *Feasibility Study for the Establishment of a European Music Observatory* [@emo_feasibility_2020]; stresses the fragmented, scarce, and poorly harmonised nature of music data (pp. 9–10), the need for cooperation with rights organisations, statistical agencies, and industry stakeholders (p. 61), and introduces CEEMID as a best practice (pp. 147–148). CEEMID emerged from Budapest, Bratislava, and Zagreb as an early effort to address data poverty in Eastern EU Member States.
 
-EU-level studies and policy frameworks have recognised these dynamics and increasingly frame them as systemic challenges. The *Feasibility Study for the Establishment of a European Music Observatory* diagnosed the fragmented, scarce, and poorly harmonised nature of music data collection across Member States, calling it the fundamental reason for an EU-level observatory. The *Music Ecosystem 2025 study* reframes the sector as an interconnected ecosystem, where platformisation, market consolidation, and emerging technologies like AI interact with broader societal challenges such as precarity, gender inequality, and sustainability. The European Parliament, in its *Resolution on cultural diversity and the conditions for authors in the European music streaming market*, echoed these concerns with explicit calls for reform.[^context-2]
+EU-level studies and policy frameworks have recognised these dynamics and increasingly frame them as systemic challenges. The *Feasibility Study for the Establishment of a European Music Observatory* diagnosed the fragmented, scarce, and poorly harmonised nature of music data collection across Member States, calling it the fundamental reason for an EU-level observatory. The *Music Ecosystem 2025 study* reframes the sector as an interconnected ecosystem, where platformisation, market consolidation, and emerging technologies like AI interact with broader societal challenges such as precarity, gender inequality, and sustainability. The European Parliament, in its *Resolution on cultural diversity and the conditions for authors in the European music streaming market*, echoed these concerns with explicit calls for reform.[^context_old-2]
 
-[^context-2]: *European Parliament Resolution on cultural diversity and the conditions for authors in the European music streaming market* [@ep_resolution_music_streaming_2024]; it recognises streaming as the dominant global revenue source while leaving many authors with very low income (recitals F–H), stresses accurate metadata allocation at the time of creation using identifiers ISWC, ISRC, ISNI, IPI, and IPN (recital R), highlights the lack of quality data to properly identify authors, performers, and rights holders (recital L), and warns that AI-generated tracks are flooding streaming platforms, aggravating discoverability and remuneration imbalances (recital O).
+[^context_old-2]: *European Parliament Resolution on cultural diversity and the conditions for authors in the European music streaming market* [@ep_resolution_music_streaming_2024]; it recognises streaming as the dominant global revenue source while leaving many authors with very low income (recitals F–H), stresses accurate metadata allocation at the time of creation using identifiers ISWC, ISRC, ISNI, IPI, and IPN (recital R), highlights the lack of quality data to properly identify authors, performers, and rights holders (recital L), and warns that AI-generated tracks are flooding streaming platforms, aggravating discoverability and remuneration imbalances (recital O).
 
 Our policy brief positions itself within this landscape. It aims to support and extend the Music Moves Europe framework by highlighting six crucial dimensions:
 
@@ -42,14 +42,14 @@ From the outset, we draw on concrete pilots that illustrate both the problems an
 SKCMDb is our national pilot for federated metadata governance. It links together data from collective management (SOZA), national and city libraries, and archives, while ensuring that works can also be discovered in the digital environments where people actually listen: Spotify, YouTube, Apple Classical, and others. A further layer reconciles this metadata with the Slovak Statistical Office via a **Satellite Business Register**, so that cultural production is visible in official economic data.
 
 ::: infobox
-**The SKCMDb in action**
+**Figure 1. The SKCMDb in action**
 
 The chart illustrates the biography and works of Slovak composer **Iris Szeghy** as an example:
 
 [![A slide taken from: SKCMDb: Interoperability of Music Libraries and Archives with Public and Private Music Services (presentation at the IAML 2025 conference in Salzburg) \<https://zenodo.org/records/16634558\>](png/20250707_D_Antal_IAM_for_charts/Slide3.PNG){fig-align="center"}](https://zenodo.org/records/16634558)
 
--   **Left side:** reconciliation of her works across SOZA, the Slovak National Library, the Bratislava City Library, and archives.
--   **Right side:** linking to listening platforms (Spotify, YouTube, Apple Classical).
+-   **Left side:** reconciliation of her works across SOZA, the Slovak National Library, the Bratislava City Library, and archives.\
+-   **Right side:** linking to listening platforms (Spotify, YouTube, Apple Classical).\
 -   **Bottom:** reconciliation with the Slovak Statistical Office via the Satellite Business Register.
 
 SKCMDb thus acts as a bridge between cultural memory institutions, rights management, digital distribution, and public policy.
@@ -88,16 +88,16 @@ Music, then, is now sold in **extremely low-value transactions mediated by auton
 
 By contrast, in most industries administrative overhead is modest:
 
--   Retail/distribution: \~2–5% of net sales
--   Manufacturing: \~3–7%
--   Professional services: 10–15% (because administration blurs into the product)
+-   Retail/distribution: \~2–5% of net sales\
+-   Manufacturing: \~3–7%\
+-   Professional services: 10–15% (because administration blurs into the product)\
 -   OECD/EU cross-industry averages: 3–8% of turnover
 
 In “normal” industries, then, €50 of administrative cost is justified on €1000 of revenue. By comparison, in the recorded music industry, achieving that same 5% efficiency requires delivering faultlessly some 200,000 streaming transactions. This is a **very tall order** for a sector dominated by micro-enterprises and small independents without dedicated IT or metadata teams.
 
-The pressure for efficiency is not only present on the production side of the music business. In the **non-profit sector**, digitisation has profoundly transformed the workflows of archives, libraries, and heritage institutions as well. Streaming has reduced demand for physical collections, forcing libraries to reframe their role around digitisation, knowledge organisation, and community functions rather than lending CDs or scores. New spaces like creative studios and digital repositories are expected, but funding is limited, so efficiency is critical. At the same time, the vast amount of born-digital assets — and now the endless output of generative AI systems — creates a puzzle for archives that remains unsolved today.[^context-3]
+The pressure for efficiency is not only present on the production side of the music business. In the **non-profit sector**, digitisation has profoundly transformed the workflows of archives, libraries, and heritage institutions as well. Streaming has reduced demand for physical collections, forcing libraries to reframe their role around digitisation, knowledge organisation, and community functions rather than lending CDs or scores. New spaces like creative studios and digital repositories are expected, but funding is limited, so efficiency is critical. At the same time, the vast amount of born-digital assets — and now the endless output of generative AI systems — creates a puzzle for archives that remains unsolved today.[^context_old-3]
 
-[^context-3]: See for example the Katona József Library’s adaptive strategies [@virag_2024]. Archives, on the other hand, face a problem that instead of receiving records on paper, they are becoming gigantic data silos in the age of born-digital documents. They are being transformed into data through digitisation and born-digital records, face volumes too large for manual processing. This pressures traditional archival concepts such as provenance, original order, fixity, and authenticity [@colavizza_2022].
+[^context_old-3]: See for example the Katona József Library’s adaptive strategies [@virag_2024]. Archives, on the other hand, face a problem that instead of receiving records on paper, they are becoming gigantic data silos in the age of born-digital documents. They are being transformed into data through digitisation and born-digital records, face volumes too large for manual processing. This pressures traditional archival concepts such as provenance, original order, fixity, and authenticity [@colavizza_2022].
 
 ::: infobox
 **Metadata as provenance**

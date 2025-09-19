@@ -29,7 +29,7 @@ The invention of the computer, and later the internet, introduced new ways to do
 ::: callout-note
 This Green Paper is an early-stage policy document, prepared in line with **Open Policy Analysis** and the **Horizon Europe Data Management Guidelines**. It has been released early to allow consultation, incorporate stakeholder input, and provide a transparent development process. It will serve as the basis for:
 
--   *A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem — Practical Steps Towards a Decentralised and Open European Music Observatory* \[current document, version 0.3\]\
+-   *A Green Paper on AI, Data Governance, and Metadata Policies for Europe’s Music Ecosystem — Practical Steps Towards a Decentralised and Open European Music Observatory* \[current document, version 0.5\]\
 -   Deliverable D5.7 (Policy Brief) for the *Open Music Europe* consortium\
 -   A White Paper to be discussed at LineCheck 2025 and at the final policy forum of *Open Music Europe* and its system projects in Brussels, December 2025
 
@@ -53,8 +53,8 @@ Our document has been presented and discussed with industry specialists on the f
 -   Hungarian stakeholders interested in replication of the Slovak pilot versions [^index-3]
 -   CISAC: Protecting Creators’ Rights in the AI Era: OpenMusE at the European Committee Meeting, Vilnius, 29-30 April [^cisac].
 -   IAMIC [^index-4]: The *International Association of Music Information Centres* and several key members of the organisation.
--   IAML [^index-5]: The *International Association of Music Libraries, Archives and Documentation Centers* and several national chapters and key members.
--   Polifonia
+-   IAML: The *International Association of Music Libraries, Archives and Documentation Centers* and several national chapters and key members [^index-5].
+-   Polifonia: In October 2023 Polifonia invited a few stakeholders - Podiumkunst.net, the Open Music Observatory, Uni Firenze, IC Fonseca School, Joséphine Simonnot/PRISM, Maria Luisa Onida/D'Istruzione Superiore Leonardo Da Vinci, Carnegie Hall Archive, Municipality of Bologna -  for a work session, which gave us a great opportunity to strengthen the metadata framework of our policy recommendations and infrastructure planning.
 -   Slovak national stakeholders interested in cultural data[^index-6]
 -   Wikimedia community and developers[^index-7].
 
