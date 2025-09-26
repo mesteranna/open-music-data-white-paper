@@ -5,19 +5,17 @@
 
 ## Discussion
 
-::: callout-note
-    ### These are pre-finalisation notes
-
-    -   Streaming-era inefficiencies and micro-transaction reality; identifier silos and reconciliation overheads; feasibility/Observatory emphasis on harmonised, comparable data; *Music Ecosystem 2025*’s ecosystem framing.
-
-    -   Industry practice: CISAC/IFPI/ISO identifier regimes; library/archives practice on authority files; Wikimedia/Wikidata as low-cost backbone.
-:::
-
 ### Structural fragmentation of data and value flows
 
 In the music ecosystem, data is not simply decentralised by design but *structurally scattered*. Rights metadata is maintained by hundreds of collective management organisations and publishers, while recordings and distribution data are spread across labels, distributors, and global platforms. Libraries and archives manage their own authority files, often linked only imperfectly to international standards such as ISNI, VIAF, or ISBN. Independent projects and community-driven infrastructures, such as *Wikidata* and Wikibase, add yet another layer of documentation.
 
 This fragmentation is not an anomaly but the normal condition of the sector: tens of thousands of micro-enterprises and NGOs in Europe each manage slivers of data about works, recordings, or performances. As the *Feasibility Study for a European Music Observatory* underlined, *“the fragmented, scarce and poorly harmonised nature of the data collection landscape in the field of music has led to calls … for a European Music Observatory”* [@emo_feasibility_2020, p9]. Likewise, the *Music Ecosystem 2025* study frames the sector as an ecosystem, where knowledge and value are distributed across many small actors, each with partial perspectives [@music_ecossytem_2025, pp6–7].
+
+The institutional anchoring of a future _European Music Observatory is indeed a critical question_. In our own feasibility planning we reviewed approximately 80 functional and discontinued data observatories, understood here as permanent institutions for ongoing data collection and dissemination. The majority in Europe were initiated by the European Commission and maintained under various public–private partnership (PPP) formats, rather than as heavy agencies or autonomous bodies. 
+
+In this sense, Europeana offers a useful analogy: it coordinates metadata and access across hundreds of institutions without requiring the scale or mandate of entities such as the EUIPO or the European Audiovisual Observatory. In our interim report deliverable we suggested a similar creation path like that of the Europeana Foundation and its various layers of stakeholders [@omo_2024].
+
+From this perspective, we believe the Observatory should follow the lighter, federated PPP model: anchored by the Commission to ensure continuity and legitimacy, but implemented through a distributed network of partners across the public, private, and research domains. This strikes a balance between stability and flexibility, while staying true to the cooperative, federated spirit that underpins our proposal.
 
 Recognising this scattered landscape is essential. It explains why reconciliation overheads are high, why identifier coverage is incomplete, and why “capture once, reuse many” pipelines are necessary. It also provides the foundation for the next chapter: explaining why *attempts at centralisation are futile* in such an ecosystem, and why sustainable solutions must build on federation and interoperability.
 
@@ -25,9 +23,9 @@ Yet fragmentation is not only institutional — it is also economic. Classic val
 
 [^curation-1]: This value-chain framing originates in Hull’s *The Music Business and Recording Industry* [@hull_music_2011] and Leurdijk et al.’s *Statistical, Ecosystem and Competitiveness Analysis of the Media and Content Industries* [@leurdijk_statistical_2012], and was adapted in subsequent CEEMID reports [@antal_slovenskom_hudobnom_2019_en, @antal_ceereport_2020]. The CEEMID work was recognised as a best practice in the *Feasibility Study for a European Music Observatory* [@emo_feasibility_2020], which highlighted its role in linking fragmented data sources into a coherent economic analysis.
 
-[![Adoptation of the value chain model of the European music ecosystem in the CEEMID report](png/ecosystem/Music_value_chain.png){fig-align="center"}](https://doi.org/10.6084/m9.figshare.19174310.v1)
+[![Adoption of the value chain model of the European music ecosystem in the CEEMID report](png/ecosystem/Music_value_chain.png){fig-align="center"}](https://doi.org/10.6084/m9.figshare.19174310.v1)
 
-Market-comparator methods show how this fragmentation translates into measurable distortions: per-hour royalty equivalents differ radically between licensing regimes, and zero-price uses (radio, YouTube, ad-supported streaming) further obscure comparability. Rights are harmonised in law, but fragmented in practice by national licensing, opaque deductions, and reporting asymmetries [@antal_mce_2021]. These hidden inequalities are not an accident: they stem directly from the structural misalignment between economic flows and data flows.
+To address these challenges, we have adopted the value chain model of the European music ecosystem [@antal_mce_2021]. This approach is especially useful for designing data collection that measures cash flows, gross value added, and zero-price uses of music. It highlights both typical price points (e.g. averages or medians) and the interlocking metadata flows that accompany transactions. For policymakers, the model provides a way to trace how consumption — such as a consumer buying a recording through a shop, distributor, and label — translates into revenues for performers and composers. For data governance, it illustrates why capturing the metadata trail of cash flows is essential not only for valuation and cultural statistics but also for building an audit trail for fair remuneration. In the context of this policy brief, the value chain perspective therefore complements the current ecosystem analysis by clarifying which agents must be accounted for in conceptual models of data interoperability.
 
 ### Cost barriers in documentation and claims {#sec-econ-curation}
 
@@ -95,15 +93,6 @@ How these structural problems can be addressed at systemic level is the subject 
 
 ## Policy proposals {#sec-curation-policy-proposals}
 
-::: callout-caution
-#### Editing reminer {.unnumbered}
-
--   Pilots: Slovak CMD + MusicBase for capture and reconciliation; Open Music Registers for cross-domain linking; Unlabel for “document once, reuse many” (distribution + preservation).
-
--   Deliverables: (a) “Capture once, reuse many” profile pack; (b) minimal identifier coverage checklist; (c) recommended crosswalk templates and validation scripts.
-
--   Standards/regulation/public investment: call out per subsection (e.g., GDPR for name exposure; DCMI/METS/MODS/DCAT/JSON-LD profiles; EOSC/ECCCH/Europeana alignment).
-:::
 
 [![Explanation](png/20250707_D_Antal_IAM_for_charts/Slide3.PNG){fig-align="center"}](https://zenodo.org/records/16634558)
 
@@ -113,7 +102,7 @@ The European Parliament has rightly highlighted that fragmented and unreliable m
 
 Our policy solution is to support **redundancy-free registration** by aligning the workflows of those who already maintain authoritative data. Instead of duplicating efforts, registration steps can be coordinated once and reused many times. We demonstrate this approach with our *Open Music Registers* pilot: a federated infrastructure that interconnects persistent identifiers (ISWC, ISRC, ISNI, VIAF) and, where relevant, links them to business and statistical identifiers (e.g. OpenCorporates, NACE, ISCO). This allows music creators and organisations to benefit from smoother workflows, while downstream users gain more reliable data for royalty distribution, cultural visibility, and AI-driven discovery.
 
-The *Open Music Registers* deliberately avoid centralisation. Each registrar — collective management organisations, libraries, archives, or statistical offices — retains ownership of its data, but contributes to a shared semantic framework.[^curation-5] By connecting rather than merging registers, redundancy is reduced while subsidiarity, accountability, and trust are safeguarded across public and private actors. This distributed model directly answers Parliament’s call for metadata systems that are reliable, inclusive, and supportive of creators.[^curation-6]
+The *Open Music Registers* deliberately avoid centralisation. Each registrar — collective management organisations, libraries, archives, or statistical offices — retains ownership of its data but contributes to a shared semantic framework.[^curation-5] By connecting rather than merging registers, redundancy is reduced while subsidiarity, accountability, and trust are safeguarded across public and private actors. This distributed model directly answers European Parliament’s call for metadata systems that are reliable, inclusive, and supportive of creators.[^curation-6]
 
 [^curation-5]: Technically, this corresponds to a *provenance-oriented modelling* approach such as the W3C **PROV-O** standard [@prov_model_2013; @prov_o_2013], which connects actors, activities, and entities in chains of attribution (“a composer authors a work, a performer interprets it, a producer records it…”). These chains can be expressed in the layered terms of the *European Interoperability Framework* (EIF), ensuring legal, organisational, semantic, and technical interoperability [@eif_2017].
 
@@ -132,7 +121,7 @@ This is not “interoperability for its own sake.” Ontologies and crosswalks a
 
 - **For audiences**: making music findable and accessible across cultural and commercial platforms.  
 - **For rightsholders**: ensuring that attribution, identifiers, and royalty flows are correct.  
-- **For policymakers**: providing reliable data to support cultural policy and measure the music economy.  
+- **For policymakers**: providing reliable data to support cultural policy and to measure the music economy.  
 
 In short, interoperability at the data level is the condition for **usable services** at the societal level.
 :::
