@@ -14,17 +14,7 @@ The Open Music Observatory is a cornerstone task of the OpenMusE project (runnin
 
 [^observatory-1]: Always use the latest versioned DOI when citing this *Open Music Observatory* technical report, available via Zenodo. If you rely on supporting material hosted in the GitHub repository, please add the date of access in your reference.
 
-## Executive summary
-
-::: callout-caution
-**This will be finalised after consultation**
-
--   Build a federated data sharing space that lets rights orgs, distributors, platforms, libraries/archives share *just enough* metadata with clear roles, auditability, and lifecycle continuity.
-
--   Use simple, modular agreements and conformance tests rather than a heavy centralised repository.
-:::
-
-The Music Ecosystem 2025 report already emphasised that the music sector should be understood as a distributed ecosystem where value and knowledge are held by many small actors [@music_ecossytem_2025, pp6–7]. This perspective reinforces why centralised repositories fail and why federated observatories, built on cooperation and interoperability, are more realistic.
+The *Music Ecosystem 2025* report already emphasised that the music sector should be understood as a distributed ecosystem where value and knowledge are held by many small actors [@music_ecossytem_2025, pp6–7]. This perspective reinforces why centralised repositories fail and why federated observatories, built on cooperation and interoperability, are more realistic.
 
 [![Over the past decade, feasibility studies, national reports, and EU pilot projects have laid the foundation for the Open Music Observatory. The roadmap (2014–2026) shows a gradual build-up: from local experiments, through cross-border collaborations, to a European-wide federation aligned with cultural data spaces and interoperability frameworks. This trajectory underlines the Observatory’s pragmatic, step-by-step approach to scaling music data infrastructure. DOI: \[10.6084/m9.figshare.30073291.v1\](https://doi.org/10.6084/m9.figshare.30073291.v1)](png/OMO/OMO_timeline_20250908.png){fig-align="center"}](https://figshare.com/articles/figure/Timeline_of_the_Open_Music_Observatory_and_European_Music_Data_Initiatives_2014_2026_/30073291/1?file=57754420)
 
@@ -37,6 +27,31 @@ The Music Ecosystem 2025 report already emphasised that the music sector should 
 ### Why centralisation is a futile model
 
 Calls for a *centralised European database* of music often reappear in policy debates, but in practice such proposals are neither realistic nor aligned with current EU strategies. Centralisation assumes that highly diverse data sources can be harmonised within a single repository. In an ecosystem where knowledge is held by tens of thousands of micro-enterprises, NGOs, collective management organisations, and heritage institutions — each operating under distinct legal frameworks — this assumption is untenable.
+
+::: callout-note
+
+#### Lessons from the Global Repertoire Database {.unnumbered}
+
+Between 2008 and 2014, European and global stakeholders pursued the **Global Repertoire Database (GRD)** as a solution to the chronic fragmentation of musical works data. Backed by collective management organisations (CMOs), major publishers, and digital service providers, the GRD aimed to establish a **single, authoritative global database** of musical works and rightsholders. Its promise was that licensees—especially online platforms—could obtain reliable rights information from one source, reducing duplication and disputes.
+
+However, the GRD ultimately **collapsed before launch**, despite several years of investment and the establishment of a London-based operating company. A similar project, the _International Music Registry_ project, which was backed by the World Intellectual Property Organization, ended with similar results[^grd].
+
+Post-mortems identified several reasons:
+-   **Governance conflicts**: disagreements between major publishers, CMOs, and other stakeholders over who would control and fund the database.
+
+-   **High costs and unclear incentives**: the project’s projected maintenance costs exceeded what many participants—particularly smaller CMOs—were willing or able to sustain.
+
+-   **Asymmetries of power**: large publishers and CMOs were reluctant to share sensitive commercial data on equal terms with competitors.
+
+-   **Lack of trust**: concerns over who would “own” the data and how revenues would be redistributed undermined cooperation.
+
+The failure of the GRD is now widely cited in policy and industry discussions as evidence of the limits of centralised, “single-database” solutions in the music sector. Similar initiatives even failed on national levels.
+
+The predecessor of the Open Music Europe project, CEEMID, was based on the lessons of the following problems and on the insights of a decentralised, dataspace like approach [@antal_ceereport_2020]. In such *federated, interoperable approaches*—where data remains with its custodians but can be linked through shared identifiers, standards, and protocols—have proven more viable. CISAC’s CIS-Net, Europeana in the heritage field, and emerging European data space initiatives exemplify this more **distributed model of governance**.
+
+:::
+
+[^grd]: See for example @goldenfein_hunter_blockchains_2017; @hypebot_grd_failure_2015.
 
 EU infrastructure initiatives have already moved beyond this logic. Since the 2000s, projects such as *Europeana*, the *European Open Science Cloud (EOSC)*, the *European Collaborative Cloud for Cultural Heritage (ECCCH)*, and *DARIAH* have all adopted **federated architectures**, linking distributed collections through shared standards and interoperability frameworks rather than consolidating them into one database. The *Audiovisual Observatory*, established in 1993 as a centralised reporting body, represents an earlier institutional logic that is now being phased out in favour of federation.
 
@@ -52,7 +67,7 @@ Even official governmental statistics, often seen as centralised, are in reality
 
 The *Open Data Directive* grants a right of reuse for public-sector information and requires that certain “high-value datasets” be made freely available across Europe [@directive_open_data_2019]. This includes cultural heritage institutions such as libraries, museums, and archives. However, the Directive stops short of providing the means to ensure that such data is actually usable.
 
-Studies consistently show that open data often remains more of a promise than a reality. In practice, much open data is poorly documented, lacks common identifiers, and is released in unstandardised formats. While it may be free of charge or available at marginal cost, making it interoperable and trustworthy for cross-border use requires significant additional effort. The burden of curation, harmonisation, and enrichment falls on downstream users, which can be prohibitively expensive for smaller organisations. As the CEDAR project put it, *“Public authorities are only required to make existing data available, not to create new data or improve existing systems. This leads to significant disparities in usability and accessibility”* [@cedar_hvd_2023]. A recent EU-wide usability study adds that *“many open data portals remain difficult to navigate, poorly documented, and inconsistent in their metadata quality, limiting actual reuse”*  [@jachimczyk_open_data_usability_2024].  
+Studies consistently show that open data often remains more of a promise than a reality. In practice, much open data is poorly documented, lacks common identifiers, and is released in unstandardised formats. While it may be free of charge or available at marginal cost, making it interoperable and trustworthy for cross-border use requires significant additional effort. The burden of curation, harmonisation, and enrichment falls on downstream users, which can be prohibitively expensive for smaller organisations. As the CEDAR project put it, *“Public authorities are only required to make existing data available, not to create new data or improve existing systems. This leads to significant disparities in usability and accessibility”* [@cedar_hvd_2023]. A recent EU-wide usability study adds that *“many open data portals remain difficult to navigate, poorly documented, and inconsistent in their metadata quality, limiting actual reuse”* [@jachimczyk_open_data_usability_2024].\
 These structural weaknesses of open data provision set the stage for the Observatory’s role in providing workflow playbooks and redundancy-free registration, discussed in @sec-observatory-proposals.[^observatory-4]
 
 [^observatory-4]: Early modelling stressed the economic potential of open data but also identified major obstacles in practice: lack of availability, uneven quality, and poor usability [@carrara_creating_2015, p7; @huyer_economic_2020, p14]. Comparative studies show that simply granting a right to reuse rarely produces machine-actionable datasets. In complex domains like music, where attribution depends on precise identifiers, these shortcomings become particularly costly. Cross-sector reviews underline persistent fragmentation: heterogeneous formats and divergent practices across Member States [@buttow_meijer_openness_2024, p12]; variability even in high-value geospatial datasets [@kevic_godi_plus_2023, p3]; and sectoral case studies (e.g. mineral intelligence) repeatedly call for shared profiles beyond legal openness [@simoni_mintell4eu_2021, p5]. Additional evidence shows that preparing legacy administrative data for reuse requires cleansing and enrichment that impose real costs, even when the data are nominally “open” [@eurosdr_nmcabiz_2021, p9; @schnurr_ogd_markets_2021, p14; @nakos_nautical_2022, p6].
@@ -63,7 +78,7 @@ The Slovak pilot shows that voluntary workarounds for attribution under GDPR are
 
 For observatories and data spaces, this is untenable. Interoperability requires clarity and legal certainty across borders and institutions. Without guidance from a Data Protection Authority or the European Commission, every national or sectoral initiative risks being challenged. The result is paralysis: public infrastructures cannot fully attribute works, and private actors refrain from sharing metadata for fear of liability.
 
-In effect, Europe’s music data infrastructures remain locked in uncertainty — unable to guarantee attribution, diversity monitoring, or local content compliance. This makes a purely local or voluntary approach insufficient. The solution must be systemic: a **federated data sharing space**, supported by common specifications and clear governance frameworks, so that attribution and interoperability can scale. How such systemic solutions can be embedded into the Observatory’s conformance and legal levers is developed in @sec-observatory-proposals. These unresolved attribution issues ultimately undermine not only observatories but also AI fairness and governance (see @sec-gdpr-ai)[^observatory-5]. 
+In effect, Europe’s music data infrastructures remain locked in uncertainty — unable to guarantee attribution, diversity monitoring, or local content compliance. This makes a purely local or voluntary approach insufficient. The solution must be systemic: a **federated data sharing space**, supported by common specifications and clear governance frameworks, so that attribution and interoperability can scale. How such systemic solutions can be embedded into the Observatory’s conformance and legal levers is developed in @sec-observatory-proposals. These unresolved attribution issues ultimately undermine not only observatories but also AI fairness and governance (see @sec-gdpr-ai)[^observatory-5].
 
 [^observatory-5]: The Slovak pilot demonstrated that even with careful communication and GDPR balancing tests, participation was below 1.3%, showing the practical limits of voluntary attribution workarounds. Without EU-level guidance, every dataset requires fresh legal reasoning, making scale impossible. Comparable findings in other cultural domains underline the risk: voluntary consent-based models tend to collapse under low response rates and high compliance costs. See also discussions of attribution and AI fairness in [@emo_feasibility_2020] and [@music_ecossytem_2025].
 
@@ -83,22 +98,24 @@ EOSC, intended as Europe’s backbone for research data, is also relevant. Its f
 
 [^observatory-8]: EOSC provides federated access and persistence through Zenodo and OpenAIRE, but music workflows remain marginal. On EOSC’s role, see the *European Strategy for Data* [@european_data_strategy_2020].
 
-The **European Interoperability Framework (EIF)** helps explain why these gaps persist. Interoperability depends not only on formats but also on legal, organisational, semantic, and technical alignment. Without shared governance and profiles, public and private systems diverge. The **principle of subsidiarity** adds another layer: stewardship over cultural data is distributed across national and regional authorities, as well as private actors. Centralisation is therefore both impractical and politically illegitimate. The challenge is not whether decentralisation should exist, but how to make decentralised contributions work together.[^observatory-9]  
-This challenge directly motivates the Observatory’s bridging role with EOSC, Europeana, and ECCCH, elaborated in @sec-observatory-proposals[^observatory-9].  
+The **European Interoperability Framework (EIF)** helps explain why these gaps persist. Interoperability depends not only on formats but also on legal, organisational, semantic, and technical alignment. Without shared governance and profiles, public and private systems diverge. The **principle of subsidiarity** adds another layer: stewardship over cultural data is distributed across national and regional authorities, as well as private actors. Centralisation is therefore both impractical and politically illegitimate. The challenge is not whether decentralisation should exist, but how to make decentralised contributions work together.[^observatory-9]\
+This challenge directly motivates the Observatory’s bridging role with EOSC, Europeana, and ECCCH, elaborated in @sec-observatory-proposals[^observatory-10].
 
 [^observatory-9]: The EIF defines layered interoperability (legal, organisational, semantic, technical) [@eif_2017]. The *European Strategy for Data* frames subsidiarity as compatible with federation [@european_data_strategy_2020]. BDVA and the Federation Working Group emphasise that interoperability frameworks are needed to operationalise federation [@bdva_discussion_paper_2023; @federation_wg_position_2023].
+
+[^observatory-10]: The EIF defines layered interoperability (legal, organisational, semantic, technical) [@eif_2017]. The *European Strategy for Data* frames subsidiarity as compatible with federation [@european_data_strategy_2020]. BDVA and the Federation Working Group emphasise that interoperability frameworks are needed to operationalise federation [@bdva_discussion_paper_2023; @federation_wg_position_2023].
 
 ### Subsidiarity and infrastructures for scaling music data
 
 The European principle of **subsidiarity** requires that decisions be taken as closely as possible to the citizens they affect. In cultural policy, this means that responsibilities are distributed across multiple levels: in some Member States, culture is managed regionally or provincially; in others, nationally. Beyond public administrations, many important datasets are held by private actors — collective management organisations, platforms, or archives. Any attempt to centralise music data governance would therefore risk losing both legitimacy and local relevance.
 
-Instead, subsidiarity must be built into the design of the Observatory. The **European Interoperability Framework (EIF)** provides a layered model — legal, organisational, semantic, and technical — for reconciling governance across institutions. The **Data Governance Act (DGA)** codifies the same principle: Member States retain stewardship over sensitive datasets, but EU-level standards ensure they can circulate securely and comparably across borders. The **Data Space Support Centre (DSSC)** extends this approach into practice, developing blueprints and building blocks that allow decentralised initiatives to scale. Together, these frameworks show how subsidiarity and federation are not barriers but design principles for data spaces.[^observatory-10]
+Instead, subsidiarity must be built into the design of the Observatory. The **European Interoperability Framework (EIF)** provides a layered model — legal, organisational, semantic, and technical — for reconciling governance across institutions. The **Data Governance Act (DGA)** codifies the same principle: Member States retain stewardship over sensitive datasets, but EU-level standards ensure they can circulate securely and comparably across borders. The **Data Space Support Centre (DSSC)** extends this approach into practice, developing blueprints and building blocks that allow decentralised initiatives to scale. Together, these frameworks show how subsidiarity and federation are not barriers but design principles for data spaces.[^observatory-11]
 
-[^observatory-10]: On subsidiarity and federation: the *Data Governance Act* [@regulation_dga_2022_868] and the *European Strategy for Data* [@european_data_strategy_2020]. On technical frameworks: DSSC’s blueprints [@dssc_blueprint_intro_2025; @dssc_blueprint_interop_2025]. On governance: BDVA [@bdva_discussion_paper_2023] and the Federation Working Group [@federation_wg_position_2023].
+[^observatory-11]: On subsidiarity and federation: the *Data Governance Act* [@regulation_dga_2022_868] and the *European Strategy for Data* [@european_data_strategy_2020]. On technical frameworks: DSSC’s blueprints [@dssc_blueprint_intro_2025; @dssc_blueprint_interop_2025]. On governance: BDVA [@bdva_discussion_paper_2023] and the Federation Working Group [@federation_wg_position_2023].
 
-At the technical level, **Wikidata and Wikibase** provide a proven backbone for collaborative metadata management. They are already embedded in EU infrastructures such as the official EU Knowledge Graph and in national projects like **MetaBelgica** in Belgium. In Flanders, the performing arts field has gone further: since 2017, *Kunstenpunt* and meemoo have published decades of performing arts data on Wikidata, showing how enrichment happens automatically once data becomes part of a wider ecosystem. These pilots illustrate how subsidiarity and federation can work in practice, with decentralised actors maintaining control of their own data while contributing to a shared framework.[^observatory-11]
+At the technical level, **Wikidata and Wikibase** provide a proven backbone for collaborative metadata management. They are already embedded in EU infrastructures such as the official EU Knowledge Graph and in national projects like **MetaBelgica** in Belgium. In Flanders, the performing arts field has gone further: since 2017, *Kunstenpunt* and meemoo have published decades of performing arts data on Wikidata, showing how enrichment happens automatically once data becomes part of a wider ecosystem. These pilots illustrate how subsidiarity and federation can work in practice, with decentralised actors maintaining control of their own data while contributing to a shared framework.[^observatory-12]
 
-[^observatory-11]: On Wikidata/Wikibase in heritage: [@bianchini_beyond_2021; @sardo_wikidata_2022]. On official adoption: EU Knowledge Graph [@diefenbach_wikibase_2021]; SEMIC guidelines [@semic_support_centre]. On Belgian pilots: *MetaBelgica* [@meta_belgica_project] and Flemish performing arts enrichment [@magnus_podiumkunsten_2021].
+[^observatory-12]: On Wikidata/Wikibase in heritage: [@bianchini_beyond_2021; @sardo_wikidata_2022]. On official adoption: EU Knowledge Graph [@diefenbach_wikibase_2021]; SEMIC guidelines [@semic_support_centre]. On Belgian pilots: *MetaBelgica* [@meta_belgica_project] and Flemish performing arts enrichment [@magnus_podiumkunsten_2021].
 
 The problem of scale makes such infrastructures essential. Large platforms and labels can manage millions of assets cheaply, but small actors cannot. Without shared systems, independent and community-based repertoires remain undocumented because the cost of proper registration exceeds likely revenue. Federated tools — strengthened by automation and AI — are the only realistic way to close this gap.
 
@@ -108,9 +125,9 @@ The problem of scale makes such infrastructures essential. Large platforms and l
 Our pilot with the **Finno-Ugric Data Sharing Space** illustrates subsidiarity in practice. By collaborating with regional NGOs and national archives, we curated and repaired datasets that would have remained invisible in a central repository. The project showed that decentralised actors are best placed to manage their own data, but that interoperability frameworks and shared observability layers can connect them effectively.
 :::
 
-International comparison confirms this. In the United States, the **Mechanical Licensing Collective (MLC)** was created in 2021 to administer a blanket mechanical license for streaming and downloads. It inherited more than \$424 million in unmatched royalties and developed large-scale reconciliation systems to allocate them. By 2022, it had already distributed nearly \$700 million. The MLC shows what can be achieved when identifiers such as ISWC and ISRC are used systematically and backed by law. But it also highlights the limits of centralisation: creators must still claim and maintain their records, education gaps persist, and disputes between platforms and rights bodies continue.[^observatory-12]
+International comparison confirms this. In the United States, the **Mechanical Licensing Collective (MLC)** was created in 2021 to administer a blanket mechanical license for streaming and downloads. It inherited more than \$424 million in unmatched royalties and developed large-scale reconciliation systems to allocate them. By 2022, it had already distributed nearly \$700 million. The MLC shows what can be achieved when identifiers such as ISWC and ISRC are used systematically and backed by law. But it also highlights the limits of centralisation: creators must still claim and maintain their records, education gaps persist, and disputes between platforms and rights bodies continue.[^observatory-13]
 
-[^observatory-12]: On the MLC’s establishment and operations: [@mlc_annual_report_2021]; on contested governance and disputes with platforms: [@varghese_blackbox_2024].
+[^observatory-13]: On the MLC’s establishment and operations: [@mlc_annual_report_2021]; on contested governance and disputes with platforms: [@varghese_blackbox_2024].
 
 ::: callout-note
 #### The U.S. Mechanical Licensing Collective (MLC)
@@ -124,29 +141,30 @@ The MLC shows what can be achieved when identifiers (ISWC, ISRC) are captured sy
 
 Large platforms and major labels can document millions of tracks at very low per-unit cost, because they manage everything in bulk. Smaller actors — independent labels, non-profits, or community archives — face the opposite situation: the cost of registering and maintaining each track is often higher than the revenue it will ever generate. This imbalance explains why so many “frozen” assets remain unregistered and invisible in today’s digital ecosystem.
 
-Without a way to share infrastructure, small actors remain stuck. They cannot afford the per-track cost of full documentation, yet under-documentation ensures their work remains undiscovered. This is not just an accounting issue, but a **structural barrier to diversity** in music data flows. A federated approach, as outlined in @sec-dss-solution, is essential to rebalance these inequalities and enable small actors to benefit from the same efficiencies as global players.[^observatory-13]
+Without a way to share infrastructure, small actors remain stuck. They cannot afford the per-track cost of full documentation, yet under-documentation ensures their work remains undiscovered. This is not just an accounting issue, but a **structural barrier to diversity** in music data flows. A federated approach, as outlined in @sec-dss-solution, is essential to rebalance these inequalities and enable small actors to benefit from the same efficiencies as global players.[^observatory-14]
 
-[^observatory-13]: Comparative research shows that costs per asset decrease sharply with catalogue size, creating scale advantages for majors and global platforms. Without shared infrastructures, small actors are disproportionately disadvantaged. The *Feasibility Study for a European Music Observatory* emphasised this imbalance as a structural barrier [@emo_feasibility_2020, p9], while the *Music Ecosystem 2025* study highlighted how fragmentation and duplication reinforce these scale inequalities [@music_ecossytem_2025].
+[^observatory-14]: Comparative research shows that costs per asset decrease sharply with catalogue size, creating scale advantages for majors and global platforms. Without shared infrastructures, small actors are disproportionately disadvantaged. The *Feasibility Study for a European Music Observatory* emphasised this imbalance as a structural barrier [@emo_feasibility_2020, p9], while the *Music Ecosystem 2025* study highlighted how fragmentation and duplication reinforce these scale inequalities [@music_ecossytem_2025].
 
 ## Policy Proposals {#sec-observatory-proposals}
 
 ::: callout-warning
 ### Editing reminder {.unnumbered}
 
-- Open Music Observatory as the convening + conformance + observability layer (not a single database).  
-- Workflow playbooks: rights→distribution→charting→preservation; change-propagation patterns; provenance trails that survive system boundaries.  
-- Legal/standards/public investment inline: GDPR legal bases per flow; recommended codes of conduct; lightweight policy for data fitness/quality; funding hooks (ECCCH pilots, national ministries).  
+-   Open Music Observatory as the convening + conformance + observability layer (not a single database).\
+-   Workflow playbooks: rights→distribution→charting→preservation; change-propagation patterns; provenance trails that survive system boundaries.\
+-   Legal/standards/public investment inline: GDPR legal bases per flow; recommended codes of conduct; lightweight policy for data fitness/quality; funding hooks (ECCCH pilots, national ministries).\
 :::
 
 ::: callout-note
 #### Public–private reconciliation in practice
+
 **Reconciling public and private infrastructures: The ALOADED pilot in Latvia**
 
-The Unlabel workflow was tested with Latvian archives and the distributor **ALOADED**, showing how public heritage metadata can be reconciled with private supply chains.  
+The Unlabel workflow was tested with Latvian archives and the distributor **ALOADED**, showing how public heritage metadata can be reconciled with private supply chains.
 
-- Archival recordings (Hilda Griva’s songs and Latvian/Latgalian midsummer songs) were located in the **Latvian Archives of Folklore**.  
-- Metadata was translated, enriched, and aligned with international authority files.  
-- ALOADED extended this metadata with **DDEX-compliant catalogue transfer** and ingested it into Spotify and other platforms.  
+-   Archival recordings (Hilda Griva’s songs and Latvian/Latgalian midsummer songs) were located in the **Latvian Archives of Folklore**.\
+-   Metadata was translated, enriched, and aligned with international authority files.\
+-   ALOADED extended this metadata with **DDEX-compliant catalogue transfer** and ingested it into Spotify and other platforms.
 
 This demonstrated that reconciliation between **public infrastructures (archives)** and **private infrastructures (distributors and platforms)** is both technically and institutionally feasible, reconnecting suppressed or marginalised repertoires with contemporary audiences.
 :::
@@ -157,11 +175,11 @@ Conformance and observability rules in the *Open Music Observatory* should be de
 
 ### Workflow playbooks and provenance trails
 
-The Observatory should not only harmonise data *formats* but also document **workflow playbooks** that capture how metadata flows across the music lifecycle:  
-- from rights registration,  
-- to distribution and royalty attribution,  
-- to charting and visibility,  
-- to long-term preservation.  
+The Observatory should not only harmonise data *formats* but also document **workflow playbooks** that capture how metadata flows across the music lifecycle:\
+- from rights registration,\
+- to distribution and royalty attribution,\
+- to charting and visibility,\
+- to long-term preservation.
 
 Each step should include **change-propagation rules**: if a correction is made in one register, it should ripple through to others. Provenance trails must survive system boundaries, using standards such as PROV-O to show *who did what, when, and under what authority*. This makes corrections auditable, supports cross-border comparability, and prevents “data death” when an asset leaves its original system.
 
@@ -173,36 +191,36 @@ A **data sharing space** provides the framework. Instead of forcing everyone int
 
 Music also stress-tests the concept. Attribution rules are entangled with privacy law, identifiers are inconsistently applied, and most enterprises are too small to build compliance systems. If federation can work here, it can work anywhere. This is why the **European Music Observatory cannot be conceived as a central database**. It must function as a convening and observability layer, one that lets decentralised contributions operate as a coherent whole. In this way, the Observatory can reduce duplication, lower per-unit costs for small actors, ensure attribution, and provide the governance substrate for trustworthy AI in the music ecosystem.
 
-Europe already has the building blocks. The **European Strategy for Data**, the **Data Governance Act**, and the **Data Act** define data spaces as federated by design, supported by trust frameworks, rulebooks, and shared services.[^observatory-14] The **Data Spaces Support Centre (DSSC)** has codified these into blueprints that can be directly applied to music.[^observatory-15] Other sectors show how this works in practice: the ISRC system distributes allocation among national agencies, CISAC’s *CIS-Net* provides rights data without centralising ownership, and statistical offices harmonise indicators through subsidiarity rather than centralisation. Music can and should build on these lessons.
+Europe already has the building blocks. The **European Strategy for Data**, the **Data Governance Act**, and the **Data Act** define data spaces as federated by design, supported by trust frameworks, rulebooks, and shared services.[^observatory-15] The **Data Spaces Support Centre (DSSC)** has codified these into blueprints that can be directly applied to music.[^observatory-16] Other sectors show how this works in practice: the ISRC system distributes allocation among national agencies, CISAC’s *CIS-Net* provides rights data without centralising ownership, and statistical offices harmonise indicators through subsidiarity rather than centralisation. Music can and should build on these lessons.
 
-[^observatory-14]: The *European Strategy for Data* (2020) defines Common European Data Spaces as federated ecosystems, while the *Data Governance Act* (2022) and *Data Act* (2023) supply the governance and access rules [@european_data_strategy_2020; @regulation_dga_2022_868].
+[^observatory-15]: The *European Strategy for Data* (2020) defines Common European Data Spaces as federated ecosystems, while the *Data Governance Act* (2022) and *Data Act* (2023) supply the governance and access rules [@european_data_strategy_2020; @regulation_dga_2022_868].
 
-[^observatory-15]: The *Data Spaces Support Centre (DSSC)*, led by KU Leuven with GAIA-X and BDVA, provides practical blueprints and building blocks for implementing federated data spaces in any domain [@dssc_blueprint_intro_2025; @dssc_blueprint_interop_2025].
+[^observatory-16]: The *Data Spaces Support Centre (DSSC)*, led by KU Leuven with GAIA-X and BDVA, provides practical blueprints and building blocks for implementing federated data spaces in any domain [@dssc_blueprint_intro_2025; @dssc_blueprint_interop_2025].
 
-In practical terms, this means applying *capture once, reuse many* pipelines across the entire music lifecycle: from registration of works and recordings, through distribution and royalty attribution, to preservation and cultural statistics. To achieve this, the Observatory must be designed as a **redundancy-free registration space**, aligned with the **European Interoperability Framework** and provenance-oriented models such as **PROV-O**.[^observatory-16]
+In practical terms, this means applying *capture once, reuse many* pipelines across the entire music lifecycle: from registration of works and recordings, through distribution and royalty attribution, to preservation and cultural statistics. To achieve this, the Observatory must be designed as a **redundancy-free registration space**, aligned with the **European Interoperability Framework** and provenance-oriented models such as **PROV-O**.[^observatory-17]
 
-[^observatory-16]: The EIF ensures interoperability across legal, organisational, semantic, and technical layers [@eif_2017]. The W3C’s PROV model and PROV-O ontology offer a standard way to connect actors, activities, and entities in chains of attribution [@prov_model_2013; @prov_o_2013]. Applied together, they enable consistent tracking of economic and cultural flows without centralising databases.
+[^observatory-17]: The EIF ensures interoperability across legal, organisational, semantic, and technical layers [@eif_2017]. The W3C’s PROV model and PROV-O ontology offer a standard way to connect actors, activities, and entities in chains of attribution [@prov_model_2013; @prov_o_2013]. Applied together, they enable consistent tracking of economic and cultural flows without centralising databases.
 
 Done well, this would rebalance the playing field: lowering costs for small actors, making datasets interoperable across institutions, and ensuring that Europe’s cultural and economic policies rest on reliable evidence rather than fragmented silos.
 
 ### Legal, standards, and funding levers
 
-For these proposals to succeed, they must be backed by **legal clarity, lightweight standards, and public investment**:  
+For these proposals to succeed, they must be backed by **legal clarity, lightweight standards, and public investment**:
 
-- **Legal:** GDPR legal bases should be specified for each data flow (legitimate interest for attribution; research and cultural heritage exemptions for archives).  
-- **Standards:** Codes of conduct and minimum profiles should keep conformance achievable even for micro-enterprises.  
-- **Funding:** ECCCH pilots, national ministries, and EU programmes should explicitly support metadata fitness and data-quality improvements as public-interest infrastructure.  
+-   **Legal:** GDPR legal bases should be specified for each data flow (legitimate interest for attribution; research and cultural heritage exemptions for archives).\
+-   **Standards:** Codes of conduct and minimum profiles should keep conformance achievable even for micro-enterprises.\
+-   **Funding:** ECCCH pilots, national ministries, and EU programmes should explicitly support metadata fitness and data-quality improvements as public-interest infrastructure.
 
 Embedding these levers ensures that interoperability does not remain voluntary but becomes a supported and sustainable practice across Europe.
 
 ### Alignment with the European Open Science Cloud
 
-**Bridge cultural clouds and market workflows via a federated Music Data Sharing Space.**  
-Position the Open Music Observatory as the *convening + conformance + observability* layer that connects ECCCH/Europeana and GLAM authority files with industry pipelines. Concretely:  
-1. **Capture once, reuse many** across creation→registration→distribution→preservation.  
-2. Require **minimal profiles** that smaller actors can actually implement.  
-3. Prioritise **identifier crosswalks** (ISRC↔ISWC↔ISNI↔VIAF/Wikidata) and change-propagation.  
-4. Use **Wikibase/Wikidata** as a low-friction backbone where appropriate.  
+**Bridge cultural clouds and market workflows via a federated Music Data Sharing Space.**\
+Position the Open Music Observatory as the *convening + conformance + observability* layer that connects ECCCH/Europeana and GLAM authority files with industry pipelines. Concretely:\
+1. **Capture once, reuse many** across creation→registration→distribution→preservation.\
+2. Require **minimal profiles** that smaller actors can actually implement.\
+3. Prioritise **identifier crosswalks** (ISRC↔ISWC↔ISNI↔VIAF/Wikidata) and change-propagation.\
+4. Use **Wikibase/Wikidata** as a low-friction backbone where appropriate.\
 5. Govern with EIF/FAIR-aligned rules, auditability, and PPP participation so rights-holders and memory institutions keep stewardship while interoperating.
 
 This reframes Europe’s investments from siloed repositories into a shared **data space** that lowers reconciliation costs, respects subsidiarity, and makes cultural metadata usable across public and commercial contexts — the practical foundation for any future European Music Observatory.

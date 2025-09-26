@@ -50,6 +50,8 @@ The bibliographic references are organised by themes, and they are stored in the
 
 -   `bib/europeana.bib`: Europeana resources.
 
+-   `bib/grd.bib`: Global Repertoire Database.
+
 -   `bib/identifiers.bib`: Resources on identifiers, PIDs.
 
 -   `bib/IFPI.bib`: resources related to IFPI and the ISRC system.
